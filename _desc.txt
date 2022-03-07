@@ -1,0 +1,19 @@
+Decomposing and normalization by VT:
+vt_mutect.py
+input Mutect folder
+output temp3 folder
+
+Annotation by SnpEff:
+snp_ann_mutect.py
+input temp3 folder
+output MutectVTSnpEff folder
+
+Parsing from VCF to CSV:
+extracter_mutect_split.py
+input MutectVTSnpEff folder
+output MutectVTSnpEff_split folder and all_annmax.csv file
+
+Deleting rest of snps:
+single.py
+input all_annmax.csv
+output all_annmax_single.csv
