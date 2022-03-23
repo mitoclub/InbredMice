@@ -1,0 +1,143 @@
+---
+title: "Mitochondial mutational spectrum in recombinant inbred mouse lines"
+author: "Valeriia Timonina"
+date: "3/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list=ls(all=TRUE))
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+```
+
+## Background
+<br>
+Based on data from: [A natural mutator allele shapes mutation spectrum variation in mice
+Thomas A. Sasani, David G. Ashbrook, Annabel C. Beichman, Lu Lu, Abraham A. Palmer, Robert W. Williams, Jonathan K. Pritchard, Kelley Harris
+bioRxiv 2021.03.12.435196; doi: https://doi.org/10.1101/2021.03.12.435196](https://www.biorxiv.org/content/10.1101/2021.03.12.435196v2.full)
+<br>
+Two inbred mice strains C57**B**L/6J (B) and  **D**BA/2J (D) were crossed to get a pannel of recombinant inbred mouse lines (BXD). Each line was maintatined by brother-sister mating and accommulating *de novo* mutations for up to 50 years. It was shown that mice with D haplotype at a QTL on chr4 accumulate more C>A mutations.B and D haplotypes encode different alleles of the DNA repair gene *Mutyh*.<br>
+Here we want to check if lines that have D haplotype in *Mutyh* gene also have different mutational spectrum in mitoDNA. Also we want to repeat QTL analysis and see if any other locus influences mtDNA mutational spectrum.
+<br><br>
+
+### Construction of the BXD RILs
+<br>
+BXD RILs were derived from crosses of C57**B**L/6J and  **D**BA/2J inbred laboratory strains initiated in 6 distinct epochs from 1971 to 2014. Two strategies: 1) 4 epoches were prodused using standart F2 cross where a male DBA/2J mouse is crossed to a **C57BL/6J female** to produce F1 animals that are heterozygous for parental ancestry at essentially all loci in the genome. Pairs of these F1 animals are then crossed to produce F2s. To generate each individual recombinant inbred line, a brother and sister are picked from among the F2s and mated; this brother-sister mating strategy continues for many generations. 2) Two epoches were produced using the advanced intercross strategy. F2s are generated as in the standard F2 cross. However, pseudo-random pairs of F2 animals are then crossed to generate F3s, pseudo-random pairs of F3s are crossed to generate F4s, and so on, for up to 14 generations. Then, to generate inbred lines, brother-sister matings are once again initiated from the offspring of the final pseudo-random cross.
+<br><br><br>
+
+#### 1. Read genotype data
+***
+```{r}
+Genotypes = read.table('../data/MiceGenotypes/BXD.geno', header=TRUE)
+
+kable(head(Genotypes[,1:10]))
+```
+
+The locus in QTL on chr4 with highest LOD is rs52263933. 
+
+```{r}
+TheMutyhGenotype = Genotypes[Genotypes$Locus == 'rs52263933',]
+TheMutyhGenotype <- TheMutyhGenotype %>%
+  pivot_longer(colnames(TheMutyhGenotype[-(1:4)]), names_to = 'line', values_to = 'genotype')
+kable(table(TheMutyhGenotype$genotype)) %>%
+  kable_styling(full_width = F)
+
+```
+
+Remove H and U for now.
+
+```{r}
+TheMutyhGenotype <- TheMutyhGenotype[TheMutyhGenotype$genotype %in% c('B', 'D'),]
+kable(table(TheMutyhGenotype$genotype))%>%
+  kable_styling(full_width = F)
+```
+<br><br><br>
+#### 2. Read mtDNA variants and add TheMutyhGenotypeDataFrame column
+***
+```{r}
+MtDna = read.table('../data/all_annmax_single.csv', sep = ';', header=TRUE)
+
+```
+```{r}
+MtDna$SNP = gsub(">",'',MtDna$SNP)
+MtDna$NameNew = gsub("\\_(.*)",'',MtDna$Name) #  BXD71_RwwJ > BXD71
+MtDna$NameNew = gsub("BXD0","BXD",MtDna$NameNew) #  BXD009 > BXD09
+MtDna$NameNew = gsub("BXD0","BXD",MtDna$NameNew) #  BXD09 > BXD9
+MtDna$NameNew = gsub("BXD0","BXD",MtDna$NameNew) #  BXD09 > BXD9
+
+length(intersect(sort(unique(MtDna$NameNew)), TheMutyhGenotype$line))
+```
+
+89 common lines out of 100 in mt DNA variants data and 198 in genotypes data. Which do not intersect?
+
+```{r}
+length(setdiff(TheMutyhGenotype$line, unique(MtDna$NameNew)))
+```
+```{r}
+setdiff(unique(MtDna$NameNew), TheMutyhGenotype$line)
+length(setdiff(unique(MtDna$NameNew), TheMutyhGenotype$line))
+```
+<br><br><br>
+#### 3. Merge data
+***
+
+```{r}
+MtDna = merge(MtDna,TheMutyhGenotype, by.x = 'NameNew', by.y = 'line', all.x = TRUE)
+kable(table(MtDna$genotype))%>%
+  kable_styling(full_width = F)
+```
+
+#### 4. Filtration of data to get normal expected mutspec
+***
+###### Each variant can be: 
+1) difference of ancestal line from RefSeq (should be very common); 
+2) inherited heteroplasmy (should be more similar in close inbred lines ~ recently diverged lines from the same epoch); 
+3) de novo (recent) mutation
+4) noise (sequence artefacts)
+
+###### Filtration steps:
+- The sum of reads with mutation should be >= 10
+- The number of each forvard and reverse reads > 4
+- The same for reference reads
+<br>
+```{r}
+MtDna <- separate(data = MtDna, col = Allele_specific_forward_reverse_read_counts, sep = '\\||,', into = c('RefF', 'RefR', 'AltF', 'AltR'))
+
+MtDna[,c('RefF', 'RefR', 'AltF', 'AltR')] <- apply(MtDna[,c('RefF', 'RefR', 'AltF', 'AltR')], 2, as.numeric)
+
+MtDna = MtDna[(MtDna$AltF + MtDna$AltR) >= 10 & MtDna$AltR > 4 & MtDna$AltF > 4 & (MtDna$RefF + MtDna$RefR) >= 10 & MtDna$RefR > 4 & MtDna$RefF > 4,]
+
+```
+<br><br>
+**1737 mutations left**
+<br><br>
+
+Let's have a look at the distribution of VAF mutations
+<br>
+```{r}
+MtDna <- separate(MtDna, col = variant_allele_frequency, sep = '\\|', into = c('RefVAF', 'AltVAF'))
+MtDna[,c('RefVAF', 'AltVAF')] <- apply(MtDna[,c('RefVAF', 'AltVAF')], 2, as.numeric)
+
+hist(MtDna$AltVAF, breaks = 50)
+```
+<br><br><br>
+```{r}
+summary(MtDna$AltVAF) 
+```
+
+<br><br><br>
+The mitochondrial mouse Eva is C57BL/6J strain so all mitochondria in RILs are its progeny.
+
+```{r}
+mother <- MtDna[MtDna$NameNew == 'C57BL',]
+barplot(table(mother$SNP))
+```
+<br><br><br>
+ **SHOULD WE DELETE ALL MUTATIONS THAT ARE IN C57BL?**
+<br><br><br>
+
+
+
