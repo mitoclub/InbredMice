@@ -2,7 +2,9 @@
 title: "Mitochondial mutational spectrum in recombinant inbred mouse lines"
 author: "Valeriia Timonina"
 date: "3/18/2022"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -55,8 +57,10 @@ kable(table(TheMutyhGenotype$genotype))%>%
   kable_styling(full_width = F)
 ```
 <br><br><br>
+
 #### 2. Read mtDNA variants and add TheMutyhGenotypeDataFrame column
 ***
+
 ```{r}
 MtDna = read.table('../data/all_annmax_single.csv', sep = ';', header=TRUE)
 
@@ -81,6 +85,7 @@ setdiff(unique(MtDna$NameNew), TheMutyhGenotype$line)
 length(setdiff(unique(MtDna$NameNew), TheMutyhGenotype$line))
 ```
 <br><br><br>
+
 #### 3. Merge data
 ***
 
@@ -92,7 +97,9 @@ kable(table(MtDna$genotype))%>%
 
 #### 4. Filtration of data to get normal expected mutspec
 ***
+
 ###### Each variant can be: 
+
 1) difference of ancestal line from RefSeq (should be very common); 
 2) inherited heteroplasmy (should be more similar in close inbred lines ~ recently diverged lines from the same epoch); 
 3) de novo (recent) mutation
@@ -112,7 +119,9 @@ MtDna = MtDna[(MtDna$AltF + MtDna$AltR) >= 10 & MtDna$AltR > 4 & MtDna$AltF > 4 
 
 ```
 <br><br>
+
 **1737 mutations left**
+
 <br><br>
 
 Let's have a look at the distribution of VAF mutations
@@ -136,8 +145,28 @@ mother <- MtDna[MtDna$NameNew == 'C57BL',]
 barplot(table(mother$SNP))
 ```
 <br><br><br>
+
  **SHOULD WE DELETE ALL MUTATIONS THAT ARE IN C57BL?**
+ 
 <br><br><br>
 
+```{r}
+hist(mother$AltVAF, breaks = 20)
+```
+```{r}
+MtDna$MutID <- paste(MtDna$Pos, MtDna$SNP, sep = '_')
+length(unique(MtDna$MutID))
+MtDnaShort = MtDna[!(MtDna$MutID %in% MtDna[MtDna$NameNew == 'C57BL',]$MutID),] # 21 > 1737-1420
+MtDnaShort2 = MtDna[!(MtDna$MutID %in% MtDna[(MtDna$NameNew == 'C57BL') & (MtDna$AltVAF > 0.05),]$MutID),] # 21 > 1737-1596
 
+barplot(table(MtDnaShort[MtDnaShort$AltVAF >= 0.03,]$SNP))
+```
+
+
+## Singletones
+
+```{r}
+mutID_Freq <- data.frame(table(MtDnaShort$MutID))
+hist(mutID_Freq$Freq, breaks = 50)
+```
 
