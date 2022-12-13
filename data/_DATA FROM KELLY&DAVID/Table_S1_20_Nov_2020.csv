@@ -1,0 +1,247 @@
+Expanded name;Official name;GeneNetwork name;Year breeding started;Date production began at JAX;JAX Stock No (RRID);Availability (as of March 2019);Availability (as of October 2019);Epoch;Method of derivation;Mitocondrial origin (if known);October 2018 reported generation at JAX ;March 2019 reported generation at JAX;October 2019 reported generation at JAX;Febuary 2019 generation at UTHSC ;October 2019 generation at UTHSC;Genotyped on Illumina 13377 SNP array;Genotyped on Affymetrix MouseDiversityArray600K;Generation at Affymetrix MouseDiversityArray600K;Generation at MUGA array genotyping;Generation at MegaMUGA array genotyping;Generation at GigaMUGA array genotyping;Generation went extinct (if known);Backcross and RIX-derived breeding notes;Any genotypes available
+BXD001/TyJ;BXD1/TyJ;BXD1;1971;02.07.2001;000036;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F115+40;F115+42 ;F115+44;157;159;Y;Y;;F144;;;;;Y
+BXD002/TyJ;BXD2/TyJ;BXD2;1971;21.08.2001;000075;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F48p+ ;F48p+F3 ;"	F48p+F3";;F48p+F3;Y;Y;;;;;;;Y
+BXD003;BXD3;;;Extinct;;Extinct;Extinct;1;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD004;BXD4;;;Extinct;;Extinct;Extinct;1;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD005/TyJ;BXD5/TyJ;BXD5;1971;05.07.2001;000037;Pre-order (est. Jul 8, 2019);Available;1;B6 female to D2 male F2 intercross;B6; F114+31 ;F114+35 ;"	F34p+F2";150;;Y;Y;;;;;;;Y
+BXD006/TyJ;BXD6/TyJ;BXD6;1971;02.07.2001;000007;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F149+40 ;F149+43 ;F149+45;;;Y;Y;;;;;;;Y
+BXD007;BXD7;;;Extinct;;Extinct;Extinct;1;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD008/TyJ;BXD8/TyJ;BXD8;1971;02.06.2000;000084;Pre-order (est. Dec 17, 2018);Available;1;B6 female to D2 male F2 intercross;B6; F36p+37 ;F36p+39 ;F36p+42;;;Y;Y;;;;;;;Y
+BXD009/TyJ;BXD9/TyJ;BXD9;1971;29.06.2001;000105;Pre-order (est. Jun 3, 2019);Available;1;B6 female to D2 male F2 intercross;B6; F123+21 ;F144p ;F144p+F2;162;162;Y;Y;;F144;;;;;Y
+BXD010;BXD10;;;Extinct;;Extinct;Extinct;1;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD011/TyJ;BXD11/TyJ;BXD11;1971;25.07.2001;000012;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F117+45;F117+49 ;F117+52;166;167;Y;Y;;F139;;;;;Y
+BXD012/TyJ;BXD12/TyJ;BXD12;1971;05.07.2001;000045;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F104+35;F104+38 ;"	F104+42";;;Y;Y;;F123;;;;;Y
+BXD013/TyJ;BXD13/TyJ;BXD13;1971;02.06.2000;000040;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F60p+55 ;F60p+56 ;F60p+58;;;Y;Y;;F90;;;;;Y
+BXD014/TyJ;BXD14/TyJ;BXD14;1971;17.07.2001;000329;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F119+38 ;F119+40 ;F119+43;158;159;Y;Y;;F144;;;;;Y
+BXD015/TyJ;BXD15/TyJ;BXD15;1971;09.07.2001;000095;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F99+32 ;F99+35 ;F99+37;133;134;Y;Y;;;;;;;Y
+BXD016/TyJ;BXD16/TyJ;BXD16;1971;24.07.2001;000013;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6; F141+44 ;F141+49 ;"	F141+50";190;191;Y;Y;;F179;;;;;Y
+BXD017;BXD17;;;Extinct;;Extinct;Extinct;1;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD018/TyJ;BXD18/TyJ;BXD18;1971;18.07.2001;000015;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F128+37 ;F128+41 ;F128+44;;;Y;Y;;;;;;;Y
+BXD019/TyJ;BXD19/TyJ;BXD19;1971;29.06.2001;000010;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6; F125+37 ;F125+42 ;"	F125+44";;;Y;Y;;;;F159;;;Y
+BXD020/TyJ;BXD20/TyJ;BXD20;1971;10.02.2003;000330;Repository Live;Available for pre-order;1;B6 female to D2 male F2 intercross;B6; F48N5F75+10pF5 ;F48N5F75+10pF6 ;-;;;Y;Y;;;;;;;Y
+BXD021/TyJ;BXD21/TyJ;BXD21;1971;02.07.2001;000077;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6; F44p+27 ;F44p+31 ;F44p+32;;;Y;Y;F44p+9;;;;;;Y
+BXD022/TyJ;BXD22/TyJ;BXD22;1971;10.07.2001;000043;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6; F128p+16 ;F128p+20 ;"	F128p+22";;149;Y;Y;F130;;;;;;Y
+BXD023/TyJ;BXD23/TyJ;BXD23;1971;22.06.2002;000098;Extinct;Extinct;1;B6 female to D2 male F2 intercross;B6;?;;-;;;Y;Y;F119;;;;;;Y
+BXD024/TyRwwJ;BXD24/TyJ;BXD24;1971;6/22/2002 but rederived from 1988 cryo stock in 2005;005243;Pre-order (est. Sep 2, 2019);Available for pre-order;1;B6 female to D2 male F2 intercross;B6;?;;F121+F1;123;124;Y;Y;F84p+4(cryo)+?;F93;;;;;Y
+BXD024/TyJ-Cep290rd16/J;BXD24/TyJ-Cep290rd16/J;BXD24a;1971;18.07.2001;000031 | rd16;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F140+41 ;F140+46 ;"	F140+46";;;Y;Y;F159;;;;;;Y
+BXD025/TyJ;BXD25/TyJ;BXD25;1971;27.09.2004;000081;Cryo Recovery;Cryo Recovery;1;B6 female to D2 male F2 intercross;B6;?;;-;;;Y;Y;F138;;;;;;Y
+BXD026;BXD26;;;Extinct;;Extinct;Extinct;1;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD027/TyJ;BXD27/TyJ;BXD27;1971;07.08.2001;000041;Repository Live;Available for pre-order;1;B6 female to D2 male F2 intercross;B6;F139+39 ;F139+41 ;"	F53+pF1";182;184;Y;Y;F151;F163;;;;;Y
+BXD028/TyJ;BXD28/TyJ;BXD28;1971;29.06.2001;000047;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6; F76+41 ;F76+45 ;"	F76+47";120;;Y;Y;F94;;;;;;Y
+BXD029/Ty;BXD29/Ty;BXD29;1971;originally 8/29/2003 then 10/14/2009;010981;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6; F38p+21 ;F38p+24 ;"	F38p+26";71;74;Y;N;;F26;;;;;Y
+BXD029-Tlr4lps-2J/J;BXD29-Tlr4lps-2J/J;;1971;02.07.2001;000029 | defective lipopolysaccharide response, 2J;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6; F136+34 ;64p+4 ;164p+7;;;Y;N;;;;;;;Y
+BXD030;BXD30/TyJ;BXD30;1971;8/29/03 but extinct by 2004;;Extinct;Extinct;1;B6 female to D2 male F2 intercross;;;;;;;Y;Y;(at F102 in 1998);;;;104;;Y
+BXD031/TyJ;BXD31/TyJ;BXD31;1978;02.10.2001;000083;Repository Live;Available;1;B6 female to D2 male F2 intercross;B6;F107+47 ;F107+49 ;"	F107+51";156;157;Y;Y;F124;F132;;;;;Y
+BXD032/TyJ;BXD32/TyJ;BXD32;1978;05.07.2001;000078;Repository Live;Available;1,5;B6D2F1 male to a DBA/2J female;D2; F96+34 ;F96+37 ;F96+38;148;148;Y;Y;F117?;F117;;;;;Y
+BXD032/TyJ-Galctwi-5J/J;BXD32/TyJ-Galctwi-5J/J;;1978;05.07.2001;003613 | twitcher 5 Jackson;Cryo Recovery;Cryo Recovery;1,5;B6D2F1 male to a DBA/2J female;D2;?;;-;;;;;;;;;;;N
+BXD033/TyJ;BXD33/TyJ;BXD33;1995;25.06.2002;003222;Repository Live;Available;2;B6 female to D2 male F2 intercross;B6;F39+42 ;F39+45 ;"	F39+47";;;Y;Y;F53;;;;;;Y
+BXD034/TyJ;BXD34/TyJ;BXD34;1995;10.07.2001;003223;Repository Live;Available;2;B6 female to D2 male F2 intercross;B6; F44+36 ;F44+39 ;F44+40;86;89;Y;Y;;F66;;;;;Y
+BXD035;BXD35/Ty;BXD35;1995;Extinct by 2002;;Extinct;Extinct;2;B6 female to D2 male F2 intercross;;;;;;;Y;Y;;;;;33;;Y
+BXD036/TyJ;BXD36/TyJ;BXD36;1995;24.07.2001;003225;Extinct;Extinct;2;B6 female to D2 male F2 intercross;B6;?;;-;;;Y;Y;F60;F65;;;;;Y
+BXD037;BXD37/Ty;BXD37;1995;Extinct by 2002;;Extinct;Extinct;2;B6 female to D2 male F2 intercross;;;;;;;Y;;;;;;19;;Y
+BXD038/TyJ;BXD38/TyJ;BXD38;1995;02.07.2001;003227;Repository Live;Available;2;B6 female to D2 male F2 intercross;B6; F37+35 ;F37+38 ;F37+40;;;Y;Y;F52;F51;;;;;Y
+BXD039/TyJ;BXD39/TyJ;BXD39;1995;02.07.2001;003228;Repository Live;Available;2;B6 female to D2 male F2 intercross;B6; F45+40 ;F45+41 ;"	F45+43";;;Y;Y;F62;F69;;;;;Y
+BXD040/TyJ;BXD40/TyJ;BXD40;1995;22.08.2001;003229;Repository Live;Available;2;B6 female to D2 male F2 intercross;B6;F38+32 ;F38+35 ;"	F38+37";86;88;Y;Y;F52;F59;;;;;Y
+BXD041;BXD41/Ty;BXD41;1995;Extinct between 1998 and 2002;;Extinct;Extinct;2;B6 female to D2 male F2 intercross;;;;;;;Y;;;;;;36;;Y
+BXD042/TyJ;BXD42/TyJ;BXD42;1995;11.03.2004;003230;Repository Live;Available;2;B6 female to D2 male F2 intercross;B6; F43+46 ;F43+48 ;F43+50;;;Y;Y;F60;F65;;;;;Y
+BXD043/RwwJ;BXD43/RwwJ;BXD43;1999;29.11.2007;007093;Pre-order (est. Jun 17, 2019);Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F38+21 ;F38+23 ;F38+23;68;69;Y;Y;;F46;;;;;Y
+BXD044/RwwJ;BXD44/RwwJ;BXD44;1999;29.11.2007;007094;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F59 ;F64 ;F64;74;76;Y;Y;;F41;;;;;Y
+BXD045/RwwJ;BXD45/RwwJ;BXD45;1999;02.09.2009;007096;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F20+22 ;F20+23 ;F20+23;;;Y;Y;;F40;;;;;Y
+BXD046;BXD46;;1999;Extinct by 2003;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;;;N
+BXD047;BXD47;;1999;Extinct by 2003;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;;;N
+BXD048/RwwJ;BXD48/RwwJ;BXD48;1999;29.11.2007;007097;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F33+21 ;F33+25 ;"	F33+25";66;66;Y;Y;;F41;;;;;Y
+BXD048a/RwwJ;BXD48a/RwwJ;BXD48a (BXD96);1999;13.09.2007;007139;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F21+14 ;F21+23 ;F21+25;54;56;Y;Y;;F28;;;;;Y
+BXD049/RwwJ;BXD49/RwwJ;BXD49;1999;15.10.2008;007098;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F20+F21 ;F20+F24 ;"	F20+F27";;;Y;Y;;F24;;F36;;;Y
+BXD050/RwwJ;BXD50/RwwJ;BXD50;1999;17.01.2008;007099;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F22+F1 ;F22+F3 ;F22+F3;48;49;Y;Y;;F29;;F41;;;Y
+BXD051/RwwJ;BXD51/RwwJ;BXD51;1999;13.11.2008;007100;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F38+F25 ;F38+F29 ;F38+F31;74;77;Y;Y;;F44;F55;F61;;;Y
+BXD052;BXD52;BXD52;1999;Extinct by 2004;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;Y;Y;;;;;14;;Y
+BXD053/2RwwJ;BXD53/2RwwJ;BXD53;1999;22.02.2012;017749;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;?;?+F15 ;"	?+F15";;;Y;Y;;F12N1F29;;;;;Y
+BXD054;BXD54;BXD54;1999;Extinct by 2004;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;Y;Y;;;;;12;;Y
+BXD055/RwwJ;BXD55/RwwJ;BXD55;1999;13.09.2007;007103;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;?;F?+21 ;"	F?+23";48;;Y;Y;;F39;;F35?;;;Y
+BXD056/RwwJ;BXD56/RwwJ;BXD56;1999;15.10.2008;007104;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F30+F21 ;F30+F25 ;F30+F28;;;Y;Y;;F35;;F35;;;Y
+BXD057;BXD57;;1999;Extinct before 2004;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;9;;N
+BXD058;BXD58;;1999;Extinct by 2003;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;;;N
+BXD059;BXD59;BXD59;1999;Extinct;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;Y;Y;;;;;12;;Y
+BXD060/RwwJ;BXD60/RwwJ;BXD60;1999;29.11.2007;007105;Pre-order (est. Aug 19, 2019);Available for pre-order;3;Advanced intercross progeny of B6 female to D2 male;B6;F39+F3p ;F39+F4pF2 ;"	F39+F4pF2";71;73;Y;Y;;F44;;;;;Y
+BXD061/RwwJ;BXD61/RwwJ;BXD61;1999;13.09.2007;007106;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;D2; F28+14 ;F28+17 ;"	F28+17";50;52;Y;Y;;F42;;F42;;;Y
+BXD062/RwwJ;BXD62/RwwJ;BXD62;1999;04.07.2007;007107;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F49 ;F58 ;"	F58";71;71;Y;Y;;F41;;;;;Y
+BXD063/RwwJ;BXD63/RwwJ;BXD63;1999;16.09.2009;007108;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F44 ;F52 ;"	F52";64;65;Y;Y;;F34;;F53;;;Y
+BXD064/RwwJ;BXD64/RwwJ;BXD64;1999;15.10.2008;007109;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F45+15 ;F45+22 ;"	F45+22";;;Y;Y;;F51;;;;;Y
+BXD065/RwwJ;BXD65/RwwJ;BXD65;1999;20.05.2010;007110;Pre-order (est. Jun 3, 2019);Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F29+15 ;F29+16 ;"	F29+16";55;58;Y;Y;;F33;;;;;Y
+BXD065a/RwwJ;BXD65a/RwwJ;BXD65a (BXD97);2000;04.07.2007;007140;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;?;F?+25 ;"	F?+30";;;Y;Y;;F37;;;;;Y
+BXD065b/RwwJ;BXD65b/RwwJ;BXD65b (BXD92);2000;20.01.2012;009677;Cryo Recovery;Cryo Recovery;3;Advanced intercross progeny of B6 female to D2 male;B6;?;;-;;71;Y;Y;;F44;;;;;Y
+BXD066/RwwJ;BXD66/RwwJ;BXD66;1999;17.01.2008;007111;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;?;F?+2p+21 ;F?+2p+23;67;67;Y;Y;;F41;;F53;;;Y
+BXD067/RwwJ;BXD67/RwwJ;BXD67;2000;02.09.2009;007112;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F35 ;F35 ;"	F35";;;Y;Y;;F28;;;;;Y
+BXD068/RwwJ;BXD68/RwwJ;BXD68;2000;13.09.2007;007113;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F21+27 ;F21+31 ;F21+33;52;54;Y;Y;;F36;;;;;Y
+BXD069/RwwJ;BXD69/RwwJ;BXD69;2000;13.09.2007;007114;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;?;F?+24 ;"	F?+25";68;68;Y;Y;;F44;;;;;Y
+BXD070/RwwJ;BXD70/RwwJ;BXD70;2000;03.04.2008;007115;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F31+18 ;F31+26 ;"	F31+26";63;63;Y;Y;;F39;;F49;;;Y
+BXD071/RwwJ;BXD71/RwwJ;BXD71;2000;13.11.2009;007116;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F26+24 ;F26+25 ;"	F26+25";50;53;Y;Y;;F31;;;;;Y
+BXD072;BXD72;BXD72;2000;Extinct by 2003;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;Y;;;;;;9;;Y
+BXD073/RwwJ;BXD73/RwwJ;BXD73;2000;13.09.2007;007117;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F21+19 ;F21+21 ;F21+23;71;73;Y;Y;;F43;;;;;Y
+BXD073a/RwwJ;BXD73a/RwwJ;BXD73a (BXD80);2000;17.01.2008;007124;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F27+16 ;F27+21 ;"	F27+21";51;53;Y;Y;;F35;;F39;;;Y
+BXD073b/RwwJ;BXD73b/RwwJ;BXD73b (BXD103);2000;10.12.2008;007146;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F17+19 ;F17+22 ;F17+22;44;45;;Y;;F22;;F34;;;Y
+BXD074/RwwJ;BXD74/RwwJ;BXD74;2000;15.10.2008;007118;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;D2;F45+14 ;F45+20 ;"	F45+20";70;71;Y;Y;;F49;;F60;;;Y
+BXD075/RwwJ;BXD75/RwwJ;BXD75;2000;10.12.2008;007119;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F36+F18 ;F36+F20 ;"	F36+F22";50;51;Y;Y;;F41;;;;;Y
+BXD076;BXD76;BXD76;2000;Extinct by 2006;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;Y;Y;;;;;18;;Y
+BXD077/RwwJ;BXD77/RwwJ;BXD77;2000;29.11.2007;007121;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F61 ;F63 ;F63;69;71;Y;Y;;F42;;;;;Y
+BXD078/2RwwJ;BXD78/2RwwJ;BXD78;2000;08.11.2013;024029;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;D2; F20p+F9 ;F20p+F10 ;F20p+F13;36;37;Y;Y;;F18N6F12;;F26?;;Backcrossed;Y
+BXD079/RwwJ;BXD79/RwwJ;BXD79;2000;15.10.2008;007123;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F21+F21 ;F21+F23 ;F21+F25;44;46;Y;Y;;F40;;F36?;;;Y
+BXD080;BXD80;Renamed BXD73a;;Renamed BXD73a;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;;;N
+BXD081/RwwJ;BXD81/RwwJ;BXD81;2000;23.07.2009;007125;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F31+pF5pF2 ;F31+pF5pF10 ;"	F31+pF5pF10";;;Y;Y;;F35;;;;;Y
+BXD082;BXD82;;2000;Extinct by 2003;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;Y;;;;;8;;Y
+BXD083/RwwJ;BXD83/RwwJ;BXD83;2000;13.11.2008;007126;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F26+F18 ;F26+F21 ;"	F26+F23";49;51;Y;Y;;F32;;;;;Y
+BXD084/RwwJ;BXD84/RwwJ;BXD84;2000;10.12.2008;007127;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F20?+F18 ;F20?+F21 ;F20?+F23;58;60;Y;Y;;F34;;F48;;;Y
+BXD085/RwwJ;BXD85/RwwJ;BXD85;2000;10.12.2008;007128;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F34+19 ;F34+20 ;"	F34+20";;;Y;Y;;F38;;;;;Y
+BXD086/RwwJ;BXD86/RwwJ;BXD86;2000;04.07.2007;007129;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F56 ;F62 ;"	F62";67;67;Y;Y;;F43;;F55;;;Y
+BXD087/RwwJ;BXD87/RwwJ;BXD87;2000;13.09.2007;007130;Repository Live;Available for pre-order;3;Advanced intercross progeny of B6 female to D2 male;B6;?;F?+21 ;"	?+pF1";58;59;Y;Y;;F36;;F46;;;Y
+BXD088/2RwwJ;BXD88/2RwwJ;BXD88;2000;22.02.2012;017750;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;?;?+pF5 ;"	?+pF5";;;Y;Y;;F21;;;;;Y
+BXD089/RwwJ;BXD89/RwwJ;BXD89;;Extinct;;Extinct;Available;3;Advanced intercross progeny of B6 female to D2 male;;;F57 ;"	F57";60;60;Y;Y;;;;;;;Y
+BXD090/RwwJ;BXD90/RwwJ;BXD90;2000;29.11.2007;007133;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;D2; F34+22 ;F35+pF2 ;"	F35+pF2";71;71;Y;Y;;F41;;;;;Y
+BXD091/2RwwJ;BXD91/2RwwJ;BXD91;2000;12.06.2013;017751;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;D2; N1F29+F9 ;N1F29+F11 ;"	N1F29+F13";;;Y;Y;;F21;;;;;Y
+BXD092;BXD92;Renamed BXD65b;;Renamed BXD65b;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;;;N
+BXD093;BXD93;BXD93;2000;Extinct by 2003;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;Y;;;;;;19;;Y
+BXD094;BXD94;BXD94;2000;Extinct by 2003;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;Y;;;;;;15;;Y
+BXD095/RwwJ;BXD95/RwwJ;BXD95;2000;20.01.2012;007138;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;D2; F22+F8 ;F22+F15 ;"	F22+F15";;;Y;Y;;F26;;;;;Y
+BXD096;BXD96;Renamed BXD48a;;Renamed BXD48a;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;;;N
+BXD097;BXD97;Renamed BXD65a;;Renamed BXD65a;;Extinct;Extinct;3;Advanced intercross progeny of B6 female to D2 male;;;;;;;;;;;;;;;N
+BXD098/RwwJ;BXD98/RwwJ;BXD98;2000;04.07.2007;007141;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6; F28+26 ;F28+28 ;F28+28;;;Y;Y;;F40;;F48;;;Y
+BXD099/RwwJ;BXD99/RwwJ;BXD99;2000;26.11.2008;007142;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;D2;F25+F22 ;F25+F24 ;"	F25+F27";;;Y;Y;;F28;;;;Lost at UTHSC in 2016 due to malocclusion;Y
+BXD100/RwwJ;BXD100/RwwJ;BXD100;2000;04.07.2007;007143;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F43;F51 ;F51;;;Y;Y;;F32;;;;;Y
+BXD101/RwwJ;BXD101/RwwJ;BXD101;2000;26.03.2009;007144;Repository Live;Available for pre-order;3;Advanced intercross progeny of B6 female to D2 male;B6; F26+20 ;F26+22 ;F26+22;58;60;;Y;;F29;;F47;;;Y
+BXD102/RwwJ;BXD102/RwwJ;BXD102;2000;13.11.2008;007145;Repository Live;Available;3;Advanced intercross progeny of B6 female to D2 male;B6;F21+F21;F21+F23 ;F21+F25;48;50;;Y;;F27;;F39;;;Y
+BXD103;BXD103;Renamed BXD73b;;Renamed BXD73b;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD104;BXD104;BXD104;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F10;;Extinct;11;;Y
+BXD105;BXD105;BXD105;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F12;;F13N5F5;;;Y
+BXD106;BXD106;BXD106;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;8;;Y
+BXD107;BXD107;BXD107;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F14;;Extinct;15;;Y
+BXD108;BXD108;BXD108;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F11;;Extinct;12;;Y
+BXD109;BXD109;BXD109;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F11;F13;F13N1F7;F13N1F7;At least one backcross;Y
+BXD110;BXD110;BXD110;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F11;;F8;F10N3F8;;Y
+BXD111/RwwJ;BXD111/RwwJ;BXD111;2009;;030872;Pre-order (est. Sep 30, 2019);Available for registering interest;4;B6 female to D2 male F2 intercross;B6;?;;"	?+F1";31;32;;;;;;F21;;;Y
+BXD112;BXD112;BXD112;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;?+F1 ;;;;;;;F10;;F23;23;backcross started in 2015 but apparent failure by 2017;Y
+BXD113/RwwJ;BXD113/RwwJ;BXD113;2009;08.11.2013;024030;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;F25+F7;F25+F16 ;"	F25+F16";46;48;;;;F14;F23;F30;;;Y
+BXD114;BXD114;BXD114;2009;;-;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;-;;;17;17;;;;F8;;F7;;;Y
+BXD115;BXD115;BXD115;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F9;;Extinct;10;;Y
+BXD116;BXD116;BXD116;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F9;;F10N3F5;F10N3F5;;Y
+BXD117;BXD117;BXD117;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;8;;Y
+BXD118;BXD118;;;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD119;BXD119;BXD119;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;8;;Y
+BXD120;BXD120;BXD120;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;8;;Y
+BXD121;BXD121;BXD121;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;F13N3;F13N3;;Y
+BXD122/RwwJ;BXD122/RwwJ;BXD122;2009;;030873;Registering Interest;Available for pre-order;4;B6 female to D2 male F2 intercross;B6;?;?+F1 ;"	?+F1";28;29;;;;F11;F15;F21;;;Y
+BXD122a;BXD122a;;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F11;F15;F21;;;Y
+BXD123/RwwJ;BXD123/RwwJ;BXD123;2009;05.09.2014;025974;Cryo Recovery;Cryo Recovery;4;B6 female to D2 male F2 intercross;B6;?;;-;38;40;;;;F9;F20;F25;;;Y
+BXD124/RwwJ;BXD124/RwwJ;BXD124;2009;05.09.2014;025975;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;F21+F8;F21+F9 ;F21+F9;38;39;;;;F11;F20;F26;;;Y
+BXD125/RwwJ;BXD125/RwwJ;BXD125;2009;08.11.2013;024031;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;F22+F5;F22+F11 ;F22+F11;39;41;;;;F10;F23;F30;;;Y
+BXD126;BXD126;BXD126;2009;Extinct after 2013;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F10;;Extinct;11;;Y
+BXD127;BXD127;BXD127;2009;;-;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;-;;;10;10;;;;F8;;F14N2F2;;;Y
+BXD128/RwwJ;BXD128/RwwJ;BXD128;2009;;030874;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;?;?+F3 ;"	?+F3";28;;;;;F9;F18;F23;;;Y
+BXD128a/RwwJ;BXD128a/RwwJ;BXD128a;2009;;030875;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;?;?+F4 ;"	?+F4";32;34;;;;F9;F16;F21;;;Y
+BXD129;BXD129;;;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD130;BXD130;BXD130;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;F7N1F5;;;Y
+BXD131;BXD131;BXD131;2009;;;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;;;;14;17;;;;F9;;F10N8F4;;;Y
+BXD132;BXD132;BXD132;2009;Extinct 2016;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F10;F12;F12N8F2;;;Y
+BXD133;BXD133;BXD133;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F6;;Extinct;7;;Y
+BXD134;BXD134;BXD134;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F9;;F9N1F7;;;Y
+BXD135;BXD135;BXD135;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F6;;Extinct;7;;Y
+BXD136;BXD136;BXD136;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;8;;Y
+BXD137;BXD137;BXD137;2009;;;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;;;;16;;;;;F8;F11;F11N4F7;;;Y
+BXD138;BXD138;BXD138;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;8;;Y
+BXD139;BXD139;BXD139;2009;;;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;;;;14;16;;;;F8;;F11N3F4;;;Y
+BXD140;BXD140;;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;20;;;;;F8;;F8N1F6;;;Y
+BXD141/RwwJ;BXD141/RwwJ;BXD141;2009;;029865;Pre-order (est. Jun 3, 2019);Available for pre-order;4;B6 female to D2 male F2 intercross;B6;?;F27+F1 ;"	F27+F1";28;28;;;;F9;F19;F22;;;Y
+BXD142;BXD142;BXD142;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F6;;Extinct;7;;Y
+BXD143;BXD143;;;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;;N
+BXD144/RwwJ;BXD144/RwwJ;BXD144;2009;05.09.2014;025984;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;?;F?+F5 ;F?+F5;37;38;;;;F9;;F24;;;Y
+BXD145;BXD145;BXD145;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;8;;Y
+BXD146;BXD146;BXD146;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F8;;F12N2F7;;;Y
+BXD147;BXD147;BXD147;2009;;;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;;;;N3F8;N3F9;;;;F8;;F23;;Backcrossed at about F23 to C57BL/6J female, then 3 backcrosses to F23 male, followed by inbreeding again;Y
+BXD148;BXD148;BXD148;2009;;;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;;;;14;16;;;;F8;F11;F11N3F5;;;Y
+BXD149;BXD149;BXD149;2009;;;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;;;;13;15;;;;F7;;F9N4F3;;;Y
+BXD150/RwwJ;BXD150/RwwJ;BXD150;2009;;029867;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;?;F27+F5 ;F27+F5;34;36;;;;F8;;F23;;;Y
+BXD151/RwwJ;BXD151/RwwJ;BXD151;2009;;029868;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;?;?+F5 ;"	?+F5";37;39;;;;F8;F11;F22;;;Y
+BXD152/RwwJ;BXD152/RwwJ;BXD152 ;2009;;029869;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;F25+F2 ;F25+F5 ;F25+F8;35;36;;;;F9;F16;F22;;;Y
+BXD153;BXD153;BXD153;2009;Extinct;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;F7;;Extinct;7;;Y
+BXD154/RwwJ;BXD154/RwwJ;BXD154;2009;05.09.2014;025976;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;F20+F8 ;F20+F11 ;F20+F11;38;39;;;;F9;;F24;;;Y
+BXD155;BXD155;BXD155;2009;;;UTHSC;UTHSC;4;B6 female to D2 male F2 intercross;B6;;;;32;33;;;;F7;F15;F19;;;Y
+BXD156/RwwJ;BXD156/RwwJ;BXD156;2009;;029871;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;?;?+pF5 ;"	?+F8";;;;;;F7;F16;F23;;;Y
+BXD156a;BXD156a;;2009;Extinct in 2015;;Extinct;Extinct;4;B6 female to D2 male F2 intercross;;;;;;;;;;;;Extinct;8;;Y
+BXD157/RwwJ;BXD157/RwwJ;BXD157;2009;;029872;Repository Live;Available;4;B6 female to D2 male F2 intercross;B6;?;?+F6 ;?+F8;;;;;;F7;F16;F22;;;Y
+BXD158;BXD158;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD159;BXD159;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD160/RwwJ;BXD160/RwwJ;BXD160;2009;;029873;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;F27+F2 ;F27+F4 ;"	F27+F4";36;37;;;;;;F23;;;Y
+BXD161/RwwJ;BXD161/RwwJ;BXD161;2009;05.09.2014;025985;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6; F23+F5 ;F23+F10 ;"	F23+F10";40;42;;;;F7;;F25;;;Y
+BXD162;BXD162;BXD162;2009;;;UTHSC;UTHSC;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;;;;18;20;;;;F6;;F10N6F4;;;Y
+BXD163;BXD163;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD164;BXD164;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD165;BXD165;BXD165;2009;;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;F6;;Extinct;6;;Y
+BXD166;BXD166;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD167;BXD167;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD168/RwwJ;BXD168/RwwJ;BXD168;2009;;029874;Pre-order (est. Apr 8, 2019);Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;F24+F1 ;F?+F4 ;F?+F4;29;29;;;;F6;;F21;;;Y
+BXD169/RwwJ;BXD169/RwwJ;BXD169;2010;;029876;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;?;?+F5 ;"	?+F7";31;33;;;;;;F20;;;Y
+BXD170/RwwJ;BXD170/RwwJ;BXD170;2010;;029878;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;F32+F3 ;F32+F6 ;"	F32+F6";45;46;;;;;;F27;;;Y
+BXD171/RwwJ;BXD171/RwwJ;BXD171;2010;;029879;Pre-order (est. Jun 3, 2019);Available for pre-order;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;?;F?+F1 ;-;36;38;;;;;;F23;;;Y
+BXD172/RwwJ;BXD172/RwwJ;BXD172;2010;;029880;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;?;F31+F4 ;F31+F4;41;44;;;;;;F26;;;Y
+BXD173;BXD173;BXD173;2010;;;UTHSC;UTHSC;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;;;;;;;;;F6;;F6N3F9;;;Y
+BXD174;BXD174;BXD174;2010;;;UTHSC;UTHSC;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;;;;21;23;;;;;;F6N6F7;;;Y
+BXD175;BXD175;BXD175;2010;Extinct in 2017;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;;;;;;;;;;;F18;;Terminate by crossing to BXD209 to generate RIX BXD228 (Jan 2017 attempt);Y
+BXD176;BXD176;BXD176;2010;;;UTHSC;UTHSC;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;;;;20;20;;;;;;F6N3F9;;;Y
+BXD177/RwwJ;BXD177/RwwJ;BXD177;2010;;029881;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;?;?+F5 ;?+F7;30;30;;;;;;F19;;;Y
+BXD178/RwwJ;BXD178/RwwJ;BXD178;2010;;029882;Repository Live;Available for pre-order;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;?;?+F3 ;"	?+F3";30;30;;;;;;F19;;;Y
+BXD179;BXD179;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD180/RwwJ;BXD180/RwwJ;BXD180;2010;;029883;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;F26+F3 ;F26+F4 ;"	F26+F4";38;38;;;;;;F20;;;Y
+BXD181;BXD181;BXD181;2010;;;UTHSC;UTHSC;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;;;;13;13;;;;;;F18;;;Y
+BXD182;BXD182;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD183;BXD183;BXD183;2010;;;UTHSC;UTHSC;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;;;;19;18;;;;;;F7N4F8;;;Y
+BXD184/RwwJ;BXD184/RwwJ;BXD184;2010;;029884;Repository Live;Available;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6;?;?+F6 ;?+F6;;27;;;;;;F18;;;Y
+BXD185;BXD185;;;Extinct;;Extinct;Extinct;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);;;;;;;;;;;;;;;N
+BXD186/RwwJ;BXD186/RwwJ;BXD186;2010;;029885;Registering Interest;Available for pre-order;5;Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer);B6; F25+F1 ;F25+F1 ;-;31;31;;;;;;F21;;;Y
+BXD187/RwwJ;BXD187/RwwJ;BXD187;2013;;031974;Pre-order (est. Jul 29, 2019);Available for pre-order;6;B6 female to D2 male F2 intercross;B6;?;F21+F1 ;"	F21+F1";24;27;;;;;;F12;;;Y
+BXD188;BXD188;BXD188;2013;Extinct 2016;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F13;;Used to make RIX with BXD109;Y
+BXD189;BXD189;BXD189;2013;Extinct 2016;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F12;;Used to make BXD225 RIX with BXD140;Y
+BXD190/RwwJ;BXD190/RwwJ;BXD190;2013;;030876;Repository Live;Available;6;B6 female to D2 male F2 intercross;B6;?;?+F3 ;?+F3;28;30;;;;;;F13;;;Y
+BXD191/RwwJ;BXD191/RwwJ;BXD191;2013;;030877;Repository Live;Available;6;B6 female to D2 male F2 intercross;B6;?;?+F5 ;"	?+F5";28;28;;;;;;F10;;;Y
+BXD192;BXD192;BXD192;2013;Extinct 2016;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F8;;Used to make RIX with BXD196 to make BXD227;Y
+BXD193;BXD193;BXD193;2013;Extinct 2015;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F7;;;Y
+BXD194/RwwJ;BXD194/RwwJ;BXD194;2013;;030878;Repository Live;Available;6;B6 female to D2 male F2 intercross;B6;?;?+F5 ;?+F5;25;26;;;;;;F12;;;Y
+BXD195/RwwJ;BXD195/RwwJ;BXD195;2013;;030879;Registering Interest;Available for registering interest;6;B6 female to D2 male F2 intercross;B6;?;;-;29;30;;;;;;F13;;;Y
+BXD196;BXD196;BXD196;2013;Extinct;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;B6;;;;;;;;;;;F11;;Used to make RIX with BXD192 to make BXD227;Y
+BXD197/RwwJ;BXD197/RwwJ;BXD197;2013;;030880;Repository Live;Available;6;B6 female to D2 male F2 intercross;B6;?;?+F4 ;"	?+F4";28;30;;;;;;F12;;;Y
+BXD198;BXD198;BXD198;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;19;19;;;;;;F11;;;Y
+BXD199/RwwJ;BXD199/RwwJ;BXD199;2013;;030881;Repository Live;Available;6;B6 female to D2 male F2 intercross;B6;?;?+F4 ;?+pF3;31;32;;;;;;F11;;;Y
+BXD200;BXD200;BXD200;2013;Extinct;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F11;;Used to make RIX with BXD207 to make BXD224;Y
+BXD201;BXD201;BXD201;2013;Extinct 2017;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;B6;;;;;;;;;;;F9;;Crossed to female C57BL/6J at F10 in August 2016, then back to BXD201 male for N generations ;Y
+BXD202/RwwJ;BXD202/RwwJ;BXD202;2013;;031975;Pre-order (est. Mar 25, 2019);Available;6;B6 female to D2 male F2 intercross;B6;?;F21+F2 ;F21+F2;25;26;;;;;;F10;;;Y
+BXD203;BXD203;BXD203;2013;Extinct 2015;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F6;;;Y
+BXD204;BXD204;BXD204;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;17;;;;;;;F11;;;Y
+BXD205;BXD205;BXD205;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;22;24;;;;;;F11;;;Y
+BXD206;BXD206;BXD206;2013;Extinct March 2016;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F11;;Used to make RIX with BXD110 to make BXD222;Y
+BXD207;BXD207;BXD207;2013;Extinct June 2016;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F10;;Used to make RIX with BXD200 to make BXD224;Y
+BXD208;BXD208;BXD208;2013;Extinct;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F9;;;Y
+BXD209;BXD209;BXD209;2013;Extinct 2016;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;B6;;;;;;;;;;;F8;;Used to make RIX with BXD175a to make BXD228 in Jan 2017;Y
+BXD210/RwwJ;BXD210/RwwJ;BXD210;2013;;031976;Registering Interest;Available for registering interest;6;B6 female to D2 male F2 intercross;B6;?;;-;23;23;;;;;;F10;;;Y
+BXD211;BXD211;BXD211;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;;;;;;;;F11;;;Y
+BXD212;BXD212;BXD212;2013;Extinct;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F11;;;Y
+BXD213;BXD213;BXD213;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;20;22;;;;;;F11;;;Y
+BXD214/RwwJ;BXD214/RwwJ;BXD214;2013;;030882;Repository Live;Available;6;B6 female to D2 male F2 intercross;B6;?;?+F3 ;?+F3;26;26;;;;;;F11;;;Y
+BXD215/RwwJ;BXD215/RwwJ;BXD214;2013;;031977;Pre-order (est. Mar 25, 2019);Available;6;B6 female to D2 male F2 intercross;B6;?;F21+F2 ;F21+F2;22;22;;;;;;F9;;;Y
+BXD216/RwwJ;BXD216/RwwJ;BXD216;2013;;031978;Pre-order (est. Mar 25, 2019);Available;6;B6 female to D2 male F2 intercross;B6;?;F23+F2 ;F23+F2;26;28;;;;;;F11;;;Y
+BXD217;BXD217;BXD217;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;14;15;;;;;;F7;;;Y
+BXD218;BXD218;BXD218;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;22;24;;;;;;F8;;;Y
+BXD219;BXD219;BXD219;2013;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;20;21;;;;;;F9;;;Y
+BXD220;BXD220;BXD220;2013;Extinct March 2016;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;F7;;Used to make RIX with BXD130a to make BXD221 in 2016;Y
+BXD221;BXD221;;2016;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;11;11;;;;;;;;(BXD220-F8 X BXD130-F7N2F6);Y
+BXD222;BXD222;;2016;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;13;15;;;;;;;;(BXD110N3-F9 X BXD206-F13);Y
+BXD223;BXD223;;2016;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;12;12;;;;;;;;(BXD188-F16 X BXD140-F8N1(to female B6D2F1)F8;Y
+BXD224;BXD224;;2016;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;14;16;;;;;;;;(BXD200-F12 X BXD207-F10);Y
+BXD225;BXD225;;2016;Extinct August 2018;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;B6;;;;;;;;;;;;;(BXD109F13N1F9 X BXD189-F14);Y
+BXD226;BXD226;;2016;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;11;13;;;;;;;;(BXD212-F14 X BXD134-F8);Y
+BXD227;BXD227;;2016;;;UTHSC;UTHSC;6;B6 female to D2 male F2 intercross;B6;;;;11;12;;;;;;;;(BXD192-F8 X BXD196-F16);Y
+BXD228;BXD228;;2017;Extinct August 2018;;Extinct;Extinct;6;B6 female to D2 male F2 intercross;;;;;;;;;;;;;;(BXD209-F10 x BXD175a-F18N5F3);N
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;Available at JAX;103;;;;;;;;;;;;;;;;;
+;;;;;;Available for registering interest;3;;;;;;;;;;;;;;;;;
+;;;;;;Available for pre-order;12;;;;;;;;;;;;;;;;;
+;;;;;;Cryo Recovery;4;;;;;;;;;;;;;;;;;
+;;;;;;UTHSC;29;;;;;;;;;;;;;;;;;
+;;;;;;Extinct;88;;;;;;;;;;;;;;;;;

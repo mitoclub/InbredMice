@@ -1,0 +1,2913 @@
+gc = ['File','Name','Chr','Pos','Ref','Alt','SNP','Allele_specific_forward_reverse_read_counts','variant_allele_frequency','Approximate_read_depth','Number_of_events_in_this_haplotype','median_base_quality','median_fragment_length','median_mapping_quality','median_distance_from_end_of_read','Number_of_alt_reads_original_alignment_doesnt_match_the_current_contig','negative_log10_population_allele_frequencies_of_alt_alleles','Log_10_likelihood_ratio_score_of_variant_existing_versus_not_existing','Allele','Annotation','Annotation_Impact','Gene_Name','Gene_ID','Feature_Type','Feature_ID','Transcript_BioType','Rank','HGVS.c','HGVS.p','cDNA.pos/cDNA.length','CDS.pos/CDS.length','AA.pos/AA.length','Distance','ERRORS/WARNINGS/INFO','Score','lof','OrdId','IdNum','File','Name','IdNum2','Index_Row','HudsonAlpha ID','Alternate ID','Strain','Generation_JAX','DOB','Age at death (days)','Parents ','Type','Source','Team','Organism ','Sex ','Tissue','longranger_version','instrument_id',' gems_detected ',' mean_dna_per_gem ','bc_on_whitelist','bc_mean_qscore','n50_linked_reads_per_molecule','corrected_loaded_mass_ng',' snps_phased ','genes_phased_lt_100kb',' longest_phase_block ',' n50_phase_block ',' molecule_length_mean ',' molecule_length_stddev ',' number_reads ','median_insert_size',' mean_depth ','zero_coverage','mapped_reads','pcr_duplication','on_target_bases','r1_q20_bases_fract','r1_q30_bases_fract','r2_q20_bases_fract','r2_q30_bases_fract','si_q20_bases_fract','si_q30_bases_fract','bc_q20_bases_fract','bc_q30_bases_fract','large_sv_calls','short_deletion_calls','Expanded name','Official name','GeneNetwork name','Year breeding started','Date production began at JAX','JAX Stock No (RRID)','Availability (as of March 2019)','Availability (as of October 2019)','Epoch','Method of derivation','Mitocondrial origin (if known)','October 2018 reported generation at JAX ','March 2019 reported generation at JAX','October 2019 reported generation at JAX','Febuary 2019 generation at UTHSC ','October 2019 generation at UTHSC','Genotyped on Illumina 13377 SNP array','Genotyped on Affymetrix MouseDiversityArray600K','Generation at Affymetrix MouseDiversityArray600K','Generation at MUGA array genotyping','Generation at MegaMUGA array genotyping','Generation at GigaMUGA array genotyping','Generation went extinct (if known)','Backcross and RIX-derived breeding notes','Any genotypes available']
+
+
+
+
+gc = ['File','Name','Chr','Pos','Ref','Alt','SNP','Allele_specific_forward_reverse_read_counts','variant_allele_frequency','Allele','Annotation','Annotation_Impact','Gene_Name','Gene_ID','Feature_Type','Feature_ID','Transcript_BioType','ERRORS/WARNINGS/INFO','lof','Generation_JAX','Age at death (days)','Parents ','Type','Source','Team','Organism ','Sex ','Tissue','longranger_version','instrument_id']
+
+
+
+
+ gems_detected 	 mean_dna_per_gem 	bc_on_whitelist	bc_mean_qscore	n50_linked_reads_per_molecule	corrected_loaded_mass_ng	 snps_phased 	genes_phased_lt_100kb	 longest_phase_block 	 n50_phase_block 	 molecule_length_mean 	 molecule_length_stddev 	 number_reads 	median_insert_size	 mean_depth 	zero_coverage	mapped_reads	pcr_duplication	on_target_bases	r1_q20_bases_fract	r1_q30_bases_fract	r2_q20_bases_fract	r2_q30_bases_fract	si_q20_bases_fract	si_q30_bases_fract	bc_q20_bases_fract	bc_q30_bases_fract	large_sv_calls	short_deletion_calls
+
+
+
+
+gc = ['File','Name','Chr','Pos','Ref','Alt','SNP','Allele','Annotation','Annotation_Impact','Gene_Name','Gene_ID','Feature_Type','Transcript_BioType','ERRORS/WARNINGS/INFO','lof','Generation_JAX','Parents ','Type','Source','Team','Organism ','Sex ','Tissue','instrument_id']
+
+
+PROBLEMS:
+'Age at death (days)'
+'Transcript_BioType'
+'ERRORS/WARNINGS/INFO'
+
+
+
+
+
+'OrdId','IdNum','File','Name','IdNum2','HZ','A>T','A>G','A>C','T>A','T>G','T>C','G>A','G>T','G>C','C>A','C>T','C>G','Index_Row','HudsonAlpha ID','Alternate ID','Strain','Generation_JAX','DOB','Age at death (days)','Parents ','Type','Source','Team','Organism ','Sex ','Tissue','longranger_version','instrument_id',' gems_detected ',' mean_dna_per_gem ','bc_on_whitelist','bc_mean_qscore','n50_linked_reads_per_molecule','corrected_loaded_mass_ng',' snps_phased ','genes_phased_lt_100kb',' longest_phase_block ',' n50_phase_block ',' molecule_length_mean ',' molecule_length_stddev ',' number_reads ','median_insert_size',' mean_depth ','zero_coverage','mapped_reads','pcr_duplication','on_target_bases','r1_q20_bases_fract','r1_q30_bases_fract','r2_q20_bases_fract','r2_q30_bases_fract','si_q20_bases_fract','si_q30_bases_fract','bc_q20_bases_fract','bc_q30_bases_fract','large_sv_calls','short_deletion_calls','Expanded name','Official name','GeneNetwork name','Year breeding started','Date production began at JAX','JAX Stock No (RRID)','Availability (as of March 2019)','Availability (as of October 2019)','Epoch','Method of derivation','Mitocondrial origin (if known)','October 2018 reported generation at JAX ','March 2019 reported generation at JAX','October 2019 reported generation at JAX','Febuary 2019 generation at UTHSC ','October 2019 generation at UTHSC','Genotyped on Illumina 13377 SNP array','Genotyped on Affymetrix MouseDiversityArray600K','Generation at Affymetrix MouseDiversityArray600K','Generation at MUGA array genotyping','Generation at MegaMUGA array genotyping','Generation at GigaMUGA array genotyping','Generation went extinct (if known)','Backcross and RIX-derived breeding notes','Any genotypes available'
+
+
+
+
+
+
+
+
+
+Num:
+
+
+
+
+
+
+Cat:
+OrdId
+IdNum
+File
+Name
+IdNum2
+Index_Row
+HudsonAlpha ID
+Alternate ID
+Strain
+Generation_JAX
+Parents 
+Type
+Source
+Tissue
+instrument_id
+Expanded name
+Official name
+GeneNetwork name
+Year breeding started
+Epoch
+JAX Stock No (RRID)
+Availability (as of March 2019)
+Availability (as of October 2019)
+Epoch
+Method of derivation
+Mitocondrial origin (if known)
+October 2018 reported generation at JAX 
+March 2019 reported generation at JAX
+October 2019 reported generation at JAX
+Febuary 2019 generation at UTHSC 
+October 2019 generation at UTHSC
+Genotyped on Illumina 13377 SNP array
+Genotyped on Affymetrix MouseDiversityArray600K
+Generation at Affymetrix MouseDiversityArray600K
+Generation at MUGA array genotyping
+Generation at MegaMUGA array genotyping
+Generation at GigaMUGA array genotyping
+Generation went extinct (if known)
+Backcross and RIX-derived breeding notes
+Any genotypes available
+
+
+catcols = ['OrdId','IdNum','File','Name','IdNum2','Index_Row','HudsonAlpha ID','Alternate ID','Strain','Generation_JAX','Parents ','Type','Source','Tissue','instrument_id','Expanded name','Official name','GeneNetwork name','Year breeding started','Epoch','JAX Stock No (RRID)','Availability (as of March 2019)','Availability (as of October 2019)','Epoch','Method of derivation','Mitocondrial origin (if known)','October 2018 reported generation at JAX ','March 2019 reported generation at JAX','October 2019 reported generation at JAX','Febuary 2019 generation at UTHSC ','October 2019 generation at UTHSC','Genotyped on Illumina 13377 SNP array','Genotyped on Affymetrix MouseDiversityArray600K','Generation at Affymetrix MouseDiversityArray600K','Generation at MUGA array genotyping','Generation at MegaMUGA array genotyping','Generation at GigaMUGA array genotyping','Generation went extinct (if known)','Backcross and RIX-derived breeding notes','Any genotypes available']
+
+
+
+
+
+
+Num:
+A>T
+A>G
+A>C
+T>A
+T>G
+T>C
+G>A
+G>T
+G>C
+C>A
+C>T
+C>G
+Age at death (days)
+ gems_detected 
+ mean_dna_per_gem 
+bc_on_whitelist
+bc_mean_qscore
+n50_linked_reads_per_molecule
+corrected_loaded_mass_ng
+ snps_phased 
+longest_phase_block 
+ n50_phase_block 
+ molecule_length_mean 
+ molecule_length_stddev 
+ number_reads 
+median_insert_size
+ mean_depth 
+zero_coverage
+mapped_reads
+pcr_duplication	on_target_bases	r1_q20_bases_fract
+r1_q30_bases_fract
+r2_q20_bases_fract
+r2_q30_bases_fract
+si_q20_bases_fract
+si_q30_bases_fract
+bc_q20_bases_fract
+bc_q30_bases_fract
+large_sv_calls
+short_deletion_calls
+
+
+
+
+numcols = ['A>T','A>G','A>C','T>A','T>G','T>C','G>A','G>T','G>C','C>A','C>T','C>G','Age at death (days)',' gems_detected ',' mean_dna_per_gem ','bc_on_whitelist','bc_mean_qscore','n50_linked_reads_per_molecule','corrected_loaded_mass_ng',' snps_phased ',' longest_phase_block ',' n50_phase_block ',' molecule_length_mean ',' molecule_length_stddev ',' number_reads ','median_insert_size',' mean_depth ','zero_coverage','mapped_reads','pcr_duplication','on_target_bases','r1_q20_bases_fract','r1_q30_bases_fract','r2_q20_bases_fract','r2_q30_bases_fract','si_q20_bases_fract','si_q30_bases_fract','bc_q20_bases_fract','bc_q30_bases_fract','large_sv_calls','short_deletion_calls']
+
+
+
+
+
+
+
+Date:
+DOB
+longranger_version
+Date production began at JAX
+
+
+
+
+
+
+Nope:
+Team
+Organism 
+Sex 
+genes_phased_lt_100kb
+
+
+
+
+
+
+
+
+
+
+
+['OrdId_1','OrdId_2','OrdId_3','OrdId_4','OrdId_5','OrdId_6','OrdId_7','OrdId_8','OrdId_9','OrdId_10','OrdId_11','OrdId_12','OrdId_13','OrdId_14','OrdId_15','OrdId_16','OrdId_17','OrdId_18','OrdId_19','OrdId_20','OrdId_21','OrdId_22','OrdId_23','OrdId_24','OrdId_25','OrdId_26','OrdId_27','OrdId_28','OrdId_29','OrdId_30','OrdId_31','OrdId_32','OrdId_33','OrdId_34','OrdId_35','OrdId_36','OrdId_37','OrdId_38','OrdId_39','OrdId_40','OrdId_41','OrdId_42','OrdId_43','OrdId_44','OrdId_45','OrdId_46','OrdId_47','OrdId_48','OrdId_49','OrdId_50','OrdId_51','OrdId_52','OrdId_53','OrdId_54','OrdId_55','OrdId_56','OrdId_57','OrdId_58','OrdId_59','OrdId_60','OrdId_61','OrdId_62','OrdId_63','OrdId_64','OrdId_65','OrdId_66','OrdId_67','OrdId_68','OrdId_69','OrdId_70','OrdId_71','OrdId_72','OrdId_73','OrdId_74','OrdId_75','OrdId_76','OrdId_77','OrdId_78','OrdId_79','OrdId_80','OrdId_81','OrdId_82','OrdId_83','OrdId_84','OrdId_85','OrdId_86','OrdId_87','OrdId_88','OrdId_89','OrdId_90','OrdId_91','OrdId_92','OrdId_93','OrdId_94','OrdId_95','OrdId_96','OrdId_97','OrdId_98','OrdId_99','OrdId_100','OrdId_101','OrdId_102','OrdId_103','OrdId_104','OrdId_105','OrdId_106','OrdId_107','OrdId_108','OrdId_109','OrdId_110','OrdId_111','OrdId_112','OrdId_113','OrdId_114','OrdId_115','OrdId_116','OrdId_117','OrdId_118','OrdId_119','OrdId_120','OrdId_121','OrdId_122','OrdId_123','OrdId_124','OrdId_125','OrdId_126','OrdId_127','OrdId_128','OrdId_129','OrdId_130','OrdId_131','OrdId_132','OrdId_133','OrdId_134','OrdId_135','OrdId_136','OrdId_137','OrdId_138','OrdId_139','OrdId_140','OrdId_141','OrdId_142','OrdId_143','OrdId_144','OrdId_145','OrdId_146','OrdId_147','OrdId_148','OrdId_149','OrdId_150','OrdId_151','OrdId_152','OrdId_153','OrdId_154','OrdId_155','OrdId_156','OrdId_157','OrdId_158','OrdId_159','IdNum_100','IdNum_11','IdNum_113','IdNum_127','IdNum_128','IdNum_131','IdNum_137','IdNum_14','IdNum_147','IdNum_148','IdNum_149','IdNum_15','IdNum_150','IdNum_151','IdNum_152','IdNum_154','IdNum_155','IdNum_156','IdNum_157','IdNum_160','IdNum_161','IdNum_162','IdNum_168','IdNum_169','IdNum_170','IdNum_173','IdNum_177','IdNum_18','IdNum_180','IdNum_181','IdNum_183','IdNum_184','IdNum_186','IdNum_187','IdNum_19','IdNum_194','IdNum_196','IdNum_197','IdNum_198','IdNum_199','IdNum_2','IdNum_20','IdNum_204','IdNum_205','IdNum_21','IdNum_215','IdNum_216','IdNum_217','IdNum_218','IdNum_219','IdNum_22','IdNum_221','IdNum_222','IdNum_223','IdNum_224','IdNum_227','IdNum_24','IdNum_27','IdNum_28','IdNum_29','IdNum_32','IdNum_33','IdNum_34','IdNum_36','IdNum_38','IdNum_39','IdNum_40','IdNum_42','IdNum_44','IdNum_45','IdNum_48','IdNum_49','IdNum_5','IdNum_50','IdNum_51','IdNum_55','IdNum_56','IdNum_6','IdNum_64','IdNum_65','IdNum_66','IdNum_68','IdNum_69','IdNum_71','IdNum_73','IdNum_75','IdNum_78','IdNum_81','IdNum_84','IdNum_87','IdNum_88','IdNum_89','IdNum_9','IdNum_91','IdNum_95','IdNum_98','IdNum_99','IdNum_C57BL_6J_two_lanes','IdNum_DBA_2J_three_lanes','IdNum_nan','File_4512-JFI-0333_C57BL_6J_two_lanes_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0334_DBA_2J_three_lanes_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0341_BXD149_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0345_BXD029_Tlr4_J_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0345_BXD098_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0346_BXD028_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0347_BXD024_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0348_BXD24_TyJ_Cep290_J_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0349_BXD55_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0350_BXD22_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0353_BXD180_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0354_BXD199_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0355_BXD152_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0356_BXD034_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0357_BXD156_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0358_BXD40_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0360_BXD227_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0362_BXD155_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0363_BXD44_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0365_BXD113_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0366_BXD196_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0367_BXD131_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0368_BXD011_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0369_BXD036_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0370_BXD205_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0373_BXD150_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0374_BXD154_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0375_BXD221_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0376_BXD224_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0382_BXD048a_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0383_BXD009_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0387_BXD65a_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0389_BXD5_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0390_BXD218_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0391_BXD157_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0392_BXD15_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0394_BXD162_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0396_BXD219_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0397_BXD049_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0400_BXD69_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0401_BXD127_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0402_BXD173_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0404_BXD222_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0407_BXD20_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0408_BXD051_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0411_BXD223_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0413_BXD89_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0414_BXD91_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0415_BXD032_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0416_BXD186_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0417_BXD148_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0418_BXD137_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0419_BXD050_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0420_BXD78_2_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0421_BXD056_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0422_BXD198_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0423_BXD75_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0425_BXD187_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0426_BXD169_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0427_BXD160_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0430_BXD002_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0432_BXD21_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0433_BXD71_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0434_BXD183_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0435_BXD84_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0436_BXD99_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0437_BXD170_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0438_BXD073_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0440_BXD073b_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0441_BXD181_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0442_BXD66_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0443_BXD216_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0445_BXD095_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0451_BXD33_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0452_BXD184_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0453_BXD038_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0455_BXD88_2_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0456_BXD161_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0457_BXD151_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0458_BXD14_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0462_BXD68_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0466_BXD168_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0469_BXD100_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0470_BXD27_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0471_BXD42_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0473_BXD217_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0474_BXD006_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0476_BXD215_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0477_BXD18_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0478_BXD39_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0479_BXD197_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0480_BXD204_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0481_BXD19_TyJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0482_BXD087_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0483_BXD064_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0485_BXD194_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0485_BXD194_redo_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0486_BXD045_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0487_BXD81_RwwJ_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0490_BXD177_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0492_BXD128_phased_possorted_bam.bam_ChrM_only.bam','File_4512-JFI-0494_BXD147_phased_possorted_bam.bam_ChrM_only.bam','File_nan','Name_BXD002_RwwJ','Name_BXD006_TyJ','Name_BXD009_TyJ','Name_BXD011_TyJ','Name_BXD024_TyJ','Name_BXD028_TyJ','Name_BXD029_Tlr4_J','Name_BXD032_TyJ','Name_BXD034_TyJ','Name_BXD036_TyJ','Name_BXD038_TyJ','Name_BXD045_RwwJ','Name_BXD048a_RwwJ','Name_BXD049_RwwJ','Name_BXD050_RwwJ','Name_BXD051_RwwJ','Name_BXD056_RwwJ','Name_BXD064_RwwJ','Name_BXD073_RwwJ','Name_BXD073b_RwwJ','Name_BXD087_RwwJ','Name_BXD095_RwwJ','Name_BXD098_RwwJ','Name_BXD100_RwwJ','Name_BXD113_RwwJ','Name_BXD127','Name_BXD128','Name_BXD131','Name_BXD137','Name_BXD147','Name_BXD148','Name_BXD149','Name_BXD14_TyJ','Name_BXD150','Name_BXD151','Name_BXD152','Name_BXD154_RwwJ','Name_BXD155','Name_BXD156','Name_BXD157','Name_BXD15_TyJ','Name_BXD160','Name_BXD161_RwwJ','Name_BXD162','Name_BXD168','Name_BXD169','Name_BXD170','Name_BXD173','Name_BXD177','Name_BXD180','Name_BXD181','Name_BXD183','Name_BXD184','Name_BXD186','Name_BXD187','Name_BXD18_TyJ','Name_BXD194','Name_BXD194_redo','Name_BXD196','Name_BXD197','Name_BXD198','Name_BXD199','Name_BXD19_TyJ','Name_BXD204','Name_BXD205','Name_BXD20_TyJ','Name_BXD215','Name_BXD216','Name_BXD217','Name_BXD218','Name_BXD219','Name_BXD21_TyJ','Name_BXD221','Name_BXD222','Name_BXD223','Name_BXD224','Name_BXD227','Name_BXD22_TyJ','Name_BXD24_TyJ_Cep290_J','Name_BXD27_TyJ','Name_BXD33_TyJ','Name_BXD39_TyJ','Name_BXD40_TyJ','Name_BXD42_TyJ','Name_BXD44_RwwJ','Name_BXD55_RwwJ','Name_BXD5_TyJ','Name_BXD65a_RwwJ','Name_BXD66_RwwJ','Name_BXD68_RwwJ','Name_BXD69_RwwJ','Name_BXD71_RwwJ','Name_BXD75_RwwJ','Name_BXD78_2_RwwJ','Name_BXD81_RwwJ','Name_BXD84_RwwJ','Name_BXD88_2_RwwJ','Name_BXD89_RwwJ','Name_BXD91_RwwJ','Name_BXD99_RwwJ','Name_C57BL_6J_two_lanes','Name_DBA_2J_three_lanes','Name_nan','IdNum2_1','IdNum2_100','IdNum2_101','IdNum2_102','IdNum2_11','IdNum2_111','IdNum2_113','IdNum2_114','IdNum2_12','IdNum2_122','IdNum2_123','IdNum2_124','IdNum2_125','IdNum2_127','IdNum2_128','IdNum2_13','IdNum2_131','IdNum2_137','IdNum2_14','IdNum2_141','IdNum2_144','IdNum2_147','IdNum2_148','IdNum2_149','IdNum2_15','IdNum2_150','IdNum2_151','IdNum2_152','IdNum2_154','IdNum2_155','IdNum2_156','IdNum2_157','IdNum2_16','IdNum2_160','IdNum2_161','IdNum2_162','IdNum2_168','IdNum2_169','IdNum2_170','IdNum2_171','IdNum2_172','IdNum2_173','IdNum2_174','IdNum2_175','IdNum2_176','IdNum2_177','IdNum2_178','IdNum2_18','IdNum2_180','IdNum2_181','IdNum2_183','IdNum2_184','IdNum2_186','IdNum2_187','IdNum2_19','IdNum2_190','IdNum2_191','IdNum2_194','IdNum2_195','IdNum2_196','IdNum2_197','IdNum2_198','IdNum2_199','IdNum2_2','IdNum2_20','IdNum2_201','IdNum2_202','IdNum2_204','IdNum2_205','IdNum2_209','IdNum2_21','IdNum2_210','IdNum2_211','IdNum2_213','IdNum2_214','IdNum2_215','IdNum2_216','IdNum2_217','IdNum2_218','IdNum2_219','IdNum2_22','IdNum2_221','IdNum2_222','IdNum2_223','IdNum2_224','IdNum2_225','IdNum2_226','IdNum2_227','IdNum2_24','IdNum2_27','IdNum2_28','IdNum2_29','IdNum2_31','IdNum2_32','IdNum2_33','IdNum2_34','IdNum2_36','IdNum2_38','IdNum2_39','IdNum2_40','IdNum2_42','IdNum2_43','IdNum2_44','IdNum2_45','IdNum2_48','IdNum2_49','IdNum2_5','IdNum2_50','IdNum2_51','IdNum2_53','IdNum2_55','IdNum2_56','IdNum2_6','IdNum2_60','IdNum2_61','IdNum2_62','IdNum2_63','IdNum2_64','IdNum2_65','IdNum2_66','IdNum2_67','IdNum2_68','IdNum2_69','IdNum2_70','IdNum2_71','IdNum2_73','IdNum2_74','IdNum2_75','IdNum2_77','IdNum2_78','IdNum2_79','IdNum2_8','IdNum2_81','IdNum2_83','IdNum2_84','IdNum2_85','IdNum2_86','IdNum2_87','IdNum2_88','IdNum2_89','IdNum2_9','IdNum2_90','IdNum2_91','IdNum2_95','IdNum2_98','IdNum2_99','IdNum2_C57BL/6J','IdNum2_C57BL/6J 2 lanes','IdNum2_DBA/2J','IdNum2_DBA/2J 3 lanes','Index_Row_1','Index_Row_1,1','Index_Row_10','Index_Row_100','Index_Row_101','Index_Row_102','Index_Row_103','Index_Row_104','Index_Row_105','Index_Row_106','Index_Row_107','Index_Row_108','Index_Row_109','Index_Row_11','Index_Row_110','Index_Row_111','Index_Row_112','Index_Row_113','Index_Row_114','Index_Row_115','Index_Row_116','Index_Row_117','Index_Row_118','Index_Row_119','Index_Row_12','Index_Row_120','Index_Row_121','Index_Row_122','Index_Row_123','Index_Row_124','Index_Row_125','Index_Row_126','Index_Row_127','Index_Row_128','Index_Row_129','Index_Row_13','Index_Row_130','Index_Row_131','Index_Row_132','Index_Row_133','Index_Row_134','Index_Row_135','Index_Row_136','Index_Row_137','Index_Row_138','Index_Row_139','Index_Row_14','Index_Row_140','Index_Row_141','Index_Row_142','Index_Row_143','Index_Row_144','Index_Row_145','Index_Row_146','Index_Row_147','Index_Row_148','Index_Row_148,5','Index_Row_149','Index_Row_15','Index_Row_150','Index_Row_151','Index_Row_152','Index_Row_153','Index_Row_154','Index_Row_155','Index_Row_156','Index_Row_16','Index_Row_17','Index_Row_18','Index_Row_19','Index_Row_2','Index_Row_20','Index_Row_21','Index_Row_22','Index_Row_23','Index_Row_24','Index_Row_25','Index_Row_26','Index_Row_27','Index_Row_28','Index_Row_29','Index_Row_3','Index_Row_30','Index_Row_31','Index_Row_32','Index_Row_33','Index_Row_34','Index_Row_35','Index_Row_36','Index_Row_37','Index_Row_38','Index_Row_39','Index_Row_4','Index_Row_40','Index_Row_41','Index_Row_42','Index_Row_43','Index_Row_44','Index_Row_45','Index_Row_46','Index_Row_47','Index_Row_48','Index_Row_49','Index_Row_5','Index_Row_50','Index_Row_51','Index_Row_52','Index_Row_53','Index_Row_54','Index_Row_55','Index_Row_56','Index_Row_57','Index_Row_58','Index_Row_59','Index_Row_6','Index_Row_60','Index_Row_61','Index_Row_62','Index_Row_63','Index_Row_64','Index_Row_65','Index_Row_66','Index_Row_67','Index_Row_68','Index_Row_68,5','Index_Row_69','Index_Row_7','Index_Row_70','Index_Row_71','Index_Row_72','Index_Row_73','Index_Row_74','Index_Row_75','Index_Row_76','Index_Row_77','Index_Row_78','Index_Row_79','Index_Row_8','Index_Row_80','Index_Row_81','Index_Row_82','Index_Row_83','Index_Row_84','Index_Row_85','Index_Row_86','Index_Row_87','Index_Row_88','Index_Row_89','Index_Row_9','Index_Row_90','Index_Row_91','Index_Row_92','Index_Row_93','Index_Row_94','Index_Row_95','Index_Row_96','Index_Row_97','Index_Row_98','Index_Row_99','HudsonAlpha ID_4512-JFI-0333','HudsonAlpha ID_4512-JFI-0334','HudsonAlpha ID_4512-JFI-0341','HudsonAlpha ID_4512-JFI-0342','HudsonAlpha ID_4512-JFI-0343','HudsonAlpha ID_4512-JFI-0344','HudsonAlpha ID_4512-JFI-0345','HudsonAlpha ID_4512-JFI-0346','HudsonAlpha ID_4512-JFI-0347','HudsonAlpha ID_4512-JFI-0348','HudsonAlpha ID_4512-JFI-0349','HudsonAlpha ID_4512-JFI-0350','HudsonAlpha ID_4512-JFI-0351','HudsonAlpha ID_4512-JFI-0352','HudsonAlpha ID_4512-JFI-0353','HudsonAlpha ID_4512-JFI-0354','HudsonAlpha ID_4512-JFI-0355','HudsonAlpha ID_4512-JFI-0356','HudsonAlpha ID_4512-JFI-0357','HudsonAlpha ID_4512-JFI-0358','HudsonAlpha ID_4512-JFI-0359','HudsonAlpha ID_4512-JFI-0360','HudsonAlpha ID_4512-JFI-0361','HudsonAlpha ID_4512-JFI-0362','HudsonAlpha ID_4512-JFI-0363','HudsonAlpha ID_4512-JFI-0364','HudsonAlpha ID_4512-JFI-0365','HudsonAlpha ID_4512-JFI-0366','HudsonAlpha ID_4512-JFI-0367','HudsonAlpha ID_4512-JFI-0368','HudsonAlpha ID_4512-JFI-0369','HudsonAlpha ID_4512-JFI-0370','HudsonAlpha ID_4512-JFI-0371','HudsonAlpha ID_4512-JFI-0372','HudsonAlpha ID_4512-JFI-0373','HudsonAlpha ID_4512-JFI-0374','HudsonAlpha ID_4512-JFI-0375','HudsonAlpha ID_4512-JFI-0376','HudsonAlpha ID_4512-JFI-0377','HudsonAlpha ID_4512-JFI-0378','HudsonAlpha ID_4512-JFI-0379','HudsonAlpha ID_4512-JFI-0380','HudsonAlpha ID_4512-JFI-0381','HudsonAlpha ID_4512-JFI-0382','HudsonAlpha ID_4512-JFI-0383','HudsonAlpha ID_4512-JFI-0384','HudsonAlpha ID_4512-JFI-0385','HudsonAlpha ID_4512-JFI-0386','HudsonAlpha ID_4512-JFI-0387','HudsonAlpha ID_4512-JFI-0388','HudsonAlpha ID_4512-JFI-0389','HudsonAlpha ID_4512-JFI-0390','HudsonAlpha ID_4512-JFI-0391','HudsonAlpha ID_4512-JFI-0392','HudsonAlpha ID_4512-JFI-0393','HudsonAlpha ID_4512-JFI-0394','HudsonAlpha ID_4512-JFI-0395','HudsonAlpha ID_4512-JFI-0396','HudsonAlpha ID_4512-JFI-0397','HudsonAlpha ID_4512-JFI-0398','HudsonAlpha ID_4512-JFI-0399','HudsonAlpha ID_4512-JFI-0400','HudsonAlpha ID_4512-JFI-0401','HudsonAlpha ID_4512-JFI-0402','HudsonAlpha ID_4512-JFI-0403','HudsonAlpha ID_4512-JFI-0404','HudsonAlpha ID_4512-JFI-0405','HudsonAlpha ID_4512-JFI-0406','HudsonAlpha ID_4512-JFI-0407','HudsonAlpha ID_4512-JFI-0408','HudsonAlpha ID_4512-JFI-0409','HudsonAlpha ID_4512-JFI-0410','HudsonAlpha ID_4512-JFI-0411','HudsonAlpha ID_4512-JFI-0412','HudsonAlpha ID_4512-JFI-0413','HudsonAlpha ID_4512-JFI-0414','HudsonAlpha ID_4512-JFI-0415','HudsonAlpha ID_4512-JFI-0416','HudsonAlpha ID_4512-JFI-0417','HudsonAlpha ID_4512-JFI-0418','HudsonAlpha ID_4512-JFI-0419','HudsonAlpha ID_4512-JFI-0420','HudsonAlpha ID_4512-JFI-0421','HudsonAlpha ID_4512-JFI-0422','HudsonAlpha ID_4512-JFI-0423','HudsonAlpha ID_4512-JFI-0424','HudsonAlpha ID_4512-JFI-0425','HudsonAlpha ID_4512-JFI-0426','HudsonAlpha ID_4512-JFI-0427','HudsonAlpha ID_4512-JFI-0428','HudsonAlpha ID_4512-JFI-0429','HudsonAlpha ID_4512-JFI-0430','HudsonAlpha ID_4512-JFI-0431','HudsonAlpha ID_4512-JFI-0432','HudsonAlpha ID_4512-JFI-0433','HudsonAlpha ID_4512-JFI-0434','HudsonAlpha ID_4512-JFI-0435','HudsonAlpha ID_4512-JFI-0436','HudsonAlpha ID_4512-JFI-0437','HudsonAlpha ID_4512-JFI-0438','HudsonAlpha ID_4512-JFI-0439','HudsonAlpha ID_4512-JFI-0440','HudsonAlpha ID_4512-JFI-0441','HudsonAlpha ID_4512-JFI-0442','HudsonAlpha ID_4512-JFI-0443','HudsonAlpha ID_4512-JFI-0444','HudsonAlpha ID_4512-JFI-0445','HudsonAlpha ID_4512-JFI-0446','HudsonAlpha ID_4512-JFI-0447','HudsonAlpha ID_4512-JFI-0448','HudsonAlpha ID_4512-JFI-0449','HudsonAlpha ID_4512-JFI-0450','HudsonAlpha ID_4512-JFI-0451','HudsonAlpha ID_4512-JFI-0452','HudsonAlpha ID_4512-JFI-0453','HudsonAlpha ID_4512-JFI-0454','HudsonAlpha ID_4512-JFI-0455','HudsonAlpha ID_4512-JFI-0456','HudsonAlpha ID_4512-JFI-0457','HudsonAlpha ID_4512-JFI-0458','HudsonAlpha ID_4512-JFI-0459','HudsonAlpha ID_4512-JFI-0460','HudsonAlpha ID_4512-JFI-0461','HudsonAlpha ID_4512-JFI-0462','HudsonAlpha ID_4512-JFI-0463','HudsonAlpha ID_4512-JFI-0464','HudsonAlpha ID_4512-JFI-0465','HudsonAlpha ID_4512-JFI-0466','HudsonAlpha ID_4512-JFI-0467','HudsonAlpha ID_4512-JFI-0468','HudsonAlpha ID_4512-JFI-0469','HudsonAlpha ID_4512-JFI-0470','HudsonAlpha ID_4512-JFI-0471','HudsonAlpha ID_4512-JFI-0472','HudsonAlpha ID_4512-JFI-0473','HudsonAlpha ID_4512-JFI-0474','HudsonAlpha ID_4512-JFI-0475','HudsonAlpha ID_4512-JFI-0476','HudsonAlpha ID_4512-JFI-0477','HudsonAlpha ID_4512-JFI-0478','HudsonAlpha ID_4512-JFI-0479','HudsonAlpha ID_4512-JFI-0480','HudsonAlpha ID_4512-JFI-0481','HudsonAlpha ID_4512-JFI-0482','HudsonAlpha ID_4512-JFI-0483','HudsonAlpha ID_4512-JFI-0484','HudsonAlpha ID_4512-JFI-0485','HudsonAlpha ID_4512-JFI-0486','HudsonAlpha ID_4512-JFI-0487','HudsonAlpha ID_4512-JFI-0488','HudsonAlpha ID_4512-JFI-0489','HudsonAlpha ID_4512-JFI-0490','HudsonAlpha ID_4512-JFI-0491','HudsonAlpha ID_4512-JFI-0492','HudsonAlpha ID_4512-JFI-0494','Alternate ID_4512-JFI-0173','Alternate ID_4512-JFI-0174','Alternate ID_4512-JFI-0181','Alternate ID_4512-JFI-0182','Alternate ID_4512-JFI-0183','Alternate ID_4512-JFI-0184','Alternate ID_4512-JFI-0185','Alternate ID_4512-JFI-0186','Alternate ID_4512-JFI-0187','Alternate ID_4512-JFI-0188','Alternate ID_4512-JFI-0189','Alternate ID_4512-JFI-0190','Alternate ID_4512-JFI-0191','Alternate ID_4512-JFI-0192','Alternate ID_4512-JFI-0193','Alternate ID_4512-JFI-0194','Alternate ID_4512-JFI-0195','Alternate ID_4512-JFI-0196','Alternate ID_4512-JFI-0197','Alternate ID_4512-JFI-0198','Alternate ID_4512-JFI-0199','Alternate ID_4512-JFI-0200','Alternate ID_4512-JFI-0201','Alternate ID_4512-JFI-0202','Alternate ID_4512-JFI-0203','Alternate ID_4512-JFI-0204','Alternate ID_4512-JFI-0205','Alternate ID_4512-JFI-0206','Alternate ID_4512-JFI-0207','Alternate ID_4512-JFI-0208','Alternate ID_4512-JFI-0209','Alternate ID_4512-JFI-0210','Alternate ID_4512-JFI-0211','Alternate ID_4512-JFI-0212','Alternate ID_4512-JFI-0213','Alternate ID_4512-JFI-0214','Alternate ID_4512-JFI-0215','Alternate ID_4512-JFI-0216','Alternate ID_4512-JFI-0217','Alternate ID_4512-JFI-0218','Alternate ID_4512-JFI-0219','Alternate ID_4512-JFI-0220','Alternate ID_4512-JFI-0221','Alternate ID_4512-JFI-0222','Alternate ID_4512-JFI-0223','Alternate ID_4512-JFI-0224','Alternate ID_4512-JFI-0225','Alternate ID_4512-JFI-0226','Alternate ID_4512-JFI-0227','Alternate ID_4512-JFI-0228','Alternate ID_4512-JFI-0229','Alternate ID_4512-JFI-0230','Alternate ID_4512-JFI-0231','Alternate ID_4512-JFI-0232','Alternate ID_4512-JFI-0233','Alternate ID_4512-JFI-0234','Alternate ID_4512-JFI-0235','Alternate ID_4512-JFI-0236','Alternate ID_4512-JFI-0237','Alternate ID_4512-JFI-0238','Alternate ID_4512-JFI-0239','Alternate ID_4512-JFI-0240','Alternate ID_4512-JFI-0241','Alternate ID_4512-JFI-0242','Alternate ID_4512-JFI-0243','Alternate ID_4512-JFI-0244','Alternate ID_4512-JFI-0245','Alternate ID_4512-JFI-0246','Alternate ID_4512-JFI-0247','Alternate ID_4512-JFI-0248','Alternate ID_4512-JFI-0249','Alternate ID_4512-JFI-0250','Alternate ID_4512-JFI-0251','Alternate ID_4512-JFI-0252','Alternate ID_4512-JFI-0253','Alternate ID_4512-JFI-0254','Alternate ID_4512-JFI-0255','Alternate ID_4512-JFI-0256','Alternate ID_4512-JFI-0257','Alternate ID_4512-JFI-0258','Alternate ID_4512-JFI-0259','Alternate ID_4512-JFI-0260','Alternate ID_4512-JFI-0261','Alternate ID_4512-JFI-0262','Alternate ID_4512-JFI-0263','Alternate ID_4512-JFI-0264','Alternate ID_4512-JFI-0265','Alternate ID_4512-JFI-0266','Alternate ID_4512-JFI-0267','Alternate ID_4512-JFI-0268','Alternate ID_4512-JFI-0269','Alternate ID_4512-JFI-0270','Alternate ID_4512-JFI-0271','Alternate ID_4512-JFI-0272','Alternate ID_4512-JFI-0273','Alternate ID_4512-JFI-0274','Alternate ID_4512-JFI-0275','Alternate ID_4512-JFI-0276','Alternate ID_4512-JFI-0277','Alternate ID_4512-JFI-0278','Alternate ID_4512-JFI-0279','Alternate ID_4512-JFI-0280','Alternate ID_4512-JFI-0281','Alternate ID_4512-JFI-0282','Alternate ID_4512-JFI-0283','Alternate ID_4512-JFI-0284','Alternate ID_4512-JFI-0285','Alternate ID_4512-JFI-0286','Alternate ID_4512-JFI-0287','Alternate ID_4512-JFI-0288','Alternate ID_4512-JFI-0289','Alternate ID_4512-JFI-0290','Alternate ID_4512-JFI-0291','Alternate ID_4512-JFI-0292','Alternate ID_4512-JFI-0293','Alternate ID_4512-JFI-0294','Alternate ID_4512-JFI-0295','Alternate ID_4512-JFI-0296','Alternate ID_4512-JFI-0297','Alternate ID_4512-JFI-0298','Alternate ID_4512-JFI-0299','Alternate ID_4512-JFI-0300','Alternate ID_4512-JFI-0301','Alternate ID_4512-JFI-0302','Alternate ID_4512-JFI-0303','Alternate ID_4512-JFI-0304','Alternate ID_4512-JFI-0305','Alternate ID_4512-JFI-0306','Alternate ID_4512-JFI-0307','Alternate ID_4512-JFI-0308','Alternate ID_4512-JFI-0309','Alternate ID_4512-JFI-0310','Alternate ID_4512-JFI-0311','Alternate ID_4512-JFI-0312','Alternate ID_4512-JFI-0313','Alternate ID_4512-JFI-0314','Alternate ID_4512-JFI-0315','Alternate ID_4512-JFI-0316','Alternate ID_4512-JFI-0317','Alternate ID_4512-JFI-0318','Alternate ID_4512-JFI-0319','Alternate ID_4512-JFI-0320','Alternate ID_4512-JFI-0321','Alternate ID_4512-JFI-0322','Alternate ID_4512-JFI-0323','Alternate ID_4512-JFI-0324','Alternate ID_4512-JFI-0325','Alternate ID_4512-JFI-0326','Alternate ID_4512-JFI-0327','Alternate ID_4512-JFI-0328','Alternate ID_4512-JFI-0329','Alternate ID_4512-JFI-0330','Alternate ID_4512-JFI-0331','Alternate ID_4512-JFI-0332','Alternate ID_4512-JFI-0493','Strain_BXD001','Strain_BXD002','Strain_BXD005','Strain_BXD006','Strain_BXD008','Strain_BXD009','Strain_BXD011','Strain_BXD012','Strain_BXD013','Strain_BXD014','Strain_BXD015','Strain_BXD016','Strain_BXD018','Strain_BXD019','Strain_BXD020','Strain_BXD021','Strain_BXD022','Strain_BXD024','Strain_BXD024_Cep290','Strain_BXD027','Strain_BXD028','Strain_BXD029','Strain_BXD029_Tlr4','Strain_BXD031','Strain_BXD032','Strain_BXD033','Strain_BXD034','Strain_BXD036','Strain_BXD038','Strain_BXD039','Strain_BXD040','Strain_BXD042','Strain_BXD043','Strain_BXD044','Strain_BXD045','Strain_BXD048','Strain_BXD048a','Strain_BXD049','Strain_BXD050','Strain_BXD051','Strain_BXD053','Strain_BXD055','Strain_BXD056','Strain_BXD060','Strain_BXD061','Strain_BXD062','Strain_BXD063','Strain_BXD064','Strain_BXD065','Strain_BXD065a','Strain_BXD065b','Strain_BXD066','Strain_BXD067','Strain_BXD068','Strain_BXD069','Strain_BXD070','Strain_BXD071','Strain_BXD073','Strain_BXD073a','Strain_BXD073b','Strain_BXD074','Strain_BXD075','Strain_BXD077','Strain_BXD078_2','Strain_BXD079','Strain_BXD081','Strain_BXD083','Strain_BXD084','Strain_BXD085','Strain_BXD086','Strain_BXD087','Strain_BXD088_2','Strain_BXD089','Strain_BXD090','Strain_BXD091','Strain_BXD095','Strain_BXD098','Strain_BXD099','Strain_BXD100','Strain_BXD101','Strain_BXD102','Strain_BXD111','Strain_BXD113','Strain_BXD114','Strain_BXD122','Strain_BXD123','Strain_BXD124','Strain_BXD125','Strain_BXD127','Strain_BXD128','Strain_BXD131','Strain_BXD137','Strain_BXD141','Strain_BXD144','Strain_BXD147','Strain_BXD148','Strain_BXD149','Strain_BXD150','Strain_BXD151','Strain_BXD152','Strain_BXD154','Strain_BXD155','Strain_BXD156','Strain_BXD157','Strain_BXD160','Strain_BXD161','Strain_BXD162','Strain_BXD168','Strain_BXD169','Strain_BXD170','Strain_BXD171','Strain_BXD172','Strain_BXD173','Strain_BXD174','Strain_BXD175','Strain_BXD176','Strain_BXD177','Strain_BXD178','Strain_BXD180','Strain_BXD181','Strain_BXD183','Strain_BXD184','Strain_BXD186','Strain_BXD187','Strain_BXD190','Strain_BXD191','Strain_BXD194','Strain_BXD195','Strain_BXD196','Strain_BXD197','Strain_BXD198','Strain_BXD199','Strain_BXD201','Strain_BXD202','Strain_BXD204','Strain_BXD205','Strain_BXD209','Strain_BXD210','Strain_BXD211','Strain_BXD213','Strain_BXD214','Strain_BXD215','Strain_BXD216','Strain_BXD217','Strain_BXD218','Strain_BXD219','Strain_BXD221','Strain_BXD222','Strain_BXD223','Strain_BXD224','Strain_BXD225','Strain_BXD226','Strain_BXD227','Strain_C57BL/6J','Strain_C57BL/6J 2 lanes','Strain_DBA/2J','Strain_DBA/2J 3 lanes','Generation_JAX_(BXD109F13N1F9 X BXD189-F14)F3','Generation_JAX_(BXD110-F10N3F9 X BXD206-F13)F3','Generation_JAX_(BXD188-F16 X BXD140-F8N1toFemB6D2F1F8)F4','Generation_JAX_(BXD192-F8 X BXD196-F16)F2','Generation_JAX_(BXD200-F12 X BXD207-F10)F4','Generation_JAX_(BXD212-F14 X BXD134-F8)F3','Generation_JAX_(BXD220-F8 X BXD130-F7N2F6)F3','Generation_JAX_F10','Generation_JAX_F104+F33','Generation_JAX_F107+F41','Generation_JAX_F10N6F9','Generation_JAX_F10N8F9','Generation_JAX_F11','Generation_JAX_F114','Generation_JAX_F114+F28','Generation_JAX_F115+F39','Generation_JAX_F117+F44','Generation_JAX_F119+F35','Generation_JAX_F11N3F9','Generation_JAX_F11N4F7','Generation_JAX_F123+F35','Generation_JAX_F125+F38','Generation_JAX_F128+F36','Generation_JAX_F128+pF16','Generation_JAX_F12N2F30+F9','Generation_JAX_F13','Generation_JAX_F136+F33','Generation_JAX_F139+36','Generation_JAX_F14','Generation_JAX_F140+F40','Generation_JAX_F141+F42','Generation_JAX_F146+F40','Generation_JAX_F149+F39','Generation_JAX_F14N3F6','Generation_JAX_F15','Generation_JAX_F15N5F21+F2pF4','Generation_JAX_F16','Generation_JAX_F16N4F21+F3pF8','Generation_JAX_F17','Generation_JAX_F17+F17','Generation_JAX_F18','Generation_JAX_F18N2F5','Generation_JAX_F18N5F20+F6','Generation_JAX_F19','Generation_JAX_F20+F16','Generation_JAX_F20+F18','Generation_JAX_F20+pF5','Generation_JAX_F21+F17','Generation_JAX_F21+F18','Generation_JAX_F21+F19','Generation_JAX_F21+F1pF4','Generation_JAX_F21+F23','Generation_JAX_F21+F24','Generation_JAX_F219pF4','Generation_JAX_F22','Generation_JAX_F22+F11','Generation_JAX_F22+F18','Generation_JAX_F22+F23','Generation_JAX_F226pF2','Generation_JAX_F226pF3','Generation_JAX_F23','Generation_JAX_F23+pF3','Generation_JAX_F24','Generation_JAX_F25','Generation_JAX_F25+F1pF6','Generation_JAX_F25+F20','Generation_JAX_F26','Generation_JAX_F26+F14','Generation_JAX_F26+F16','Generation_JAX_F26+F19','Generation_JAX_F27','Generation_JAX_F27+F16','Generation_JAX_F28','Generation_JAX_F28+F13','Generation_JAX_F28+F21','Generation_JAX_F29+F11','Generation_JAX_F29+F17','Generation_JAX_F30','Generation_JAX_F30+F21','Generation_JAX_F31+F19','Generation_JAX_F31+F23','Generation_JAX_F31+F27','Generation_JAX_F31+F5pF3','Generation_JAX_F32','Generation_JAX_F33+F21','Generation_JAX_F33+F2pF17','Generation_JAX_F34','Generation_JAX_F34+F14','Generation_JAX_F34+F19','Generation_JAX_F34+F25','Generation_JAX_F35+F19','Generation_JAX_F35+F23','Generation_JAX_F36+F15','Generation_JAX_F36+F16','Generation_JAX_F36p+F37','Generation_JAX_F37+F33','Generation_JAX_F38+F17','Generation_JAX_F38+F23','Generation_JAX_F38+F31','Generation_JAX_F38+pF20','Generation_JAX_F39+20','Generation_JAX_F39+F15','Generation_JAX_F39+F39','Generation_JAX_F43+F42','Generation_JAX_F44+F14pF22','Generation_JAX_F44+F35','Generation_JAX_F44+pF26','Generation_JAX_F45+F15','Generation_JAX_F45+F17','Generation_JAX_F45+F36','Generation_JAX_F47+F8','Generation_JAX_F48N5F75+10pF12','Generation_JAX_F60+pF51','Generation_JAX_F6N3F12','Generation_JAX_F6N3F13','Generation_JAX_F6N6F12','Generation_JAX_F76+F40','Generation_JAX_F7N4F13','Generation_JAX_F96+F34','Generation_JAX_F99+F27','Generation_JAX_F9N4F7','Generation_JAX_F9N7F12','Parents _1005, 1006 x 1007','Parents _1012, 1013 x 1014','Parents _1033, 1034 x 1035','Parents _1046, 1047 x 1048','Parents _1049, 1050 x 1051','Parents _1086, 1087 x 1088','Parents _1110, 1111 x 1112','Parents _1110, 1112 x 1113 ','Parents _1130, 1131 x 1132','Parents _1131, 1132 x 1133','Parents _1151, 1152 x 1153','Parents _1269, 1270 x 1271','Parents _1329 x 1330','Parents _1344, 1345 x 1346','Parents _1418, 1419 x 1420','Parents _158, 159 x 160','Parents _162, 163 x 164','Parents _1689, 1690 x 1691','Parents _170, 171 x 172','Parents _183, 184 x 185 ','Parents _212, 213 x 214','Parents _214, 215 x 216','Parents _229, 230 x 231','Parents _317, 318 x 319','Parents _323, 324 x 325 ','Parents _329, 330 x 331','Parents _351, 352 x 353','Parents _357, 358 x 359','Parents _370, 371 x 372','Parents _374, 375 x 376 ','Parents _377, 378 x 379','Parents _378, 379 x 380','Parents _383, 384 x 385','Parents _385, 386 x 387','Parents _387, 388 x 389','Parents _392, 393 x 394','Parents _395, 396 x 397','Parents _396, 397 x 398','Parents _404, 405 x 406','Parents _407, 408 x 409','Parents _408, 409 x 410','Parents _412, 413 x 414','Parents _415, 416 x 417','Parents _418, 419 x 420','Parents _420, 421 x 422','Parents _431, 432 x 433','Parents _436, 437 x 438','Parents _437, 438 x 439','Parents _439, 440 x 441','Parents _466, 467 x 468','Parents _473, 474 x 475 ','Parents _479, 480 x 481','Parents _481, 482 x 483','Parents _484, 485 x 486','Parents _489, 490 x 491 ','Parents _555, 556 x 557','Parents _842, 843 x 844','Parents _980, 981 x 982   ','Parents _996, 997 x 998','Parents _997, 998 x 999','Parents _CB15J4076','Parents _CB16D3156','Parents _CB16G3628','Parents _CB16G3638','Parents _CB16H3715','Parents _CB16H3842','Parents _CB16I3901','Parents _CB16I3902','Parents _CB16I3905','Parents _CB16I3906','Parents _CB16I4035','Parents _CB16J40101','Parents _CB16J4097','Parents _CB16J4098','Parents _CB16J4100','Parents _CB16J4102','Parents _CB16J4120','Parents _CB16J4129','Parents _CB16J4147','Parents _CB16J4149','Parents _CB16J4157','Parents _CB16J4160','Parents _CB16J4165','Parents _CB16J4169','Parents _CB16J4170','Parents _CB16J4171','Parents _CB16K4208','Parents _CB16K4209','Parents _CB16K4212','Parents _CB16K4220','Parents _CB16K4226','Parents _CB16K4227','Parents _CB16K4237','Parents _CB16K4246','Parents _CB16K4273','Parents _CB16K4275','Parents _CB16K4287','Parents _CB16K4314','Parents _CB16K4336','Parents _CB16K4337','Parents _CB16L4351','Parents _CB16L4354','Parents _CB16L4377','Parents _CB16L4404','Parents _CB16L4407','Parents _CB16L4409','Parents _CB16L4414','Parents _CB16L4416','Parents _CB17A4490','Parents _CB17A4509','Parents _CB17A4516','Parents _CB17A4517','Parents _Foundation Stock','Parents _ME15L2172','Parents _ME15L2513','Parents _ME16B2816','Parents _ME16E3253','Parents _ME16H3857','Parents _ME16H3866','Parents _ME16I3909','Parents _ME16I3968','Parents _ME16I4024','Parents _ME16J4173','Parents _ME16J4175','Parents _ME16J4188','Parents _ME16K4228','Parents _ME16K4339','Parents _ME16K4340','Parents _ME16L4357','Parents _Pool','Parents _Pool ','Parents _RB 1007','Parents _RB 181','Parents _RB 192 ','Parents _RB 348','Parents _RB 363','Parents _RB 369','Parents _RB 387','Parents _RB 401 ','Parents _RB 431','Parents _RB 460','Parents _RB 468','Parents _RB 545','Parents _RB 652','Type_F2 RI','Type_F2 RI backcrossed once to female DBA/2J','Type_F2 RIX RI','Type_F2-G9 RIX RI','Type_G10 RI','Type_G14 RI','Type_G8 RI','Type_G9 RI','Type_Inbred','Source_JAX','Source_JAX Foundation Stock','Source_UTHSC','Tissue_spleen','Tissue_tail','instrument_id_E00224','instrument_id_E00247','instrument_id_E00247;E00316','instrument_id_E00332','instrument_id_E00364','instrument_id_E00431','instrument_id_E00438','instrument_id_ST-E00272','instrument_id_ST-E00273','instrument_id_ST-E00314','Expanded name_BXD001/TyJ','Expanded name_BXD002/TyJ','Expanded name_BXD005/TyJ','Expanded name_BXD006/TyJ','Expanded name_BXD008/TyJ','Expanded name_BXD009/TyJ','Expanded name_BXD011/TyJ','Expanded name_BXD012/TyJ','Expanded name_BXD013/TyJ','Expanded name_BXD014/TyJ','Expanded name_BXD015/TyJ','Expanded name_BXD016/TyJ','Expanded name_BXD018/TyJ','Expanded name_BXD019/TyJ','Expanded name_BXD020/TyJ','Expanded name_BXD021/TyJ','Expanded name_BXD022/TyJ','Expanded name_BXD024/TyJ-Cep290rd16/J','Expanded name_BXD024/TyRwwJ','Expanded name_BXD027/TyJ','Expanded name_BXD028/TyJ','Expanded name_BXD029-Tlr4lps-2J/J','Expanded name_BXD029/Ty','Expanded name_BXD031/TyJ','Expanded name_BXD032/TyJ','Expanded name_BXD033/TyJ','Expanded name_BXD034/TyJ','Expanded name_BXD036/TyJ','Expanded name_BXD038/TyJ','Expanded name_BXD039/TyJ','Expanded name_BXD040/TyJ','Expanded name_BXD042/TyJ','Expanded name_BXD043/RwwJ','Expanded name_BXD044/RwwJ','Expanded name_BXD045/RwwJ','Expanded name_BXD048/RwwJ','Expanded name_BXD048a/RwwJ','Expanded name_BXD049/RwwJ','Expanded name_BXD050/RwwJ','Expanded name_BXD051/RwwJ','Expanded name_BXD053/2RwwJ','Expanded name_BXD055/RwwJ','Expanded name_BXD056/RwwJ','Expanded name_BXD060/RwwJ','Expanded name_BXD061/RwwJ','Expanded name_BXD062/RwwJ','Expanded name_BXD063/RwwJ','Expanded name_BXD064/RwwJ','Expanded name_BXD065/RwwJ','Expanded name_BXD065a/RwwJ','Expanded name_BXD065b/RwwJ','Expanded name_BXD066/RwwJ','Expanded name_BXD067/RwwJ','Expanded name_BXD068/RwwJ','Expanded name_BXD069/RwwJ','Expanded name_BXD070/RwwJ','Expanded name_BXD071/RwwJ','Expanded name_BXD073/RwwJ','Expanded name_BXD073a/RwwJ','Expanded name_BXD073b/RwwJ','Expanded name_BXD074/RwwJ','Expanded name_BXD075/RwwJ','Expanded name_BXD077/RwwJ','Expanded name_BXD078/2RwwJ','Expanded name_BXD079/RwwJ','Expanded name_BXD081/RwwJ','Expanded name_BXD083/RwwJ','Expanded name_BXD084/RwwJ','Expanded name_BXD085/RwwJ','Expanded name_BXD086/RwwJ','Expanded name_BXD087/RwwJ','Expanded name_BXD088/2RwwJ','Expanded name_BXD089/RwwJ','Expanded name_BXD090/RwwJ','Expanded name_BXD091/2RwwJ','Expanded name_BXD095/RwwJ','Expanded name_BXD098/RwwJ','Expanded name_BXD099/RwwJ','Expanded name_BXD100/RwwJ','Expanded name_BXD101/RwwJ','Expanded name_BXD102/RwwJ','Expanded name_BXD111/RwwJ','Expanded name_BXD113/RwwJ','Expanded name_BXD114','Expanded name_BXD122/RwwJ','Expanded name_BXD123/RwwJ','Expanded name_BXD124/RwwJ','Expanded name_BXD125/RwwJ','Expanded name_BXD127','Expanded name_BXD128/RwwJ','Expanded name_BXD131','Expanded name_BXD137','Expanded name_BXD141/RwwJ','Expanded name_BXD144/RwwJ','Expanded name_BXD147','Expanded name_BXD148','Expanded name_BXD149','Expanded name_BXD150/RwwJ','Expanded name_BXD151/RwwJ','Expanded name_BXD152/RwwJ','Expanded name_BXD154/RwwJ','Expanded name_BXD155','Expanded name_BXD156/RwwJ','Expanded name_BXD157/RwwJ','Expanded name_BXD160/RwwJ','Expanded name_BXD161/RwwJ','Expanded name_BXD162','Expanded name_BXD168/RwwJ','Expanded name_BXD169/RwwJ','Expanded name_BXD170/RwwJ','Expanded name_BXD171/RwwJ','Expanded name_BXD172/RwwJ','Expanded name_BXD173','Expanded name_BXD174','Expanded name_BXD175','Expanded name_BXD176','Expanded name_BXD177/RwwJ','Expanded name_BXD178/RwwJ','Expanded name_BXD180/RwwJ','Expanded name_BXD181','Expanded name_BXD183','Expanded name_BXD184/RwwJ','Expanded name_BXD186/RwwJ','Expanded name_BXD187/RwwJ','Expanded name_BXD190/RwwJ','Expanded name_BXD191/RwwJ','Expanded name_BXD194/RwwJ','Expanded name_BXD195/RwwJ','Expanded name_BXD196','Expanded name_BXD197/RwwJ','Expanded name_BXD198','Expanded name_BXD199/RwwJ','Expanded name_BXD201','Expanded name_BXD202/RwwJ','Expanded name_BXD204','Expanded name_BXD205','Expanded name_BXD209','Expanded name_BXD210/RwwJ','Expanded name_BXD211','Expanded name_BXD213','Expanded name_BXD214/RwwJ','Expanded name_BXD215/RwwJ','Expanded name_BXD216/RwwJ','Expanded name_BXD217','Expanded name_BXD218','Expanded name_BXD219','Expanded name_BXD221','Expanded name_BXD222','Expanded name_BXD223','Expanded name_BXD224','Expanded name_BXD225','Expanded name_BXD226','Expanded name_BXD227','Expanded name_nan','Official name_BXD1/TyJ','Official name_BXD100/RwwJ','Official name_BXD101/RwwJ','Official name_BXD102/RwwJ','Official name_BXD11/TyJ','Official name_BXD111/RwwJ','Official name_BXD113/RwwJ','Official name_BXD114','Official name_BXD12/TyJ','Official name_BXD122/RwwJ','Official name_BXD123/RwwJ','Official name_BXD124/RwwJ','Official name_BXD125/RwwJ','Official name_BXD127','Official name_BXD128/RwwJ','Official name_BXD13/TyJ','Official name_BXD131','Official name_BXD137','Official name_BXD14/TyJ','Official name_BXD141/RwwJ','Official name_BXD144/RwwJ','Official name_BXD147','Official name_BXD148','Official name_BXD149','Official name_BXD15/TyJ','Official name_BXD150/RwwJ','Official name_BXD151/RwwJ','Official name_BXD152/RwwJ','Official name_BXD154/RwwJ','Official name_BXD155','Official name_BXD156/RwwJ','Official name_BXD157/RwwJ','Official name_BXD16/TyJ','Official name_BXD160/RwwJ','Official name_BXD161/RwwJ','Official name_BXD162','Official name_BXD168/RwwJ','Official name_BXD169/RwwJ','Official name_BXD170/RwwJ','Official name_BXD171/RwwJ','Official name_BXD172/RwwJ','Official name_BXD173','Official name_BXD174','Official name_BXD175','Official name_BXD176','Official name_BXD177/RwwJ','Official name_BXD178/RwwJ','Official name_BXD18/TyJ','Official name_BXD180/RwwJ','Official name_BXD181','Official name_BXD183','Official name_BXD184/RwwJ','Official name_BXD186/RwwJ','Official name_BXD187/RwwJ','Official name_BXD19/TyJ','Official name_BXD190/RwwJ','Official name_BXD191/RwwJ','Official name_BXD194/RwwJ','Official name_BXD195/RwwJ','Official name_BXD196','Official name_BXD197/RwwJ','Official name_BXD198','Official name_BXD199/RwwJ','Official name_BXD2/TyJ','Official name_BXD20/TyJ','Official name_BXD201','Official name_BXD202/RwwJ','Official name_BXD204','Official name_BXD205','Official name_BXD209','Official name_BXD21/TyJ','Official name_BXD210/RwwJ','Official name_BXD211','Official name_BXD213','Official name_BXD214/RwwJ','Official name_BXD215/RwwJ','Official name_BXD216/RwwJ','Official name_BXD217','Official name_BXD218','Official name_BXD219','Official name_BXD22/TyJ','Official name_BXD221','Official name_BXD222','Official name_BXD223','Official name_BXD224','Official name_BXD225','Official name_BXD226','Official name_BXD227','Official name_BXD24/TyJ','Official name_BXD24/TyJ-Cep290rd16/J','Official name_BXD27/TyJ','Official name_BXD28/TyJ','Official name_BXD29-Tlr4lps-2J/J','Official name_BXD29/Ty','Official name_BXD31/TyJ','Official name_BXD32/TyJ','Official name_BXD33/TyJ','Official name_BXD34/TyJ','Official name_BXD36/TyJ','Official name_BXD38/TyJ','Official name_BXD39/TyJ','Official name_BXD40/TyJ','Official name_BXD42/TyJ','Official name_BXD43/RwwJ','Official name_BXD44/RwwJ','Official name_BXD45/RwwJ','Official name_BXD48/RwwJ','Official name_BXD48a/RwwJ','Official name_BXD49/RwwJ','Official name_BXD5/TyJ','Official name_BXD50/RwwJ','Official name_BXD51/RwwJ','Official name_BXD53/2RwwJ','Official name_BXD55/RwwJ','Official name_BXD56/RwwJ','Official name_BXD6/TyJ','Official name_BXD60/RwwJ','Official name_BXD61/RwwJ','Official name_BXD62/RwwJ','Official name_BXD63/RwwJ','Official name_BXD64/RwwJ','Official name_BXD65/RwwJ','Official name_BXD65a/RwwJ','Official name_BXD65b/RwwJ','Official name_BXD66/RwwJ','Official name_BXD67/RwwJ','Official name_BXD68/RwwJ','Official name_BXD69/RwwJ','Official name_BXD70/RwwJ','Official name_BXD71/RwwJ','Official name_BXD73/RwwJ','Official name_BXD73a/RwwJ','Official name_BXD73b/RwwJ','Official name_BXD74/RwwJ','Official name_BXD75/RwwJ','Official name_BXD77/RwwJ','Official name_BXD78/2RwwJ','Official name_BXD79/RwwJ','Official name_BXD8/TyJ','Official name_BXD81/RwwJ','Official name_BXD83/RwwJ','Official name_BXD84/RwwJ','Official name_BXD85/RwwJ','Official name_BXD86/RwwJ','Official name_BXD87/RwwJ','Official name_BXD88/2RwwJ','Official name_BXD89/RwwJ','Official name_BXD9/TyJ','Official name_BXD90/RwwJ','Official name_BXD91/2RwwJ','Official name_BXD95/RwwJ','Official name_BXD98/RwwJ','Official name_BXD99/RwwJ','Official name_nan','GeneNetwork name_BXD1','GeneNetwork name_BXD100','GeneNetwork name_BXD101','GeneNetwork name_BXD102','GeneNetwork name_BXD11','GeneNetwork name_BXD111','GeneNetwork name_BXD113','GeneNetwork name_BXD114','GeneNetwork name_BXD12','GeneNetwork name_BXD122','GeneNetwork name_BXD123','GeneNetwork name_BXD124','GeneNetwork name_BXD125','GeneNetwork name_BXD127','GeneNetwork name_BXD128','GeneNetwork name_BXD13','GeneNetwork name_BXD131','GeneNetwork name_BXD137','GeneNetwork name_BXD14','GeneNetwork name_BXD141','GeneNetwork name_BXD144','GeneNetwork name_BXD147','GeneNetwork name_BXD148','GeneNetwork name_BXD149','GeneNetwork name_BXD15','GeneNetwork name_BXD150','GeneNetwork name_BXD151','GeneNetwork name_BXD152 ','GeneNetwork name_BXD154','GeneNetwork name_BXD155','GeneNetwork name_BXD156','GeneNetwork name_BXD157','GeneNetwork name_BXD16','GeneNetwork name_BXD160','GeneNetwork name_BXD161','GeneNetwork name_BXD162','GeneNetwork name_BXD168','GeneNetwork name_BXD169','GeneNetwork name_BXD170','GeneNetwork name_BXD171','GeneNetwork name_BXD172','GeneNetwork name_BXD173','GeneNetwork name_BXD174','GeneNetwork name_BXD175','GeneNetwork name_BXD176','GeneNetwork name_BXD177','GeneNetwork name_BXD178','GeneNetwork name_BXD18','GeneNetwork name_BXD180','GeneNetwork name_BXD181','GeneNetwork name_BXD183','GeneNetwork name_BXD184','GeneNetwork name_BXD186','GeneNetwork name_BXD187','GeneNetwork name_BXD19','GeneNetwork name_BXD190','GeneNetwork name_BXD191','GeneNetwork name_BXD194','GeneNetwork name_BXD195','GeneNetwork name_BXD196','GeneNetwork name_BXD197','GeneNetwork name_BXD198','GeneNetwork name_BXD199','GeneNetwork name_BXD2','GeneNetwork name_BXD20','GeneNetwork name_BXD201','GeneNetwork name_BXD202','GeneNetwork name_BXD204','GeneNetwork name_BXD205','GeneNetwork name_BXD209','GeneNetwork name_BXD21','GeneNetwork name_BXD210','GeneNetwork name_BXD211','GeneNetwork name_BXD213','GeneNetwork name_BXD214','GeneNetwork name_BXD216','GeneNetwork name_BXD217','GeneNetwork name_BXD218','GeneNetwork name_BXD219','GeneNetwork name_BXD22','GeneNetwork name_BXD24','GeneNetwork name_BXD24a','GeneNetwork name_BXD27','GeneNetwork name_BXD28','GeneNetwork name_BXD29','GeneNetwork name_BXD31','GeneNetwork name_BXD32','GeneNetwork name_BXD33','GeneNetwork name_BXD34','GeneNetwork name_BXD36','GeneNetwork name_BXD38','GeneNetwork name_BXD39','GeneNetwork name_BXD40','GeneNetwork name_BXD42','GeneNetwork name_BXD43','GeneNetwork name_BXD44','GeneNetwork name_BXD45','GeneNetwork name_BXD48','GeneNetwork name_BXD48a (BXD96)','GeneNetwork name_BXD49','GeneNetwork name_BXD5','GeneNetwork name_BXD50','GeneNetwork name_BXD51','GeneNetwork name_BXD53','GeneNetwork name_BXD55','GeneNetwork name_BXD56','GeneNetwork name_BXD6','GeneNetwork name_BXD60','GeneNetwork name_BXD61','GeneNetwork name_BXD62','GeneNetwork name_BXD63','GeneNetwork name_BXD64','GeneNetwork name_BXD65','GeneNetwork name_BXD65a (BXD97)','GeneNetwork name_BXD65b (BXD92)','GeneNetwork name_BXD66','GeneNetwork name_BXD67','GeneNetwork name_BXD68','GeneNetwork name_BXD69','GeneNetwork name_BXD70','GeneNetwork name_BXD71','GeneNetwork name_BXD73','GeneNetwork name_BXD73a (BXD80)','GeneNetwork name_BXD73b (BXD103)','GeneNetwork name_BXD74','GeneNetwork name_BXD75','GeneNetwork name_BXD77','GeneNetwork name_BXD78','GeneNetwork name_BXD79','GeneNetwork name_BXD8','GeneNetwork name_BXD81','GeneNetwork name_BXD83','GeneNetwork name_BXD84','GeneNetwork name_BXD85','GeneNetwork name_BXD86','GeneNetwork name_BXD87','GeneNetwork name_BXD88','GeneNetwork name_BXD89','GeneNetwork name_BXD9','GeneNetwork name_BXD90','GeneNetwork name_BXD91','GeneNetwork name_BXD95','GeneNetwork name_BXD98','GeneNetwork name_BXD99','GeneNetwork name_nan','Year breeding started_1971.0','Year breeding started_1978.0','Year breeding started_1995.0','Year breeding started_1999.0','Year breeding started_2000.0','Year breeding started_2009.0','Year breeding started_2010.0','Year breeding started_2013.0','Year breeding started_2016.0','Year breeding started_nan','JAX Stock No (RRID)_-','JAX Stock No (RRID)_000029 | defective lipopolysaccharide response, 2J','JAX Stock No (RRID)_000031 | rd16','JAX Stock No (RRID)_10','JAX Stock No (RRID)_105','JAX Stock No (RRID)_10981','JAX Stock No (RRID)_12','JAX Stock No (RRID)_13','JAX Stock No (RRID)_15','JAX Stock No (RRID)_17749','JAX Stock No (RRID)_17750','JAX Stock No (RRID)_17751','JAX Stock No (RRID)_24029','JAX Stock No (RRID)_24030','JAX Stock No (RRID)_24031','JAX Stock No (RRID)_25974','JAX Stock No (RRID)_25975','JAX Stock No (RRID)_25976','JAX Stock No (RRID)_25984','JAX Stock No (RRID)_25985','JAX Stock No (RRID)_29865','JAX Stock No (RRID)_29867','JAX Stock No (RRID)_29868','JAX Stock No (RRID)_29869','JAX Stock No (RRID)_29871','JAX Stock No (RRID)_29872','JAX Stock No (RRID)_29873','JAX Stock No (RRID)_29874','JAX Stock No (RRID)_29876','JAX Stock No (RRID)_29878','JAX Stock No (RRID)_29879','JAX Stock No (RRID)_29880','JAX Stock No (RRID)_29881','JAX Stock No (RRID)_29882','JAX Stock No (RRID)_29883','JAX Stock No (RRID)_29884','JAX Stock No (RRID)_29885','JAX Stock No (RRID)_30872','JAX Stock No (RRID)_30873','JAX Stock No (RRID)_30874','JAX Stock No (RRID)_30876','JAX Stock No (RRID)_30877','JAX Stock No (RRID)_30878','JAX Stock No (RRID)_30879','JAX Stock No (RRID)_30880','JAX Stock No (RRID)_30881','JAX Stock No (RRID)_30882','JAX Stock No (RRID)_31974','JAX Stock No (RRID)_31975','JAX Stock No (RRID)_31976','JAX Stock No (RRID)_31977','JAX Stock No (RRID)_31978','JAX Stock No (RRID)_3222','JAX Stock No (RRID)_3223','JAX Stock No (RRID)_3225','JAX Stock No (RRID)_3227','JAX Stock No (RRID)_3228','JAX Stock No (RRID)_3229','JAX Stock No (RRID)_3230','JAX Stock No (RRID)_329','JAX Stock No (RRID)_330','JAX Stock No (RRID)_36','JAX Stock No (RRID)_37','JAX Stock No (RRID)_40','JAX Stock No (RRID)_41','JAX Stock No (RRID)_43','JAX Stock No (RRID)_45','JAX Stock No (RRID)_47','JAX Stock No (RRID)_5243','JAX Stock No (RRID)_7','JAX Stock No (RRID)_7093','JAX Stock No (RRID)_7094','JAX Stock No (RRID)_7096','JAX Stock No (RRID)_7097','JAX Stock No (RRID)_7098','JAX Stock No (RRID)_7099','JAX Stock No (RRID)_7100','JAX Stock No (RRID)_7103','JAX Stock No (RRID)_7104','JAX Stock No (RRID)_7105','JAX Stock No (RRID)_7106','JAX Stock No (RRID)_7107','JAX Stock No (RRID)_7108','JAX Stock No (RRID)_7109','JAX Stock No (RRID)_7110','JAX Stock No (RRID)_7111','JAX Stock No (RRID)_7112','JAX Stock No (RRID)_7113','JAX Stock No (RRID)_7114','JAX Stock No (RRID)_7115','JAX Stock No (RRID)_7116','JAX Stock No (RRID)_7117','JAX Stock No (RRID)_7118','JAX Stock No (RRID)_7119','JAX Stock No (RRID)_7121','JAX Stock No (RRID)_7123','JAX Stock No (RRID)_7124','JAX Stock No (RRID)_7125','JAX Stock No (RRID)_7126','JAX Stock No (RRID)_7127','JAX Stock No (RRID)_7128','JAX Stock No (RRID)_7129','JAX Stock No (RRID)_7130','JAX Stock No (RRID)_7133','JAX Stock No (RRID)_7138','JAX Stock No (RRID)_7139','JAX Stock No (RRID)_7140','JAX Stock No (RRID)_7141','JAX Stock No (RRID)_7142','JAX Stock No (RRID)_7143','JAX Stock No (RRID)_7144','JAX Stock No (RRID)_7145','JAX Stock No (RRID)_7146','JAX Stock No (RRID)_75','JAX Stock No (RRID)_77','JAX Stock No (RRID)_78','JAX Stock No (RRID)_83','JAX Stock No (RRID)_84','JAX Stock No (RRID)_95','JAX Stock No (RRID)_9677','JAX Stock No (RRID)_nan','Availability (as of March 2019)_Cryo Recovery','Availability (as of March 2019)_Extinct','Availability (as of March 2019)_Pre-order (est. Apr 8, 2019)','Availability (as of March 2019)_Pre-order (est. Aug 19, 2019)','Availability (as of March 2019)_Pre-order (est. Dec 17, 2018)','Availability (as of March 2019)_Pre-order (est. Jul 29, 2019)','Availability (as of March 2019)_Pre-order (est. Jul 8, 2019)','Availability (as of March 2019)_Pre-order (est. Jun 17, 2019)','Availability (as of March 2019)_Pre-order (est. Jun 3, 2019)','Availability (as of March 2019)_Pre-order (est. Mar 25, 2019)','Availability (as of March 2019)_Pre-order (est. Sep 2, 2019)','Availability (as of March 2019)_Pre-order (est. Sep 30, 2019)','Availability (as of March 2019)_Registering Interest','Availability (as of March 2019)_Repository Live','Availability (as of March 2019)_UTHSC','Availability (as of March 2019)_nan','Availability (as of October 2019)_Available','Availability (as of October 2019)_Available for pre-order','Availability (as of October 2019)_Available for registering interest','Availability (as of October 2019)_Cryo Recovery','Availability (as of October 2019)_Extinct','Availability (as of October 2019)_UTHSC','Availability (as of October 2019)_nan','Epoch_1','Epoch_1,5','Epoch_2','Epoch_3','Epoch_4','Epoch_5','Epoch_6','Epoch_nan','Method of derivation_Advanced intercross progeny of B6 female to D2 male','Method of derivation_Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer)','Method of derivation_B6 female to D2 male F2 intercross','Method of derivation_B6D2F1 male to a DBA/2J female','Method of derivation_nan','Mitocondrial origin (if known)_B6','Mitocondrial origin (if known)_D2','Mitocondrial origin (if known)_nan','October 2018 reported generation at JAX _ F114+31 ','October 2018 reported generation at JAX _ F123+21 ','October 2018 reported generation at JAX _ F125+37 ','October 2018 reported generation at JAX _ F128p+16 ','October 2018 reported generation at JAX _ F136+34 ','October 2018 reported generation at JAX _ F141+44 ','October 2018 reported generation at JAX _ F20p+F9 ','October 2018 reported generation at JAX _ F21+27 ','October 2018 reported generation at JAX _ F22+F8 ','October 2018 reported generation at JAX _ F23+F5 ','October 2018 reported generation at JAX _ F25+F1 ','October 2018 reported generation at JAX _ F26+20 ','October 2018 reported generation at JAX _ F26+F18 ','October 2018 reported generation at JAX _ F28+14 ','October 2018 reported generation at JAX _ F28+26 ','October 2018 reported generation at JAX _ F29+15 ','October 2018 reported generation at JAX _ F30+F21 ','October 2018 reported generation at JAX _ F34+19 ','October 2018 reported generation at JAX _ F34+22 ','October 2018 reported generation at JAX _ F35 ','October 2018 reported generation at JAX _ F36p+37 ','October 2018 reported generation at JAX _ F37+35 ','October 2018 reported generation at JAX _ F38p+21 ','October 2018 reported generation at JAX _ F43+46 ','October 2018 reported generation at JAX _ F44 ','October 2018 reported generation at JAX _ F44+36 ','October 2018 reported generation at JAX _ F44p+27 ','October 2018 reported generation at JAX _ F45+40 ','October 2018 reported generation at JAX _ F48N5F75+10pF5 ','October 2018 reported generation at JAX _ F56 ','October 2018 reported generation at JAX _ F76+41 ','October 2018 reported generation at JAX _ F96+34 ','October 2018 reported generation at JAX _ N1F29+F9 ','October 2018 reported generation at JAX _-','October 2018 reported generation at JAX _?','October 2018 reported generation at JAX _F104+35','October 2018 reported generation at JAX _F107+47 ','October 2018 reported generation at JAX _F115+40','October 2018 reported generation at JAX _F117+45','October 2018 reported generation at JAX _F119+38 ','October 2018 reported generation at JAX _F128+37 ','October 2018 reported generation at JAX _F139+39 ','October 2018 reported generation at JAX _F140+41 ','October 2018 reported generation at JAX _F149+40 ','October 2018 reported generation at JAX _F17+19 ','October 2018 reported generation at JAX _F20+22 ','October 2018 reported generation at JAX _F20+F21 ','October 2018 reported generation at JAX _F20+F8 ','October 2018 reported generation at JAX _F20?+F18 ','October 2018 reported generation at JAX _F21+14 ','October 2018 reported generation at JAX _F21+19 ','October 2018 reported generation at JAX _F21+F21','October 2018 reported generation at JAX _F21+F21 ','October 2018 reported generation at JAX _F21+F8','October 2018 reported generation at JAX _F22+F1 ','October 2018 reported generation at JAX _F22+F5','October 2018 reported generation at JAX _F24+F1 ','October 2018 reported generation at JAX _F25+F2 ','October 2018 reported generation at JAX _F25+F22 ','October 2018 reported generation at JAX _F25+F7','October 2018 reported generation at JAX _F26+24 ','October 2018 reported generation at JAX _F26+F3 ','October 2018 reported generation at JAX _F27+16 ','October 2018 reported generation at JAX _F27+F2 ','October 2018 reported generation at JAX _F31+18 ','October 2018 reported generation at JAX _F31+pF5pF2 ','October 2018 reported generation at JAX _F32+F3 ','October 2018 reported generation at JAX _F33+21 ','October 2018 reported generation at JAX _F36+F18 ','October 2018 reported generation at JAX _F38+21 ','October 2018 reported generation at JAX _F38+32 ','October 2018 reported generation at JAX _F38+F25 ','October 2018 reported generation at JAX _F39+42 ','October 2018 reported generation at JAX _F39+F3p ','October 2018 reported generation at JAX _F43','October 2018 reported generation at JAX _F45+14 ','October 2018 reported generation at JAX _F45+15 ','October 2018 reported generation at JAX _F48p+ ','October 2018 reported generation at JAX _F49 ','October 2018 reported generation at JAX _F59 ','October 2018 reported generation at JAX _F60p+55 ','October 2018 reported generation at JAX _F61 ','October 2018 reported generation at JAX _F99+32 ','October 2018 reported generation at JAX _nan','March 2019 reported generation at JAX_64p+4 ','March 2019 reported generation at JAX_?+F15 ','March 2019 reported generation at JAX_?+F1 ','March 2019 reported generation at JAX_?+F3 ','March 2019 reported generation at JAX_?+F4 ','March 2019 reported generation at JAX_?+F5 ','March 2019 reported generation at JAX_?+F6 ','March 2019 reported generation at JAX_?+pF5 ','March 2019 reported generation at JAX_F104+38 ','March 2019 reported generation at JAX_F107+49 ','March 2019 reported generation at JAX_F114+35 ','March 2019 reported generation at JAX_F115+42 ','March 2019 reported generation at JAX_F117+49 ','March 2019 reported generation at JAX_F119+40 ','March 2019 reported generation at JAX_F125+42 ','March 2019 reported generation at JAX_F128+41 ','March 2019 reported generation at JAX_F128p+20 ','March 2019 reported generation at JAX_F139+41 ','March 2019 reported generation at JAX_F140+46 ','March 2019 reported generation at JAX_F141+49 ','March 2019 reported generation at JAX_F144p ','March 2019 reported generation at JAX_F149+43 ','March 2019 reported generation at JAX_F17+22 ','March 2019 reported generation at JAX_F20+23 ','March 2019 reported generation at JAX_F20+F11 ','March 2019 reported generation at JAX_F20+F24 ','March 2019 reported generation at JAX_F20?+F21 ','March 2019 reported generation at JAX_F20p+F10 ','March 2019 reported generation at JAX_F21+21 ','March 2019 reported generation at JAX_F21+23 ','March 2019 reported generation at JAX_F21+31 ','March 2019 reported generation at JAX_F21+F1 ','March 2019 reported generation at JAX_F21+F23 ','March 2019 reported generation at JAX_F21+F2 ','March 2019 reported generation at JAX_F21+F9 ','March 2019 reported generation at JAX_F22+F11 ','March 2019 reported generation at JAX_F22+F15 ','March 2019 reported generation at JAX_F22+F3 ','March 2019 reported generation at JAX_F23+F10 ','March 2019 reported generation at JAX_F23+F2 ','March 2019 reported generation at JAX_F25+F16 ','March 2019 reported generation at JAX_F25+F1 ','March 2019 reported generation at JAX_F25+F24 ','March 2019 reported generation at JAX_F25+F5 ','March 2019 reported generation at JAX_F26+22 ','March 2019 reported generation at JAX_F26+25 ','March 2019 reported generation at JAX_F26+F21 ','March 2019 reported generation at JAX_F26+F4 ','March 2019 reported generation at JAX_F27+21 ','March 2019 reported generation at JAX_F27+F1 ','March 2019 reported generation at JAX_F27+F4 ','March 2019 reported generation at JAX_F27+F5 ','March 2019 reported generation at JAX_F28+17 ','March 2019 reported generation at JAX_F28+28 ','March 2019 reported generation at JAX_F29+16 ','March 2019 reported generation at JAX_F30+F25 ','March 2019 reported generation at JAX_F31+26 ','March 2019 reported generation at JAX_F31+F4 ','March 2019 reported generation at JAX_F31+pF5pF10 ','March 2019 reported generation at JAX_F32+F6 ','March 2019 reported generation at JAX_F33+25 ','March 2019 reported generation at JAX_F34+20 ','March 2019 reported generation at JAX_F35+pF2 ','March 2019 reported generation at JAX_F35 ','March 2019 reported generation at JAX_F36+F20 ','March 2019 reported generation at JAX_F36p+39 ','March 2019 reported generation at JAX_F37+38 ','March 2019 reported generation at JAX_F38+23 ','March 2019 reported generation at JAX_F38+35 ','March 2019 reported generation at JAX_F38+F29 ','March 2019 reported generation at JAX_F38p+24 ','March 2019 reported generation at JAX_F39+45 ','March 2019 reported generation at JAX_F39+F4pF2 ','March 2019 reported generation at JAX_F43+48 ','March 2019 reported generation at JAX_F44+39 ','March 2019 reported generation at JAX_F44p+31 ','March 2019 reported generation at JAX_F45+20 ','March 2019 reported generation at JAX_F45+22 ','March 2019 reported generation at JAX_F45+41 ','March 2019 reported generation at JAX_F48N5F75+10pF6 ','March 2019 reported generation at JAX_F48p+F3 ','March 2019 reported generation at JAX_F51 ','March 2019 reported generation at JAX_F52 ','March 2019 reported generation at JAX_F57 ','March 2019 reported generation at JAX_F58 ','March 2019 reported generation at JAX_F60p+56 ','March 2019 reported generation at JAX_F62 ','March 2019 reported generation at JAX_F63 ','March 2019 reported generation at JAX_F64 ','March 2019 reported generation at JAX_F76+45 ','March 2019 reported generation at JAX_F96+37 ','March 2019 reported generation at JAX_F99+35 ','March 2019 reported generation at JAX_F?+21 ','March 2019 reported generation at JAX_F?+24 ','March 2019 reported generation at JAX_F?+25 ','March 2019 reported generation at JAX_F?+2p+21 ','March 2019 reported generation at JAX_F?+F1 ','March 2019 reported generation at JAX_F?+F4 ','March 2019 reported generation at JAX_F?+F5 ','March 2019 reported generation at JAX_N1F29+F11 ','March 2019 reported generation at JAX_nan','October 2019 reported generation at JAX_	?+F1','October 2019 reported generation at JAX_	?+F15','October 2019 reported generation at JAX_	?+F3','October 2019 reported generation at JAX_	?+F4','October 2019 reported generation at JAX_	?+F5','October 2019 reported generation at JAX_	?+F7','October 2019 reported generation at JAX_	?+F8','October 2019 reported generation at JAX_	?+pF1','October 2019 reported generation at JAX_	?+pF5','October 2019 reported generation at JAX_	F104+42','October 2019 reported generation at JAX_	F107+51','October 2019 reported generation at JAX_	F125+44','October 2019 reported generation at JAX_	F128p+22','October 2019 reported generation at JAX_	F140+46','October 2019 reported generation at JAX_	F141+50','October 2019 reported generation at JAX_	F20+F27','October 2019 reported generation at JAX_	F21+F1','October 2019 reported generation at JAX_	F22+F15','October 2019 reported generation at JAX_	F23+F10','October 2019 reported generation at JAX_	F25+F16','October 2019 reported generation at JAX_	F25+F27','October 2019 reported generation at JAX_	F26+25','October 2019 reported generation at JAX_	F26+F23','October 2019 reported generation at JAX_	F26+F4','October 2019 reported generation at JAX_	F27+21','October 2019 reported generation at JAX_	F27+F1','October 2019 reported generation at JAX_	F27+F4','October 2019 reported generation at JAX_	F28+17','October 2019 reported generation at JAX_	F29+16','October 2019 reported generation at JAX_	F31+26','October 2019 reported generation at JAX_	F31+pF5pF10','October 2019 reported generation at JAX_	F32+F6','October 2019 reported generation at JAX_	F33+25','October 2019 reported generation at JAX_	F34+20','October 2019 reported generation at JAX_	F34p+F2','October 2019 reported generation at JAX_	F35','October 2019 reported generation at JAX_	F35+pF2','October 2019 reported generation at JAX_	F36+F22','October 2019 reported generation at JAX_	F38+37','October 2019 reported generation at JAX_	F38p+26','October 2019 reported generation at JAX_	F39+47','October 2019 reported generation at JAX_	F39+F4pF2','October 2019 reported generation at JAX_	F45+20','October 2019 reported generation at JAX_	F45+22','October 2019 reported generation at JAX_	F45+43','October 2019 reported generation at JAX_	F48p+F3','October 2019 reported generation at JAX_	F52','October 2019 reported generation at JAX_	F53+pF1','October 2019 reported generation at JAX_	F57','October 2019 reported generation at JAX_	F58','October 2019 reported generation at JAX_	F62','October 2019 reported generation at JAX_	F76+47','October 2019 reported generation at JAX_	F?+23','October 2019 reported generation at JAX_	F?+25','October 2019 reported generation at JAX_	F?+30','October 2019 reported generation at JAX_	N1F29+F13','October 2019 reported generation at JAX_-','October 2019 reported generation at JAX_164p+7','October 2019 reported generation at JAX_?+F3','October 2019 reported generation at JAX_?+F5','October 2019 reported generation at JAX_?+F6','October 2019 reported generation at JAX_?+F7','October 2019 reported generation at JAX_?+F8','October 2019 reported generation at JAX_?+pF3','October 2019 reported generation at JAX_F115+44','October 2019 reported generation at JAX_F117+52','October 2019 reported generation at JAX_F119+43','October 2019 reported generation at JAX_F121+F1','October 2019 reported generation at JAX_F128+44','October 2019 reported generation at JAX_F144p+F2','October 2019 reported generation at JAX_F149+45','October 2019 reported generation at JAX_F17+22','October 2019 reported generation at JAX_F20+23','October 2019 reported generation at JAX_F20+F11','October 2019 reported generation at JAX_F20?+F23','October 2019 reported generation at JAX_F20p+F13','October 2019 reported generation at JAX_F21+23','October 2019 reported generation at JAX_F21+25','October 2019 reported generation at JAX_F21+33','October 2019 reported generation at JAX_F21+F2','October 2019 reported generation at JAX_F21+F25','October 2019 reported generation at JAX_F21+F9','October 2019 reported generation at JAX_F22+F11','October 2019 reported generation at JAX_F22+F3','October 2019 reported generation at JAX_F23+F2','October 2019 reported generation at JAX_F25+F8','October 2019 reported generation at JAX_F26+22','October 2019 reported generation at JAX_F27+F5','October 2019 reported generation at JAX_F28+28','October 2019 reported generation at JAX_F30+F28','October 2019 reported generation at JAX_F31+F4','October 2019 reported generation at JAX_F36p+42','October 2019 reported generation at JAX_F37+40','October 2019 reported generation at JAX_F38+23','October 2019 reported generation at JAX_F38+F31','October 2019 reported generation at JAX_F43+50','October 2019 reported generation at JAX_F44+40','October 2019 reported generation at JAX_F44p+32','October 2019 reported generation at JAX_F51','October 2019 reported generation at JAX_F60p+58','October 2019 reported generation at JAX_F63','October 2019 reported generation at JAX_F64','October 2019 reported generation at JAX_F96+38','October 2019 reported generation at JAX_F99+37','October 2019 reported generation at JAX_F?+2p+23','October 2019 reported generation at JAX_F?+F4','October 2019 reported generation at JAX_F?+F5','October 2019 reported generation at JAX_nan','Febuary 2019 generation at UTHSC _10','Febuary 2019 generation at UTHSC _11','Febuary 2019 generation at UTHSC _12','Febuary 2019 generation at UTHSC _120','Febuary 2019 generation at UTHSC _123','Febuary 2019 generation at UTHSC _13','Febuary 2019 generation at UTHSC _133','Febuary 2019 generation at UTHSC _14','Febuary 2019 generation at UTHSC _148','Febuary 2019 generation at UTHSC _150','Febuary 2019 generation at UTHSC _156','Febuary 2019 generation at UTHSC _157','Febuary 2019 generation at UTHSC _158','Febuary 2019 generation at UTHSC _16','Febuary 2019 generation at UTHSC _162','Febuary 2019 generation at UTHSC _166','Febuary 2019 generation at UTHSC _17','Febuary 2019 generation at UTHSC _18','Febuary 2019 generation at UTHSC _182','Febuary 2019 generation at UTHSC _19','Febuary 2019 generation at UTHSC _190','Febuary 2019 generation at UTHSC _20','Febuary 2019 generation at UTHSC _21','Febuary 2019 generation at UTHSC _22','Febuary 2019 generation at UTHSC _23','Febuary 2019 generation at UTHSC _24','Febuary 2019 generation at UTHSC _25','Febuary 2019 generation at UTHSC _26','Febuary 2019 generation at UTHSC _28','Febuary 2019 generation at UTHSC _29','Febuary 2019 generation at UTHSC _30','Febuary 2019 generation at UTHSC _31','Febuary 2019 generation at UTHSC _32','Febuary 2019 generation at UTHSC _34','Febuary 2019 generation at UTHSC _35','Febuary 2019 generation at UTHSC _36','Febuary 2019 generation at UTHSC _37','Febuary 2019 generation at UTHSC _38','Febuary 2019 generation at UTHSC _39','Febuary 2019 generation at UTHSC _40','Febuary 2019 generation at UTHSC _41','Febuary 2019 generation at UTHSC _44','Febuary 2019 generation at UTHSC _45','Febuary 2019 generation at UTHSC _46','Febuary 2019 generation at UTHSC _48','Febuary 2019 generation at UTHSC _49','Febuary 2019 generation at UTHSC _50','Febuary 2019 generation at UTHSC _51','Febuary 2019 generation at UTHSC _52','Febuary 2019 generation at UTHSC _54','Febuary 2019 generation at UTHSC _55','Febuary 2019 generation at UTHSC _58','Febuary 2019 generation at UTHSC _60','Febuary 2019 generation at UTHSC _63','Febuary 2019 generation at UTHSC _64','Febuary 2019 generation at UTHSC _66','Febuary 2019 generation at UTHSC _67','Febuary 2019 generation at UTHSC _68','Febuary 2019 generation at UTHSC _69','Febuary 2019 generation at UTHSC _70','Febuary 2019 generation at UTHSC _71','Febuary 2019 generation at UTHSC _74','Febuary 2019 generation at UTHSC _86','Febuary 2019 generation at UTHSC _N3F8','Febuary 2019 generation at UTHSC _nan','October 2019 generation at UTHSC_10','October 2019 generation at UTHSC_11','October 2019 generation at UTHSC_12','October 2019 generation at UTHSC_124','October 2019 generation at UTHSC_13','October 2019 generation at UTHSC_134','October 2019 generation at UTHSC_148','October 2019 generation at UTHSC_149','October 2019 generation at UTHSC_15','October 2019 generation at UTHSC_157','October 2019 generation at UTHSC_159','October 2019 generation at UTHSC_16','October 2019 generation at UTHSC_162','October 2019 generation at UTHSC_167','October 2019 generation at UTHSC_17','October 2019 generation at UTHSC_18','October 2019 generation at UTHSC_184','October 2019 generation at UTHSC_19','October 2019 generation at UTHSC_191','October 2019 generation at UTHSC_20','October 2019 generation at UTHSC_21','October 2019 generation at UTHSC_22','October 2019 generation at UTHSC_23','October 2019 generation at UTHSC_24','October 2019 generation at UTHSC_26','October 2019 generation at UTHSC_27','October 2019 generation at UTHSC_28','October 2019 generation at UTHSC_29','October 2019 generation at UTHSC_30','October 2019 generation at UTHSC_31','October 2019 generation at UTHSC_32','October 2019 generation at UTHSC_33','October 2019 generation at UTHSC_36','October 2019 generation at UTHSC_37','October 2019 generation at UTHSC_38','October 2019 generation at UTHSC_39','October 2019 generation at UTHSC_40','October 2019 generation at UTHSC_41','October 2019 generation at UTHSC_42','October 2019 generation at UTHSC_44','October 2019 generation at UTHSC_45','October 2019 generation at UTHSC_46','October 2019 generation at UTHSC_48','October 2019 generation at UTHSC_49','October 2019 generation at UTHSC_50','October 2019 generation at UTHSC_51','October 2019 generation at UTHSC_52','October 2019 generation at UTHSC_53','October 2019 generation at UTHSC_54','October 2019 generation at UTHSC_56','October 2019 generation at UTHSC_58','October 2019 generation at UTHSC_59','October 2019 generation at UTHSC_60','October 2019 generation at UTHSC_63','October 2019 generation at UTHSC_65','October 2019 generation at UTHSC_66','October 2019 generation at UTHSC_67','October 2019 generation at UTHSC_68','October 2019 generation at UTHSC_69','October 2019 generation at UTHSC_71','October 2019 generation at UTHSC_73','October 2019 generation at UTHSC_74','October 2019 generation at UTHSC_76','October 2019 generation at UTHSC_77','October 2019 generation at UTHSC_88','October 2019 generation at UTHSC_89','October 2019 generation at UTHSC_F48p+F3','October 2019 generation at UTHSC_N3F9','October 2019 generation at UTHSC_nan','Genotyped on Illumina 13377 SNP array_Y','Genotyped on Illumina 13377 SNP array_nan','Genotyped on Affymetrix MouseDiversityArray600K_N','Genotyped on Affymetrix MouseDiversityArray600K_Y','Genotyped on Affymetrix MouseDiversityArray600K_nan','Generation at Affymetrix MouseDiversityArray600K_F117?','Generation at Affymetrix MouseDiversityArray600K_F124','Generation at Affymetrix MouseDiversityArray600K_F130','Generation at Affymetrix MouseDiversityArray600K_F151','Generation at Affymetrix MouseDiversityArray600K_F159','Generation at Affymetrix MouseDiversityArray600K_F44p+9','Generation at Affymetrix MouseDiversityArray600K_F52','Generation at Affymetrix MouseDiversityArray600K_F53','Generation at Affymetrix MouseDiversityArray600K_F60','Generation at Affymetrix MouseDiversityArray600K_F62','Generation at Affymetrix MouseDiversityArray600K_F84p+4(cryo)+?','Generation at Affymetrix MouseDiversityArray600K_F94','Generation at Affymetrix MouseDiversityArray600K_nan','Generation at MUGA array genotyping_F10','Generation at MUGA array genotyping_F11','Generation at MUGA array genotyping_F117','Generation at MUGA array genotyping_F123','Generation at MUGA array genotyping_F12N1F29','Generation at MUGA array genotyping_F132','Generation at MUGA array genotyping_F139','Generation at MUGA array genotyping_F14','Generation at MUGA array genotyping_F144','Generation at MUGA array genotyping_F163','Generation at MUGA array genotyping_F179','Generation at MUGA array genotyping_F18N6F12','Generation at MUGA array genotyping_F21','Generation at MUGA array genotyping_F22','Generation at MUGA array genotyping_F24','Generation at MUGA array genotyping_F26','Generation at MUGA array genotyping_F27','Generation at MUGA array genotyping_F28','Generation at MUGA array genotyping_F29','Generation at MUGA array genotyping_F31','Generation at MUGA array genotyping_F32','Generation at MUGA array genotyping_F33','Generation at MUGA array genotyping_F34','Generation at MUGA array genotyping_F35','Generation at MUGA array genotyping_F36','Generation at MUGA array genotyping_F37','Generation at MUGA array genotyping_F38','Generation at MUGA array genotyping_F39','Generation at MUGA array genotyping_F40','Generation at MUGA array genotyping_F41','Generation at MUGA array genotyping_F42','Generation at MUGA array genotyping_F43','Generation at MUGA array genotyping_F44','Generation at MUGA array genotyping_F46','Generation at MUGA array genotyping_F49','Generation at MUGA array genotyping_F51','Generation at MUGA array genotyping_F59','Generation at MUGA array genotyping_F6','Generation at MUGA array genotyping_F65','Generation at MUGA array genotyping_F66','Generation at MUGA array genotyping_F69','Generation at MUGA array genotyping_F7','Generation at MUGA array genotyping_F8','Generation at MUGA array genotyping_F9','Generation at MUGA array genotyping_F90','Generation at MUGA array genotyping_F93','Generation at MUGA array genotyping_nan','Generation at MegaMUGA array genotyping_F11','Generation at MegaMUGA array genotyping_F15','Generation at MegaMUGA array genotyping_F16','Generation at MegaMUGA array genotyping_F18','Generation at MegaMUGA array genotyping_F19','Generation at MegaMUGA array genotyping_F20','Generation at MegaMUGA array genotyping_F23','Generation at MegaMUGA array genotyping_F55','Generation at MegaMUGA array genotyping_nan','Generation at GigaMUGA array genotyping_F10','Generation at GigaMUGA array genotyping_F10N6F4','Generation at GigaMUGA array genotyping_F10N8F4','Generation at GigaMUGA array genotyping_F11','Generation at GigaMUGA array genotyping_F11N3F5','Generation at GigaMUGA array genotyping_F11N4F7','Generation at GigaMUGA array genotyping_F12','Generation at GigaMUGA array genotyping_F13','Generation at GigaMUGA array genotyping_F14N2F2','Generation at GigaMUGA array genotyping_F159','Generation at GigaMUGA array genotyping_F18','Generation at GigaMUGA array genotyping_F19','Generation at GigaMUGA array genotyping_F20','Generation at GigaMUGA array genotyping_F21','Generation at GigaMUGA array genotyping_F22','Generation at GigaMUGA array genotyping_F23','Generation at GigaMUGA array genotyping_F24','Generation at GigaMUGA array genotyping_F25','Generation at GigaMUGA array genotyping_F26','Generation at GigaMUGA array genotyping_F26?','Generation at GigaMUGA array genotyping_F27','Generation at GigaMUGA array genotyping_F30','Generation at GigaMUGA array genotyping_F34','Generation at GigaMUGA array genotyping_F35','Generation at GigaMUGA array genotyping_F35?','Generation at GigaMUGA array genotyping_F36','Generation at GigaMUGA array genotyping_F36?','Generation at GigaMUGA array genotyping_F39','Generation at GigaMUGA array genotyping_F41','Generation at GigaMUGA array genotyping_F42','Generation at GigaMUGA array genotyping_F46','Generation at GigaMUGA array genotyping_F47','Generation at GigaMUGA array genotyping_F48','Generation at GigaMUGA array genotyping_F49','Generation at GigaMUGA array genotyping_F53','Generation at GigaMUGA array genotyping_F55','Generation at GigaMUGA array genotyping_F60','Generation at GigaMUGA array genotyping_F61','Generation at GigaMUGA array genotyping_F6N3F9','Generation at GigaMUGA array genotyping_F6N6F7','Generation at GigaMUGA array genotyping_F7','Generation at GigaMUGA array genotyping_F7N4F8','Generation at GigaMUGA array genotyping_F8','Generation at GigaMUGA array genotyping_F9','Generation at GigaMUGA array genotyping_F9N4F3','Generation at GigaMUGA array genotyping_nan','Generation went extinct (if known)_nan','Backcross and RIX-derived breeding notes_(BXD109F13N1F9 X BXD189-F14)','Backcross and RIX-derived breeding notes_(BXD110N3-F9 X BXD206-F13)','Backcross and RIX-derived breeding notes_(BXD188-F16 X BXD140-F8N1(to female B6D2F1)F8','Backcross and RIX-derived breeding notes_(BXD192-F8 X BXD196-F16)','Backcross and RIX-derived breeding notes_(BXD200-F12 X BXD207-F10)','Backcross and RIX-derived breeding notes_(BXD212-F14 X BXD134-F8)','Backcross and RIX-derived breeding notes_(BXD220-F8 X BXD130-F7N2F6)','Backcross and RIX-derived breeding notes_Backcrossed','Backcross and RIX-derived breeding notes_Backcrossed at about F23 to C57BL/6J female, then 3 backcrosses to F23 male, followed by inbreeding again','Backcross and RIX-derived breeding notes_Crossed to female C57BL/6J at F10 in August 2016, then back to BXD201 male for N generations ','Backcross and RIX-derived breeding notes_Lost at UTHSC in 2016 due to malocclusion','Backcross and RIX-derived breeding notes_Terminate by crossing to BXD209 to generate RIX BXD228 (Jan 2017 attempt)','Backcross and RIX-derived breeding notes_Used to make RIX with BXD175a to make BXD228 in Jan 2017','Backcross and RIX-derived breeding notes_Used to make RIX with BXD192 to make BXD227','Backcross and RIX-derived breeding notes_nan','Any genotypes available_Y','Any genotypes available_nan']
+
+
+
+
+
+
+
+features = ['A>T', 'A>G','A>C','T>A','T>G','T>C','G>A','G>T','G>C','C>A','C>T','C>G','Age at death (days)',' gems_detected ',' mean_dna_per_gem ','bc_on_whitelist','bc_mean_qscore','n50_linked_reads_per_molecule','corrected_loaded_mass_ng',' snps_phased ',' longest_phase_block ',' n50_phase_block ',' molecule_length_mean ',' molecule_length_stddev ',' number_reads ','median_insert_size',' mean_depth ','zero_coverage','mapped_reads','pcr_duplication','r1_q20_bases_fract','r1_q30_bases_fract','r2_q20_bases_fract','r2_q30_bases_fract','si_q20_bases_fract','si_q30_bases_fract','bc_q20_bases_fract','bc_q30_bases_fract','large_sv_calls','short_deletion_calls','Year breeding started_1971.0','Year breeding started_1978.0','Year breeding started_1995.0','Year breeding started_1999.0','Year breeding started_2000.0','Year breeding started_2009.0','Year breeding started_2010.0','Year breeding started_2013.0','Year breeding started_2016.0','Year breeding started_nan','JAX Stock No (RRID)_-','JAX Stock No (RRID)_000029 | defective lipopolysaccharide response, 2J','JAX Stock No (RRID)_000031 | rd16','JAX Stock No (RRID)_10','JAX Stock No (RRID)_105','JAX Stock No (RRID)_10981','JAX Stock No (RRID)_12','JAX Stock No (RRID)_13','JAX Stock No (RRID)_15','JAX Stock No (RRID)_17749','JAX Stock No (RRID)_17750','JAX Stock No (RRID)_17751','JAX Stock No (RRID)_24029','JAX Stock No (RRID)_24030','JAX Stock No (RRID)_24031','JAX Stock No (RRID)_25974','JAX Stock No (RRID)_25975','JAX Stock No (RRID)_25976','JAX Stock No (RRID)_25984','JAX Stock No (RRID)_25985','JAX Stock No (RRID)_29865','JAX Stock No (RRID)_29867','JAX Stock No (RRID)_29868','JAX Stock No (RRID)_29869','JAX Stock No (RRID)_29871','JAX Stock No (RRID)_29872','JAX Stock No (RRID)_29873','JAX Stock No (RRID)_29874','JAX Stock No (RRID)_29876','JAX Stock No (RRID)_29878','JAX Stock No (RRID)_29879','JAX Stock No (RRID)_29880','JAX Stock No (RRID)_29881','JAX Stock No (RRID)_29882','JAX Stock No (RRID)_29883','JAX Stock No (RRID)_29884','JAX Stock No (RRID)_29885','JAX Stock No (RRID)_30872','JAX Stock No (RRID)_30873','JAX Stock No (RRID)_30874','JAX Stock No (RRID)_30876','JAX Stock No (RRID)_30877','JAX Stock No (RRID)_30878','JAX Stock No (RRID)_30879','JAX Stock No (RRID)_30880','JAX Stock No (RRID)_30881','JAX Stock No (RRID)_30882','JAX Stock No (RRID)_31974','JAX Stock No (RRID)_31975','JAX Stock No (RRID)_31976','JAX Stock No (RRID)_31977','JAX Stock No (RRID)_31978','JAX Stock No (RRID)_3222','JAX Stock No (RRID)_3223','JAX Stock No (RRID)_3225','JAX Stock No (RRID)_3227','JAX Stock No (RRID)_3228','JAX Stock No (RRID)_3229','JAX Stock No (RRID)_3230','JAX Stock No (RRID)_329','JAX Stock No (RRID)_330','JAX Stock No (RRID)_36','JAX Stock No (RRID)_37','JAX Stock No (RRID)_40','JAX Stock No (RRID)_41','JAX Stock No (RRID)_43','JAX Stock No (RRID)_45','JAX Stock No (RRID)_47','JAX Stock No (RRID)_5243','JAX Stock No (RRID)_7','JAX Stock No (RRID)_7093','JAX Stock No (RRID)_7094','JAX Stock No (RRID)_7096','JAX Stock No (RRID)_7097','JAX Stock No (RRID)_7098','JAX Stock No (RRID)_7099','JAX Stock No (RRID)_7100','JAX Stock No (RRID)_7103','JAX Stock No (RRID)_7104','JAX Stock No (RRID)_7105','JAX Stock No (RRID)_7106','JAX Stock No (RRID)_7107','JAX Stock No (RRID)_7108','JAX Stock No (RRID)_7109','JAX Stock No (RRID)_7110','JAX Stock No (RRID)_7111','JAX Stock No (RRID)_7112','JAX Stock No (RRID)_7113','JAX Stock No (RRID)_7114','JAX Stock No (RRID)_7115','JAX Stock No (RRID)_7116','JAX Stock No (RRID)_7117','JAX Stock No (RRID)_7118','JAX Stock No (RRID)_7119','JAX Stock No (RRID)_7121','JAX Stock No (RRID)_7123','JAX Stock No (RRID)_7124','JAX Stock No (RRID)_7125','JAX Stock No (RRID)_7126','JAX Stock No (RRID)_7127','JAX Stock No (RRID)_7128','JAX Stock No (RRID)_7129','JAX Stock No (RRID)_7130','JAX Stock No (RRID)_7133','JAX Stock No (RRID)_7138','JAX Stock No (RRID)_7139','JAX Stock No (RRID)_7140','JAX Stock No (RRID)_7141','JAX Stock No (RRID)_7142','JAX Stock No (RRID)_7143','JAX Stock No (RRID)_7144','JAX Stock No (RRID)_7145','JAX Stock No (RRID)_7146','JAX Stock No (RRID)_75','JAX Stock No (RRID)_77','JAX Stock No (RRID)_78','JAX Stock No (RRID)_83','JAX Stock No (RRID)_84','JAX Stock No (RRID)_95','JAX Stock No (RRID)_9677','JAX Stock No (RRID)_nan','Availability (as of March 2019)_Cryo Recovery','Availability (as of March 2019)_Extinct','Availability (as of March 2019)_Pre-order (est. Apr 8, 2019)','Availability (as of March 2019)_Pre-order (est. Aug 19, 2019)','Availability (as of March 2019)_Pre-order (est. Dec 17, 2018)','Availability (as of March 2019)_Pre-order (est. Jul 29, 2019)','Availability (as of March 2019)_Pre-order (est. Jul 8, 2019)','Availability (as of March 2019)_Pre-order (est. Jun 17, 2019)','Availability (as of March 2019)_Pre-order (est. Jun 3, 2019)','Availability (as of March 2019)_Pre-order (est. Mar 25, 2019)','Availability (as of March 2019)_Pre-order (est. Sep 2, 2019)','Availability (as of March 2019)_Pre-order (est. Sep 30, 2019)','Availability (as of March 2019)_Registering Interest','Availability (as of March 2019)_Repository Live','Availability (as of March 2019)_UTHSC','Availability (as of March 2019)_nan','Availability (as of October 2019)_Available','Availability (as of October 2019)_Available for pre-order','Availability (as of October 2019)_Available for registering interest','Availability (as of October 2019)_Cryo Recovery','Availability (as of October 2019)_Extinct','Availability (as of October 2019)_UTHSC','Availability (as of October 2019)_nan','Epoch_1','Epoch_1,5','Epoch_2','Epoch_3','Epoch_4','Epoch_5','Epoch_6','Epoch_nan','Method of derivation_Advanced intercross progeny of B6 female to D2 male','Method of derivation_Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer)','Method of derivation_B6 female to D2 male F2 intercross','Method of derivation_B6D2F1 male to a DBA/2J female','Method of derivation_nan','Mitocondrial origin (if known)_B6','Mitocondrial origin (if known)_D2','Mitocondrial origin (if known)_nan','October 2018 reported generation at JAX _ F114+31 ','October 2018 reported generation at JAX _ F123+21 ','October 2018 reported generation at JAX _ F125+37 ','October 2018 reported generation at JAX _ F128p+16 ','October 2018 reported generation at JAX _ F136+34 ','October 2018 reported generation at JAX _ F141+44 ','October 2018 reported generation at JAX _ F20p+F9 ','October 2018 reported generation at JAX _ F21+27 ','October 2018 reported generation at JAX _ F22+F8 ','October 2018 reported generation at JAX _ F23+F5 ','October 2018 reported generation at JAX _ F25+F1 ','October 2018 reported generation at JAX _ F26+20 ','October 2018 reported generation at JAX _ F26+F18 ','October 2018 reported generation at JAX _ F28+14 ','October 2018 reported generation at JAX _ F28+26 ','October 2018 reported generation at JAX _ F29+15 ','October 2018 reported generation at JAX _ F30+F21 ','October 2018 reported generation at JAX _ F34+19 ','October 2018 reported generation at JAX _ F34+22 ','October 2018 reported generation at JAX _ F35 ','October 2018 reported generation at JAX _ F36p+37 ','October 2018 reported generation at JAX _ F37+35 ','October 2018 reported generation at JAX _ F38p+21 ','October 2018 reported generation at JAX _ F43+46 ','October 2018 reported generation at JAX _ F44 ','October 2018 reported generation at JAX _ F44+36 ','October 2018 reported generation at JAX _ F44p+27 ','October 2018 reported generation at JAX _ F45+40 ','October 2018 reported generation at JAX _ F48N5F75+10pF5 ','October 2018 reported generation at JAX _ F56 ','October 2018 reported generation at JAX _ F76+41 ','October 2018 reported generation at JAX _ F96+34 ','October 2018 reported generation at JAX _ N1F29+F9 ','October 2018 reported generation at JAX _-','October 2018 reported generation at JAX _?','October 2018 reported generation at JAX _F104+35','October 2018 reported generation at JAX _F107+47 ','October 2018 reported generation at JAX _F115+40','October 2018 reported generation at JAX _F117+45','October 2018 reported generation at JAX _F119+38 ','October 2018 reported generation at JAX _F128+37 ','October 2018 reported generation at JAX _F139+39 ','October 2018 reported generation at JAX _F140+41 ','October 2018 reported generation at JAX _F149+40 ','October 2018 reported generation at JAX _F17+19 ','October 2018 reported generation at JAX _F20+22 ','October 2018 reported generation at JAX _F20+F21 ','October 2018 reported generation at JAX _F20+F8 ','October 2018 reported generation at JAX _F20?+F18 ','October 2018 reported generation at JAX _F21+14 ','October 2018 reported generation at JAX _F21+19 ','October 2018 reported generation at JAX _F21+F21','October 2018 reported generation at JAX _F21+F21 ','October 2018 reported generation at JAX _F21+F8','October 2018 reported generation at JAX _F22+F1 ','October 2018 reported generation at JAX _F22+F5','October 2018 reported generation at JAX _F24+F1 ','October 2018 reported generation at JAX _F25+F2 ','October 2018 reported generation at JAX _F25+F22 ','October 2018 reported generation at JAX _F25+F7','October 2018 reported generation at JAX _F26+24 ', /
+    'October 2018 reported generation at JAX _F26+F3 ','October 2018 reported generation at JAX _F27+16 ','October 2018 reported generation at JAX _F27+F2 ','October 2018 reported generation at JAX _F31+18 ','October 2018 reported generation at JAX _F31+pF5pF2 ','October 2018 reported generation at JAX _F32+F3 ','October 2018 reported generation at JAX _F33+21 ','October 2018 reported generation at JAX _F36+F18 ','October 2018 reported generation at JAX _F38+21 ','October 2018 reported generation at JAX _F38+32 ','October 2018 reported generation at JAX _F38+F25 ','October 2018 reported generation at JAX _F39+42 ','October 2018 reported generation at JAX _F39+F3p ','October 2018 reported generation at JAX _F43','October 2018 reported generation at JAX _F45+14 ','October 2018 reported generation at JAX _F45+15 ','October 2018 reported generation at JAX _F48p+ ','October 2018 reported generation at JAX _F49 ','October 2018 reported generation at JAX _F59 ','October 2018 reported generation at JAX _F60p+55 ','October 2018 reported generation at JAX _F61 ','October 2018 reported generation at JAX _F99+32 ','October 2018 reported generation at JAX _nan','March 2019 reported generation at JAX_64p+4 ','March 2019 reported generation at JAX_?+F15 ','March 2019 reported generation at JAX_?+F1 ','March 2019 reported generation at JAX_?+F3 ','March 2019 reported generation at JAX_?+F4 ','March 2019 reported generation at JAX_?+F5 ','March 2019 reported generation at JAX_?+F6 ','March 2019 reported generation at JAX_?+pF5 ','March 2019 reported generation at JAX_F104+38 ','March 2019 reported generation at JAX_F107+49 ','March 2019 reported generation at JAX_F114+35 ','March 2019 reported generation at JAX_F115+42 ','March 2019 reported generation at JAX_F117+49 ','March 2019 reported generation at JAX_F119+40 ','March 2019 reported generation at JAX_F125+42 ','March 2019 reported generation at JAX_F128+41 ','March 2019 reported generation at JAX_F128p+20 ','March 2019 reported generation at JAX_F139+41 ','March 2019 reported generation at JAX_F140+46 ','March 2019 reported generation at JAX_F141+49 ','March 2019 reported generation at JAX_F144p ','March 2019 reported generation at JAX_F149+43 ','March 2019 reported generation at JAX_F17+22 ','March 2019 reported generation at JAX_F20+23 ','March 2019 reported generation at JAX_F20+F11 ','March 2019 reported generation at JAX_F20+F24 ','March 2019 reported generation at JAX_F20?+F21 ','March 2019 reported generation at JAX_F20p+F10 ','March 2019 reported generation at JAX_F21+21 ','March 2019 reported generation at JAX_F21+23 ','March 2019 reported generation at JAX_F21+31 ','March 2019 reported generation at JAX_F21+F1 ','March 2019 reported generation at JAX_F21+F23 ','March 2019 reported generation at JAX_F21+F2 ','March 2019 reported generation at JAX_F21+F9 ','March 2019 reported generation at JAX_F22+F11 ','March 2019 reported generation at JAX_F22+F15 ','March 2019 reported generation at JAX_F22+F3 ','March 2019 reported generation at JAX_F23+F10 ','March 2019 reported generation at JAX_F23+F2 ','March 2019 reported generation at JAX_F25+F16 ','March 2019 reported generation at JAX_F25+F1 ','March 2019 reported generation at JAX_F25+F24 ','March 2019 reported generation at JAX_F25+F5 ','March 2019 reported generation at JAX_F26+22 ','March 2019 reported generation at JAX_F26+25 ','March 2019 reported generation at JAX_F26+F21 ','March 2019 reported generation at JAX_F26+F4 ','March 2019 reported generation at JAX_F27+21 ','March 2019 reported generation at JAX_F27+F1 ','March 2019 reported generation at JAX_F27+F4 ','March 2019 reported generation at JAX_F27+F5 ','March 2019 reported generation at JAX_F28+17 ','March 2019 reported generation at JAX_F28+28 ','March 2019 reported generation at JAX_F29+16 ','March 2019 reported generation at JAX_F30+F25 ','March 2019 reported generation at JAX_F31+26 ','March 2019 reported generation at JAX_F31+F4 ','March 2019 reported generation at JAX_F31+pF5pF10 ','March 2019 reported generation at JAX_F32+F6 ','March 2019 reported generation at JAX_F33+25 ','March 2019 reported generation at JAX_F34+20 ','March 2019 reported generation at JAX_F35+pF2 ','March 2019 reported generation at JAX_F35 ','March 2019 reported generation at JAX_F36+F20 ','March 2019 reported generation at JAX_F36p+39 ','March 2019 reported generation at JAX_F37+38 ','March 2019 reported generation at JAX_F38+23 ','March 2019 reported generation at JAX_F38+35 ','March 2019 reported generation at JAX_F38+F29 ','March 2019 reported generation at JAX_F38p+24 ','March 2019 reported generation at JAX_F39+45 ','March 2019 reported generation at JAX_F39+F4pF2 ','March 2019 reported generation at JAX_F43+48 ','March 2019 reported generation at JAX_F44+39 ','March 2019 reported generation at JAX_F44p+31 ','March 2019 reported generation at JAX_F45+20 ','March 2019 reported generation at JAX_F45+22 ','March 2019 reported generation at JAX_F45+41 ','March 2019 reported generation at JAX_F48N5F75+10pF6 ','March 2019 reported generation at JAX_F48p+F3 ','March 2019 reported generation at JAX_F51 ','March 2019 reported generation at JAX_F52 ','March 2019 reported generation at JAX_F57 ','March 2019 reported generation at JAX_F58 ','March 2019 reported generation at JAX_F60p+56 ','March 2019 reported generation at JAX_F62 ','March 2019 reported generation at JAX_F63 ','March 2019 reported generation at JAX_F64 ','March 2019 reported generation at JAX_F76+45 ','March 2019 reported generation at JAX_F96+37 ','March 2019 reported generation at JAX_F99+35 ','March 2019 reported generation at JAX_F?+21 ','March 2019 reported generation at JAX_F?+24 ','March 2019 reported generation at JAX_F?+25 ','March 2019 reported generation at JAX_F?+2p+21 ','March 2019 reported generation at JAX_F?+F1 ','March 2019 reported generation at JAX_F?+F4 ','March 2019 reported generation at JAX_F?+F5 ','March 2019 reported generation at JAX_N1F29+F11 ','March 2019 reported generation at JAX_nan','October 2019 reported generation at JAX_	?+F1','October 2019 reported generation at JAX_	?+F15','October 2019 reported generation at JAX_	?+F3','October 2019 reported generation at JAX_	?+F4','October 2019 reported generation at JAX_	?+F5','October 2019 reported generation at JAX_	?+F7','October 2019 reported generation at JAX_	?+F8','October 2019 reported generation at JAX_	?+pF1','October 2019 reported generation at JAX_	?+pF5','October 2019 reported generation at JAX_	F104+42','October 2019 reported generation at JAX_	F107+51','October 2019 reported generation at JAX_	F125+44','October 2019 reported generation at JAX_	F128p+22','October 2019 reported generation at JAX_	F140+46','October 2019 reported generation at JAX_	F141+50','October 2019 reported generation at JAX_	F20+F27','October 2019 reported generation at JAX_	F21+F1','October 2019 reported generation at JAX_	F22+F15','October 2019 reported generation at JAX_	F23+F10','October 2019 reported generation at JAX_	F25+F16','October 2019 reported generation at JAX_	F25+F27','October 2019 reported generation at JAX_	F26+25','October 2019 reported generation at JAX_	F26+F23','October 2019 reported generation at JAX_	F26+F4','October 2019 reported generation at JAX_	F27+21','October 2019 reported generation at JAX_	F27+F1','October 2019 reported generation at JAX_	F27+F4','October 2019 reported generation at JAX_	F28+17','October 2019 reported generation at JAX_	F29+16','October 2019 reported generation at JAX_	F31+26','October 2019 reported generation at JAX_	F31+pF5pF10','October 2019 reported generation at JAX_	F32+F6','October 2019 reported generation at JAX_	F33+25','October 2019 reported generation at JAX_	F34+20','October 2019 reported generation at JAX_	F34p+F2','October 2019 reported generation at JAX_	F35','October 2019 reported generation at JAX_	F35+pF2','October 2019 reported generation at JAX_	F36+F22','October 2019 reported generation at JAX_	F38+37','October 2019 reported generation at JAX_	F38p+26','October 2019 reported generation at JAX_	F39+47','October 2019 reported generation at JAX_	F39+F4pF2','October 2019 reported generation at JAX_	F45+20','October 2019 reported generation at JAX_	F45+22','October 2019 reported generation at JAX_	F45+43','October 2019 reported generation at JAX_	F48p+F3','October 2019 reported generation at JAX_	F52','October 2019 reported generation at JAX_	F53+pF1','October 2019 reported generation at JAX_	F57','October 2019 reported generation at JAX_	F58','October 2019 reported generation at JAX_	F62','October 2019 reported generation at JAX_	F76+47','October 2019 reported generation at JAX_	F?+23','October 2019 reported generation at JAX_	F?+25','October 2019 reported generation at JAX_	F?+30','October 2019 reported generation at JAX_	N1F29+F13','October 2019 reported generation at JAX_-','October 2019 reported generation at JAX_164p+7','October 2019 reported generation at JAX_?+F3','October 2019 reported generation at JAX_?+F5','October 2019 reported generation at JAX_?+F6','October 2019 reported generation at JAX_?+F7','October 2019 reported generation at JAX_?+F8','October 2019 reported generation at JAX_?+pF3','October 2019 reported generation at JAX_F115+44','October 2019 reported generation at JAX_F117+52','October 2019 reported generation at JAX_F119+43','October 2019 reported generation at JAX_F121+F1','October 2019 reported generation at JAX_F128+44','October 2019 reported generation at JAX_F144p+F2','October 2019 reported generation at JAX_F149+45','October 2019 reported generation at JAX_F17+22','October 2019 reported generation at JAX_F20+23','October 2019 reported generation at JAX_F20+F11','October 2019 reported generation at JAX_F20?+F23','October 2019 reported generation at JAX_F20p+F13','October 2019 reported generation at JAX_F21+23','October 2019 reported generation at JAX_F21+25','October 2019 reported generation at JAX_F21+33','October 2019 reported generation at JAX_F21+F2','October 2019 reported generation at JAX_F21+F25', /
+    'October 2019 reported generation at JAX_F21+F9','October 2019 reported generation at JAX_F22+F11','October 2019 reported generation at JAX_F22+F3','October 2019 reported generation at JAX_F23+F2','October 2019 reported generation at JAX_F25+F8','October 2019 reported generation at JAX_F26+22','October 2019 reported generation at JAX_F27+F5','October 2019 reported generation at JAX_F28+28','October 2019 reported generation at JAX_F30+F28','October 2019 reported generation at JAX_F31+F4','October 2019 reported generation at JAX_F36p+42','October 2019 reported generation at JAX_F37+40','October 2019 reported generation at JAX_F38+23','October 2019 reported generation at JAX_F38+F31','October 2019 reported generation at JAX_F43+50','October 2019 reported generation at JAX_F44+40','October 2019 reported generation at JAX_F44p+32','October 2019 reported generation at JAX_F51','October 2019 reported generation at JAX_F60p+58','October 2019 reported generation at JAX_F63','October 2019 reported generation at JAX_F64','October 2019 reported generation at JAX_F96+38','October 2019 reported generation at JAX_F99+37','October 2019 reported generation at JAX_F?+2p+23','October 2019 reported generation at JAX_F?+F4','October 2019 reported generation at JAX_F?+F5','October 2019 reported generation at JAX_nan','Febuary 2019 generation at UTHSC _10','Febuary 2019 generation at UTHSC _11','Febuary 2019 generation at UTHSC _12','Febuary 2019 generation at UTHSC _120','Febuary 2019 generation at UTHSC _123','Febuary 2019 generation at UTHSC _13','Febuary 2019 generation at UTHSC _133','Febuary 2019 generation at UTHSC _14','Febuary 2019 generation at UTHSC _148','Febuary 2019 generation at UTHSC _150','Febuary 2019 generation at UTHSC _156','Febuary 2019 generation at UTHSC _157','Febuary 2019 generation at UTHSC _158','Febuary 2019 generation at UTHSC _16','Febuary 2019 generation at UTHSC _162','Febuary 2019 generation at UTHSC _166','Febuary 2019 generation at UTHSC _17','Febuary 2019 generation at UTHSC _18','Febuary 2019 generation at UTHSC _182','Febuary 2019 generation at UTHSC _19','Febuary 2019 generation at UTHSC _190','Febuary 2019 generation at UTHSC _20','Febuary 2019 generation at UTHSC _21','Febuary 2019 generation at UTHSC _22','Febuary 2019 generation at UTHSC _23','Febuary 2019 generation at UTHSC _24','Febuary 2019 generation at UTHSC _25','Febuary 2019 generation at UTHSC _26','Febuary 2019 generation at UTHSC _28','Febuary 2019 generation at UTHSC _29','Febuary 2019 generation at UTHSC _30','Febuary 2019 generation at UTHSC _31','Febuary 2019 generation at UTHSC _32','Febuary 2019 generation at UTHSC _34','Febuary 2019 generation at UTHSC _35','Febuary 2019 generation at UTHSC _36','Febuary 2019 generation at UTHSC _37','Febuary 2019 generation at UTHSC _38','Febuary 2019 generation at UTHSC _39','Febuary 2019 generation at UTHSC _40','Febuary 2019 generation at UTHSC _41','Febuary 2019 generation at UTHSC _44','Febuary 2019 generation at UTHSC _45','Febuary 2019 generation at UTHSC _46','Febuary 2019 generation at UTHSC _48','Febuary 2019 generation at UTHSC _49','Febuary 2019 generation at UTHSC _50','Febuary 2019 generation at UTHSC _51','Febuary 2019 generation at UTHSC _52','Febuary 2019 generation at UTHSC _54','Febuary 2019 generation at UTHSC _55','Febuary 2019 generation at UTHSC _58','Febuary 2019 generation at UTHSC _60','Febuary 2019 generation at UTHSC _63','Febuary 2019 generation at UTHSC _64','Febuary 2019 generation at UTHSC _66','Febuary 2019 generation at UTHSC _67','Febuary 2019 generation at UTHSC _68','Febuary 2019 generation at UTHSC _69','Febuary 2019 generation at UTHSC _70','Febuary 2019 generation at UTHSC _71','Febuary 2019 generation at UTHSC _74','Febuary 2019 generation at UTHSC _86','Febuary 2019 generation at UTHSC _N3F8','Febuary 2019 generation at UTHSC _nan','October 2019 generation at UTHSC_10','October 2019 generation at UTHSC_11','October 2019 generation at UTHSC_12','October 2019 generation at UTHSC_124','October 2019 generation at UTHSC_13','October 2019 generation at UTHSC_134','October 2019 generation at UTHSC_148','October 2019 generation at UTHSC_149','October 2019 generation at UTHSC_15','October 2019 generation at UTHSC_157','October 2019 generation at UTHSC_159','October 2019 generation at UTHSC_16','October 2019 generation at UTHSC_162','October 2019 generation at UTHSC_167','October 2019 generation at UTHSC_17','October 2019 generation at UTHSC_18','October 2019 generation at UTHSC_184','October 2019 generation at UTHSC_19','October 2019 generation at UTHSC_191','October 2019 generation at UTHSC_20','October 2019 generation at UTHSC_21','October 2019 generation at UTHSC_22','October 2019 generation at UTHSC_23','October 2019 generation at UTHSC_24','October 2019 generation at UTHSC_26','October 2019 generation at UTHSC_27','October 2019 generation at UTHSC_28','October 2019 generation at UTHSC_29','October 2019 generation at UTHSC_30','October 2019 generation at UTHSC_31','October 2019 generation at UTHSC_32','October 2019 generation at UTHSC_33','October 2019 generation at UTHSC_36','October 2019 generation at UTHSC_37','October 2019 generation at UTHSC_38','October 2019 generation at UTHSC_39','October 2019 generation at UTHSC_40','October 2019 generation at UTHSC_41','October 2019 generation at UTHSC_42','October 2019 generation at UTHSC_44','October 2019 generation at UTHSC_45','October 2019 generation at UTHSC_46','October 2019 generation at UTHSC_48','October 2019 generation at UTHSC_49','October 2019 generation at UTHSC_50','October 2019 generation at UTHSC_51','October 2019 generation at UTHSC_52','October 2019 generation at UTHSC_53','October 2019 generation at UTHSC_54','October 2019 generation at UTHSC_56','October 2019 generation at UTHSC_58','October 2019 generation at UTHSC_59','October 2019 generation at UTHSC_60','October 2019 generation at UTHSC_63','October 2019 generation at UTHSC_65','October 2019 generation at UTHSC_66','October 2019 generation at UTHSC_67','October 2019 generation at UTHSC_68','October 2019 generation at UTHSC_69','October 2019 generation at UTHSC_71','October 2019 generation at UTHSC_73','October 2019 generation at UTHSC_74','October 2019 generation at UTHSC_76','October 2019 generation at UTHSC_77','October 2019 generation at UTHSC_88','October 2019 generation at UTHSC_89','October 2019 generation at UTHSC_F48p+F3','October 2019 generation at UTHSC_N3F9','October 2019 generation at UTHSC_nan','Genotyped on Illumina 13377 SNP array_Y','Genotyped on Illumina 13377 SNP array_nan','Genotyped on Affymetrix MouseDiversityArray600K_N','Genotyped on Affymetrix MouseDiversityArray600K_Y','Genotyped on Affymetrix MouseDiversityArray600K_nan','Generation at Affymetrix MouseDiversityArray600K_F117?','Generation at Affymetrix MouseDiversityArray600K_F124','Generation at Affymetrix MouseDiversityArray600K_F130','Generation at Affymetrix MouseDiversityArray600K_F151','Generation at Affymetrix MouseDiversityArray600K_F159','Generation at Affymetrix MouseDiversityArray600K_F44p+9','Generation at Affymetrix MouseDiversityArray600K_F52','Generation at Affymetrix MouseDiversityArray600K_F53','Generation at Affymetrix MouseDiversityArray600K_F60','Generation at Affymetrix MouseDiversityArray600K_F62','Generation at Affymetrix MouseDiversityArray600K_F84p+4(cryo)+?','Generation at Affymetrix MouseDiversityArray600K_F94','Generation at Affymetrix MouseDiversityArray600K_nan','Generation at MUGA array genotyping_F10','Generation at MUGA array genotyping_F11','Generation at MUGA array genotyping_F117','Generation at MUGA array genotyping_F123','Generation at MUGA array genotyping_F12N1F29','Generation at MUGA array genotyping_F132','Generation at MUGA array genotyping_F139','Generation at MUGA array genotyping_F14','Generation at MUGA array genotyping_F144','Generation at MUGA array genotyping_F163','Generation at MUGA array genotyping_F179','Generation at MUGA array genotyping_F18N6F12','Generation at MUGA array genotyping_F21','Generation at MUGA array genotyping_F22','Generation at MUGA array genotyping_F24','Generation at MUGA array genotyping_F26','Generation at MUGA array genotyping_F27','Generation at MUGA array genotyping_F28','Generation at MUGA array genotyping_F29','Generation at MUGA array genotyping_F31','Generation at MUGA array genotyping_F32','Generation at MUGA array genotyping_F33','Generation at MUGA array genotyping_F34','Generation at MUGA array genotyping_F35','Generation at MUGA array genotyping_F36','Generation at MUGA array genotyping_F37','Generation at MUGA array genotyping_F38','Generation at MUGA array genotyping_F39','Generation at MUGA array genotyping_F40','Generation at MUGA array genotyping_F41','Generation at MUGA array genotyping_F42','Generation at MUGA array genotyping_F43','Generation at MUGA array genotyping_F44','Generation at MUGA array genotyping_F46','Generation at MUGA array genotyping_F49','Generation at MUGA array genotyping_F51','Generation at MUGA array genotyping_F59','Generation at MUGA array genotyping_F6','Generation at MUGA array genotyping_F65','Generation at MUGA array genotyping_F66','Generation at MUGA array genotyping_F69','Generation at MUGA array genotyping_F7','Generation at MUGA array genotyping_F8','Generation at MUGA array genotyping_F9','Generation at MUGA array genotyping_F90','Generation at MUGA array genotyping_F93','Generation at MUGA array genotyping_nan','Generation at MegaMUGA array genotyping_F11','Generation at MegaMUGA array genotyping_F15','Generation at MegaMUGA array genotyping_F16','Generation at MegaMUGA array genotyping_F18','Generation at MegaMUGA array genotyping_F19','Generation at MegaMUGA array genotyping_F20','Generation at MegaMUGA array genotyping_F23','Generation at MegaMUGA array genotyping_F55','Generation at MegaMUGA array genotyping_nan','Generation at GigaMUGA array genotyping_F10','Generation at GigaMUGA array genotyping_F10N6F4','Generation at GigaMUGA array genotyping_F10N8F4', /
+    'Generation at GigaMUGA array genotyping_F11','Generation at GigaMUGA array genotyping_F11N3F5','Generation at GigaMUGA array genotyping_F11N4F7','Generation at GigaMUGA array genotyping_F12','Generation at GigaMUGA array genotyping_F13','Generation at GigaMUGA array genotyping_F14N2F2','Generation at GigaMUGA array genotyping_F159','Generation at GigaMUGA array genotyping_F18','Generation at GigaMUGA array genotyping_F19','Generation at GigaMUGA array genotyping_F20','Generation at GigaMUGA array genotyping_F21','Generation at GigaMUGA array genotyping_F22','Generation at GigaMUGA array genotyping_F23','Generation at GigaMUGA array genotyping_F24','Generation at GigaMUGA array genotyping_F25','Generation at GigaMUGA array genotyping_F26','Generation at GigaMUGA array genotyping_F26?','Generation at GigaMUGA array genotyping_F27','Generation at GigaMUGA array genotyping_F30','Generation at GigaMUGA array genotyping_F34','Generation at GigaMUGA array genotyping_F35','Generation at GigaMUGA array genotyping_F35?','Generation at GigaMUGA array genotyping_F36','Generation at GigaMUGA array genotyping_F36?','Generation at GigaMUGA array genotyping_F39','Generation at GigaMUGA array genotyping_F41','Generation at GigaMUGA array genotyping_F42','Generation at GigaMUGA array genotyping_F46','Generation at GigaMUGA array genotyping_F47','Generation at GigaMUGA array genotyping_F48','Generation at GigaMUGA array genotyping_F49','Generation at GigaMUGA array genotyping_F53','Generation at GigaMUGA array genotyping_F55','Generation at GigaMUGA array genotyping_F60','Generation at GigaMUGA array genotyping_F61','Generation at GigaMUGA array genotyping_F6N3F9','Generation at GigaMUGA array genotyping_F6N6F7','Generation at GigaMUGA array genotyping_F7','Generation at GigaMUGA array genotyping_F7N4F8','Generation at GigaMUGA array genotyping_F8','Generation at GigaMUGA array genotyping_F9','Generation at GigaMUGA array genotyping_F9N4F3','Generation at GigaMUGA array genotyping_nan','Generation went extinct (if known)_nan','Backcross and RIX-derived breeding notes_(BXD109F13N1F9 X BXD189-F14)','Backcross and RIX-derived breeding notes_(BXD110N3-F9 X BXD206-F13)','Backcross and RIX-derived breeding notes_(BXD188-F16 X BXD140-F8N1(to female B6D2F1)F8','Backcross and RIX-derived breeding notes_(BXD192-F8 X BXD196-F16)','Backcross and RIX-derived breeding notes_(BXD200-F12 X BXD207-F10)','Backcross and RIX-derived breeding notes_(BXD212-F14 X BXD134-F8)','Backcross and RIX-derived breeding notes_(BXD220-F8 X BXD130-F7N2F6)','Backcross and RIX-derived breeding notes_Backcrossed','Backcross and RIX-derived breeding notes_Backcrossed at about F23 to C57BL/6J female, then 3 backcrosses to F23 male, followed by inbreeding again','Backcross and RIX-derived breeding notes_Crossed to female C57BL/6J at F10 in August 2016, then back to BXD201 male for N generations ','Backcross and RIX-derived breeding notes_Lost at UTHSC in 2016 due to malocclusion','Backcross and RIX-derived breeding notes_Terminate by crossing to BXD209 to generate RIX BXD228 (Jan 2017 attempt)','Backcross and RIX-derived breeding notes_Used to make RIX with BXD175a to make BXD228 in Jan 2017','Backcross and RIX-derived breeding notes_Used to make RIX with BXD192 to make BXD227','Backcross and RIX-derived breeding notes_nan','Any genotypes available_Y','Any genotypes available_nan']
+
+
+
+
+
+
+
+
+
+
+OrdId_1
+OrdId_2
+OrdId_3
+OrdId_4
+OrdId_5
+OrdId_6
+OrdId_7
+OrdId_8
+OrdId_9
+OrdId_10
+OrdId_11
+OrdId_12
+OrdId_13
+OrdId_14
+OrdId_15
+OrdId_16
+OrdId_17
+OrdId_18
+OrdId_19
+OrdId_20
+OrdId_21
+OrdId_22
+OrdId_23
+OrdId_24
+OrdId_25
+OrdId_26
+OrdId_27
+OrdId_28
+OrdId_29
+OrdId_30
+OrdId_31
+OrdId_32
+OrdId_33
+OrdId_34
+OrdId_35
+OrdId_36
+OrdId_37
+OrdId_38
+OrdId_39
+OrdId_40
+OrdId_41
+OrdId_42
+OrdId_43
+OrdId_44
+OrdId_45
+OrdId_46
+OrdId_47
+OrdId_48
+OrdId_49
+OrdId_50
+OrdId_51
+OrdId_52
+OrdId_53
+OrdId_54
+OrdId_55
+OrdId_56
+OrdId_57
+OrdId_58
+OrdId_59
+OrdId_60
+OrdId_61
+OrdId_62
+OrdId_63
+OrdId_64
+OrdId_65
+OrdId_66
+OrdId_67
+OrdId_68
+OrdId_69
+OrdId_70
+OrdId_71
+OrdId_72
+OrdId_73
+OrdId_74
+OrdId_75
+OrdId_76
+OrdId_77
+OrdId_78
+OrdId_79
+OrdId_80
+OrdId_81
+OrdId_82
+OrdId_83
+OrdId_84
+OrdId_85
+OrdId_86
+OrdId_87
+OrdId_88
+OrdId_89
+OrdId_90
+OrdId_91
+OrdId_92
+OrdId_93
+OrdId_94
+OrdId_95
+OrdId_96
+OrdId_97
+OrdId_98
+OrdId_99
+OrdId_100
+OrdId_101
+OrdId_102
+OrdId_103
+OrdId_104
+OrdId_105
+OrdId_106
+OrdId_107
+OrdId_108
+OrdId_109
+OrdId_110
+OrdId_111
+OrdId_112
+OrdId_113
+OrdId_114
+OrdId_115
+OrdId_116
+OrdId_117
+OrdId_118
+OrdId_119
+OrdId_120
+OrdId_121
+OrdId_122
+OrdId_123
+OrdId_124
+OrdId_125
+OrdId_126
+OrdId_127
+OrdId_128
+OrdId_129
+OrdId_130
+OrdId_131
+OrdId_132
+OrdId_133
+OrdId_134
+OrdId_135
+OrdId_136
+OrdId_137
+OrdId_138
+OrdId_139
+OrdId_140
+OrdId_141
+OrdId_142
+OrdId_143
+OrdId_144
+OrdId_145
+OrdId_146
+OrdId_147
+OrdId_148
+OrdId_149
+OrdId_150
+OrdId_151
+OrdId_152
+OrdId_153
+OrdId_154
+OrdId_155
+OrdId_156
+OrdId_157
+OrdId_158
+OrdId_159
+IdNum_100
+IdNum_11
+IdNum_113
+IdNum_127
+IdNum_128
+IdNum_131
+IdNum_137
+IdNum_14
+IdNum_147
+IdNum_148
+IdNum_149
+IdNum_15
+IdNum_150
+IdNum_151
+IdNum_152
+IdNum_154
+IdNum_155
+IdNum_156
+IdNum_157
+IdNum_160
+IdNum_161
+IdNum_162
+IdNum_168
+IdNum_169
+IdNum_170
+IdNum_173
+IdNum_177
+IdNum_18
+IdNum_180
+IdNum_181
+IdNum_183
+IdNum_184
+IdNum_186
+IdNum_187
+IdNum_19
+IdNum_194
+IdNum_196
+IdNum_197
+IdNum_198
+IdNum_199
+IdNum_2
+IdNum_20
+IdNum_204
+IdNum_205
+IdNum_21
+IdNum_215
+IdNum_216
+IdNum_217
+IdNum_218
+IdNum_219
+IdNum_22
+IdNum_221
+IdNum_222
+IdNum_223
+IdNum_224
+IdNum_227
+IdNum_24
+IdNum_27
+IdNum_28
+IdNum_29
+IdNum_32
+IdNum_33
+IdNum_34
+IdNum_36
+IdNum_38
+IdNum_39
+IdNum_40
+IdNum_42
+IdNum_44
+IdNum_45
+IdNum_48
+IdNum_49
+IdNum_5
+IdNum_50
+IdNum_51
+IdNum_55
+IdNum_56
+IdNum_6
+IdNum_64
+IdNum_65
+IdNum_66
+IdNum_68
+IdNum_69
+IdNum_71
+IdNum_73
+IdNum_75
+IdNum_78
+IdNum_81
+IdNum_84
+IdNum_87
+IdNum_88
+IdNum_89
+IdNum_9
+IdNum_91
+IdNum_95
+IdNum_98
+IdNum_99
+IdNum_C57BL_6J_two_lanes
+IdNum_DBA_2J_three_lanes
+IdNum_nan
+File_4512-JFI-0333_C57BL_6J_two_lanes_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0334_DBA_2J_three_lanes_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0341_BXD149_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0345_BXD029_Tlr4_J_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0345_BXD098_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0346_BXD028_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0347_BXD024_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0348_BXD24_TyJ_Cep290_J_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0349_BXD55_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0350_BXD22_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0353_BXD180_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0354_BXD199_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0355_BXD152_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0356_BXD034_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0357_BXD156_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0358_BXD40_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0360_BXD227_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0362_BXD155_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0363_BXD44_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0365_BXD113_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0366_BXD196_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0367_BXD131_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0368_BXD011_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0369_BXD036_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0370_BXD205_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0373_BXD150_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0374_BXD154_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0375_BXD221_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0376_BXD224_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0382_BXD048a_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0383_BXD009_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0387_BXD65a_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0389_BXD5_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0390_BXD218_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0391_BXD157_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0392_BXD15_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0394_BXD162_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0396_BXD219_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0397_BXD049_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0400_BXD69_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0401_BXD127_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0402_BXD173_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0404_BXD222_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0407_BXD20_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0408_BXD051_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0411_BXD223_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0413_BXD89_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0414_BXD91_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0415_BXD032_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0416_BXD186_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0417_BXD148_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0418_BXD137_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0419_BXD050_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0420_BXD78_2_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0421_BXD056_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0422_BXD198_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0423_BXD75_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0425_BXD187_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0426_BXD169_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0427_BXD160_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0430_BXD002_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0432_BXD21_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0433_BXD71_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0434_BXD183_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0435_BXD84_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0436_BXD99_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0437_BXD170_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0438_BXD073_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0440_BXD073b_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0441_BXD181_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0442_BXD66_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0443_BXD216_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0445_BXD095_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0451_BXD33_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0452_BXD184_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0453_BXD038_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0455_BXD88_2_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0456_BXD161_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0457_BXD151_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0458_BXD14_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0462_BXD68_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0466_BXD168_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0469_BXD100_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0470_BXD27_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0471_BXD42_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0473_BXD217_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0474_BXD006_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0476_BXD215_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0477_BXD18_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0478_BXD39_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0479_BXD197_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0480_BXD204_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0481_BXD19_TyJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0482_BXD087_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0483_BXD064_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0485_BXD194_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0485_BXD194_redo_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0486_BXD045_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0487_BXD81_RwwJ_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0490_BXD177_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0492_BXD128_phased_possorted_bam.bam_ChrM_only.bam
+File_4512-JFI-0494_BXD147_phased_possorted_bam.bam_ChrM_only.bam
+File_nan
+Name_BXD002_RwwJ
+Name_BXD006_TyJ
+Name_BXD009_TyJ
+Name_BXD011_TyJ
+Name_BXD024_TyJ
+Name_BXD028_TyJ
+Name_BXD029_Tlr4_J
+Name_BXD032_TyJ
+Name_BXD034_TyJ
+Name_BXD036_TyJ
+Name_BXD038_TyJ
+Name_BXD045_RwwJ
+Name_BXD048a_RwwJ
+Name_BXD049_RwwJ
+Name_BXD050_RwwJ
+Name_BXD051_RwwJ
+Name_BXD056_RwwJ
+Name_BXD064_RwwJ
+Name_BXD073_RwwJ
+Name_BXD073b_RwwJ
+Name_BXD087_RwwJ
+Name_BXD095_RwwJ
+Name_BXD098_RwwJ
+Name_BXD100_RwwJ
+Name_BXD113_RwwJ
+Name_BXD127
+Name_BXD128
+Name_BXD131
+Name_BXD137
+Name_BXD147
+Name_BXD148
+Name_BXD149
+Name_BXD14_TyJ
+Name_BXD150
+Name_BXD151
+Name_BXD152
+Name_BXD154_RwwJ
+Name_BXD155
+Name_BXD156
+Name_BXD157
+Name_BXD15_TyJ
+Name_BXD160
+Name_BXD161_RwwJ
+Name_BXD162
+Name_BXD168
+Name_BXD169
+Name_BXD170
+Name_BXD173
+Name_BXD177
+Name_BXD180
+Name_BXD181
+Name_BXD183
+Name_BXD184
+Name_BXD186
+Name_BXD187
+Name_BXD18_TyJ
+Name_BXD194
+Name_BXD194_redo
+Name_BXD196
+Name_BXD197
+Name_BXD198
+Name_BXD199
+Name_BXD19_TyJ
+Name_BXD204
+Name_BXD205
+Name_BXD20_TyJ
+Name_BXD215
+Name_BXD216
+Name_BXD217
+Name_BXD218
+Name_BXD219
+Name_BXD21_TyJ
+Name_BXD221
+Name_BXD222
+Name_BXD223
+Name_BXD224
+Name_BXD227
+Name_BXD22_TyJ
+Name_BXD24_TyJ_Cep290_J
+Name_BXD27_TyJ
+Name_BXD33_TyJ
+Name_BXD39_TyJ
+Name_BXD40_TyJ
+Name_BXD42_TyJ
+Name_BXD44_RwwJ
+Name_BXD55_RwwJ
+Name_BXD5_TyJ
+Name_BXD65a_RwwJ
+Name_BXD66_RwwJ
+Name_BXD68_RwwJ
+Name_BXD69_RwwJ
+Name_BXD71_RwwJ
+Name_BXD75_RwwJ
+Name_BXD78_2_RwwJ
+Name_BXD81_RwwJ
+Name_BXD84_RwwJ
+Name_BXD88_2_RwwJ
+Name_BXD89_RwwJ
+Name_BXD91_RwwJ
+Name_BXD99_RwwJ
+Name_C57BL_6J_two_lanes
+Name_DBA_2J_three_lanes
+Name_nan
+IdNum2_1
+IdNum2_100
+IdNum2_101
+IdNum2_102
+IdNum2_11
+IdNum2_111
+IdNum2_113
+IdNum2_114
+IdNum2_12
+IdNum2_122
+IdNum2_123
+IdNum2_124
+IdNum2_125
+IdNum2_127
+IdNum2_128
+IdNum2_13
+IdNum2_131
+IdNum2_137
+IdNum2_14
+IdNum2_141
+IdNum2_144
+IdNum2_147
+IdNum2_148
+IdNum2_149
+IdNum2_15
+IdNum2_150
+IdNum2_151
+IdNum2_152
+IdNum2_154
+IdNum2_155
+IdNum2_156
+IdNum2_157
+IdNum2_16
+IdNum2_160
+IdNum2_161
+IdNum2_162
+IdNum2_168
+IdNum2_169
+IdNum2_170
+IdNum2_171
+IdNum2_172
+IdNum2_173
+IdNum2_174
+IdNum2_175
+IdNum2_176
+IdNum2_177
+IdNum2_178
+IdNum2_18
+IdNum2_180
+IdNum2_181
+IdNum2_183
+IdNum2_184
+IdNum2_186
+IdNum2_187
+IdNum2_19
+IdNum2_190
+IdNum2_191
+IdNum2_194
+IdNum2_195
+IdNum2_196
+IdNum2_197
+IdNum2_198
+IdNum2_199
+IdNum2_2
+IdNum2_20
+IdNum2_201
+IdNum2_202
+IdNum2_204
+IdNum2_205
+IdNum2_209
+IdNum2_21
+IdNum2_210
+IdNum2_211
+IdNum2_213
+IdNum2_214
+IdNum2_215
+IdNum2_216
+IdNum2_217
+IdNum2_218
+IdNum2_219
+IdNum2_22
+IdNum2_221
+IdNum2_222
+IdNum2_223
+IdNum2_224
+IdNum2_225
+IdNum2_226
+IdNum2_227
+IdNum2_24
+IdNum2_27
+IdNum2_28
+IdNum2_29
+IdNum2_31
+IdNum2_32
+IdNum2_33
+IdNum2_34
+IdNum2_36
+IdNum2_38
+IdNum2_39
+IdNum2_40
+IdNum2_42
+IdNum2_43
+IdNum2_44
+IdNum2_45
+IdNum2_48
+IdNum2_49
+IdNum2_5
+IdNum2_50
+IdNum2_51
+IdNum2_53
+IdNum2_55
+IdNum2_56
+IdNum2_6
+IdNum2_60
+IdNum2_61
+IdNum2_62
+IdNum2_63
+IdNum2_64
+IdNum2_65
+IdNum2_66
+IdNum2_67
+IdNum2_68
+IdNum2_69
+IdNum2_70
+IdNum2_71
+IdNum2_73
+IdNum2_74
+IdNum2_75
+IdNum2_77
+IdNum2_78
+IdNum2_79
+IdNum2_8
+IdNum2_81
+IdNum2_83
+IdNum2_84
+IdNum2_85
+IdNum2_86
+IdNum2_87
+IdNum2_88
+IdNum2_89
+IdNum2_9
+IdNum2_90
+IdNum2_91
+IdNum2_95
+IdNum2_98
+IdNum2_99
+IdNum2_C57BL/6J
+IdNum2_C57BL/6J 2 lanes
+IdNum2_DBA/2J
+IdNum2_DBA/2J 3 lanes
+Index_Row_1
+Index_Row_1,1
+Index_Row_10
+Index_Row_100
+Index_Row_101
+Index_Row_102
+Index_Row_103
+Index_Row_104
+Index_Row_105
+Index_Row_106
+Index_Row_107
+Index_Row_108
+Index_Row_109
+Index_Row_11
+Index_Row_110
+Index_Row_111
+Index_Row_112
+Index_Row_113
+Index_Row_114
+Index_Row_115
+Index_Row_116
+Index_Row_117
+Index_Row_118
+Index_Row_119
+Index_Row_12
+Index_Row_120
+Index_Row_121
+Index_Row_122
+Index_Row_123
+Index_Row_124
+Index_Row_125
+Index_Row_126
+Index_Row_127
+Index_Row_128
+Index_Row_129
+Index_Row_13
+Index_Row_130
+Index_Row_131
+Index_Row_132
+Index_Row_133
+Index_Row_134
+Index_Row_135
+Index_Row_136
+Index_Row_137
+Index_Row_138
+Index_Row_139
+Index_Row_14
+Index_Row_140
+Index_Row_141
+Index_Row_142
+Index_Row_143
+Index_Row_144
+Index_Row_145
+Index_Row_146
+Index_Row_147
+Index_Row_148
+Index_Row_148,5
+Index_Row_149
+Index_Row_15
+Index_Row_150
+Index_Row_151
+Index_Row_152
+Index_Row_153
+Index_Row_154
+Index_Row_155
+Index_Row_156
+Index_Row_16
+Index_Row_17
+Index_Row_18
+Index_Row_19
+Index_Row_2
+Index_Row_20
+Index_Row_21
+Index_Row_22
+Index_Row_23
+Index_Row_24
+Index_Row_25
+Index_Row_26
+Index_Row_27
+Index_Row_28
+Index_Row_29
+Index_Row_3
+Index_Row_30
+Index_Row_31
+Index_Row_32
+Index_Row_33
+Index_Row_34
+Index_Row_35
+Index_Row_36
+Index_Row_37
+Index_Row_38
+Index_Row_39
+Index_Row_4
+Index_Row_40
+Index_Row_41
+Index_Row_42
+Index_Row_43
+Index_Row_44
+Index_Row_45
+Index_Row_46
+Index_Row_47
+Index_Row_48
+Index_Row_49
+Index_Row_5
+Index_Row_50
+Index_Row_51
+Index_Row_52
+Index_Row_53
+Index_Row_54
+Index_Row_55
+Index_Row_56
+Index_Row_57
+Index_Row_58
+Index_Row_59
+Index_Row_6
+Index_Row_60
+Index_Row_61
+Index_Row_62
+Index_Row_63
+Index_Row_64
+Index_Row_65
+Index_Row_66
+Index_Row_67
+Index_Row_68
+Index_Row_68,5
+Index_Row_69
+Index_Row_7
+Index_Row_70
+Index_Row_71
+Index_Row_72
+Index_Row_73
+Index_Row_74
+Index_Row_75
+Index_Row_76
+Index_Row_77
+Index_Row_78
+Index_Row_79
+Index_Row_8
+Index_Row_80
+Index_Row_81
+Index_Row_82
+Index_Row_83
+Index_Row_84
+Index_Row_85
+Index_Row_86
+Index_Row_87
+Index_Row_88
+Index_Row_89
+Index_Row_9
+Index_Row_90
+Index_Row_91
+Index_Row_92
+Index_Row_93
+Index_Row_94
+Index_Row_95
+Index_Row_96
+Index_Row_97
+Index_Row_98
+Index_Row_99
+HudsonAlpha ID_4512-JFI-0333
+HudsonAlpha ID_4512-JFI-0334
+HudsonAlpha ID_4512-JFI-0341
+HudsonAlpha ID_4512-JFI-0342
+HudsonAlpha ID_4512-JFI-0343
+HudsonAlpha ID_4512-JFI-0344
+HudsonAlpha ID_4512-JFI-0345
+HudsonAlpha ID_4512-JFI-0346
+HudsonAlpha ID_4512-JFI-0347
+HudsonAlpha ID_4512-JFI-0348
+HudsonAlpha ID_4512-JFI-0349
+HudsonAlpha ID_4512-JFI-0350
+HudsonAlpha ID_4512-JFI-0351
+HudsonAlpha ID_4512-JFI-0352
+HudsonAlpha ID_4512-JFI-0353
+HudsonAlpha ID_4512-JFI-0354
+HudsonAlpha ID_4512-JFI-0355
+HudsonAlpha ID_4512-JFI-0356
+HudsonAlpha ID_4512-JFI-0357
+HudsonAlpha ID_4512-JFI-0358
+HudsonAlpha ID_4512-JFI-0359
+HudsonAlpha ID_4512-JFI-0360
+HudsonAlpha ID_4512-JFI-0361
+HudsonAlpha ID_4512-JFI-0362
+HudsonAlpha ID_4512-JFI-0363
+HudsonAlpha ID_4512-JFI-0364
+HudsonAlpha ID_4512-JFI-0365
+HudsonAlpha ID_4512-JFI-0366
+HudsonAlpha ID_4512-JFI-0367
+HudsonAlpha ID_4512-JFI-0368
+HudsonAlpha ID_4512-JFI-0369
+HudsonAlpha ID_4512-JFI-0370
+HudsonAlpha ID_4512-JFI-0371
+HudsonAlpha ID_4512-JFI-0372
+HudsonAlpha ID_4512-JFI-0373
+HudsonAlpha ID_4512-JFI-0374
+HudsonAlpha ID_4512-JFI-0375
+HudsonAlpha ID_4512-JFI-0376
+HudsonAlpha ID_4512-JFI-0377
+HudsonAlpha ID_4512-JFI-0378
+HudsonAlpha ID_4512-JFI-0379
+HudsonAlpha ID_4512-JFI-0380
+HudsonAlpha ID_4512-JFI-0381
+HudsonAlpha ID_4512-JFI-0382
+HudsonAlpha ID_4512-JFI-0383
+HudsonAlpha ID_4512-JFI-0384
+HudsonAlpha ID_4512-JFI-0385
+HudsonAlpha ID_4512-JFI-0386
+HudsonAlpha ID_4512-JFI-0387
+HudsonAlpha ID_4512-JFI-0388
+HudsonAlpha ID_4512-JFI-0389
+HudsonAlpha ID_4512-JFI-0390
+HudsonAlpha ID_4512-JFI-0391
+HudsonAlpha ID_4512-JFI-0392
+HudsonAlpha ID_4512-JFI-0393
+HudsonAlpha ID_4512-JFI-0394
+HudsonAlpha ID_4512-JFI-0395
+HudsonAlpha ID_4512-JFI-0396
+HudsonAlpha ID_4512-JFI-0397
+HudsonAlpha ID_4512-JFI-0398
+HudsonAlpha ID_4512-JFI-0399
+HudsonAlpha ID_4512-JFI-0400
+HudsonAlpha ID_4512-JFI-0401
+HudsonAlpha ID_4512-JFI-0402
+HudsonAlpha ID_4512-JFI-0403
+HudsonAlpha ID_4512-JFI-0404
+HudsonAlpha ID_4512-JFI-0405
+HudsonAlpha ID_4512-JFI-0406
+HudsonAlpha ID_4512-JFI-0407
+HudsonAlpha ID_4512-JFI-0408
+HudsonAlpha ID_4512-JFI-0409
+HudsonAlpha ID_4512-JFI-0410
+HudsonAlpha ID_4512-JFI-0411
+HudsonAlpha ID_4512-JFI-0412
+HudsonAlpha ID_4512-JFI-0413
+HudsonAlpha ID_4512-JFI-0414
+HudsonAlpha ID_4512-JFI-0415
+HudsonAlpha ID_4512-JFI-0416
+HudsonAlpha ID_4512-JFI-0417
+HudsonAlpha ID_4512-JFI-0418
+HudsonAlpha ID_4512-JFI-0419
+HudsonAlpha ID_4512-JFI-0420
+HudsonAlpha ID_4512-JFI-0421
+HudsonAlpha ID_4512-JFI-0422
+HudsonAlpha ID_4512-JFI-0423
+HudsonAlpha ID_4512-JFI-0424
+HudsonAlpha ID_4512-JFI-0425
+HudsonAlpha ID_4512-JFI-0426
+HudsonAlpha ID_4512-JFI-0427
+HudsonAlpha ID_4512-JFI-0428
+HudsonAlpha ID_4512-JFI-0429
+HudsonAlpha ID_4512-JFI-0430
+HudsonAlpha ID_4512-JFI-0431
+HudsonAlpha ID_4512-JFI-0432
+HudsonAlpha ID_4512-JFI-0433
+HudsonAlpha ID_4512-JFI-0434
+HudsonAlpha ID_4512-JFI-0435
+HudsonAlpha ID_4512-JFI-0436
+HudsonAlpha ID_4512-JFI-0437
+HudsonAlpha ID_4512-JFI-0438
+HudsonAlpha ID_4512-JFI-0439
+HudsonAlpha ID_4512-JFI-0440
+HudsonAlpha ID_4512-JFI-0441
+HudsonAlpha ID_4512-JFI-0442
+HudsonAlpha ID_4512-JFI-0443
+HudsonAlpha ID_4512-JFI-0444
+HudsonAlpha ID_4512-JFI-0445
+HudsonAlpha ID_4512-JFI-0446
+HudsonAlpha ID_4512-JFI-0447
+HudsonAlpha ID_4512-JFI-0448
+HudsonAlpha ID_4512-JFI-0449
+HudsonAlpha ID_4512-JFI-0450
+HudsonAlpha ID_4512-JFI-0451
+HudsonAlpha ID_4512-JFI-0452
+HudsonAlpha ID_4512-JFI-0453
+HudsonAlpha ID_4512-JFI-0454
+HudsonAlpha ID_4512-JFI-0455
+HudsonAlpha ID_4512-JFI-0456
+HudsonAlpha ID_4512-JFI-0457
+HudsonAlpha ID_4512-JFI-0458
+HudsonAlpha ID_4512-JFI-0459
+HudsonAlpha ID_4512-JFI-0460
+HudsonAlpha ID_4512-JFI-0461
+HudsonAlpha ID_4512-JFI-0462
+HudsonAlpha ID_4512-JFI-0463
+HudsonAlpha ID_4512-JFI-0464
+HudsonAlpha ID_4512-JFI-0465
+HudsonAlpha ID_4512-JFI-0466
+HudsonAlpha ID_4512-JFI-0467
+HudsonAlpha ID_4512-JFI-0468
+HudsonAlpha ID_4512-JFI-0469
+HudsonAlpha ID_4512-JFI-0470
+HudsonAlpha ID_4512-JFI-0471
+HudsonAlpha ID_4512-JFI-0472
+HudsonAlpha ID_4512-JFI-0473
+HudsonAlpha ID_4512-JFI-0474
+HudsonAlpha ID_4512-JFI-0475
+HudsonAlpha ID_4512-JFI-0476
+HudsonAlpha ID_4512-JFI-0477
+HudsonAlpha ID_4512-JFI-0478
+HudsonAlpha ID_4512-JFI-0479
+HudsonAlpha ID_4512-JFI-0480
+HudsonAlpha ID_4512-JFI-0481
+HudsonAlpha ID_4512-JFI-0482
+HudsonAlpha ID_4512-JFI-0483
+HudsonAlpha ID_4512-JFI-0484
+HudsonAlpha ID_4512-JFI-0485
+HudsonAlpha ID_4512-JFI-0486
+HudsonAlpha ID_4512-JFI-0487
+HudsonAlpha ID_4512-JFI-0488
+HudsonAlpha ID_4512-JFI-0489
+HudsonAlpha ID_4512-JFI-0490
+HudsonAlpha ID_4512-JFI-0491
+HudsonAlpha ID_4512-JFI-0492
+HudsonAlpha ID_4512-JFI-0494
+Alternate ID_4512-JFI-0173
+Alternate ID_4512-JFI-0174
+Alternate ID_4512-JFI-0181
+Alternate ID_4512-JFI-0182
+Alternate ID_4512-JFI-0183
+Alternate ID_4512-JFI-0184
+Alternate ID_4512-JFI-0185
+Alternate ID_4512-JFI-0186
+Alternate ID_4512-JFI-0187
+Alternate ID_4512-JFI-0188
+Alternate ID_4512-JFI-0189
+Alternate ID_4512-JFI-0190
+Alternate ID_4512-JFI-0191
+Alternate ID_4512-JFI-0192
+Alternate ID_4512-JFI-0193
+Alternate ID_4512-JFI-0194
+Alternate ID_4512-JFI-0195
+Alternate ID_4512-JFI-0196
+Alternate ID_4512-JFI-0197
+Alternate ID_4512-JFI-0198
+Alternate ID_4512-JFI-0199
+Alternate ID_4512-JFI-0200
+Alternate ID_4512-JFI-0201
+Alternate ID_4512-JFI-0202
+Alternate ID_4512-JFI-0203
+Alternate ID_4512-JFI-0204
+Alternate ID_4512-JFI-0205
+Alternate ID_4512-JFI-0206
+Alternate ID_4512-JFI-0207
+Alternate ID_4512-JFI-0208
+Alternate ID_4512-JFI-0209
+Alternate ID_4512-JFI-0210
+Alternate ID_4512-JFI-0211
+Alternate ID_4512-JFI-0212
+Alternate ID_4512-JFI-0213
+Alternate ID_4512-JFI-0214
+Alternate ID_4512-JFI-0215
+Alternate ID_4512-JFI-0216
+Alternate ID_4512-JFI-0217
+Alternate ID_4512-JFI-0218
+Alternate ID_4512-JFI-0219
+Alternate ID_4512-JFI-0220
+Alternate ID_4512-JFI-0221
+Alternate ID_4512-JFI-0222
+Alternate ID_4512-JFI-0223
+Alternate ID_4512-JFI-0224
+Alternate ID_4512-JFI-0225
+Alternate ID_4512-JFI-0226
+Alternate ID_4512-JFI-0227
+Alternate ID_4512-JFI-0228
+Alternate ID_4512-JFI-0229
+Alternate ID_4512-JFI-0230
+Alternate ID_4512-JFI-0231
+Alternate ID_4512-JFI-0232
+Alternate ID_4512-JFI-0233
+Alternate ID_4512-JFI-0234
+Alternate ID_4512-JFI-0235
+Alternate ID_4512-JFI-0236
+Alternate ID_4512-JFI-0237
+Alternate ID_4512-JFI-0238
+Alternate ID_4512-JFI-0239
+Alternate ID_4512-JFI-0240
+Alternate ID_4512-JFI-0241
+Alternate ID_4512-JFI-0242
+Alternate ID_4512-JFI-0243
+Alternate ID_4512-JFI-0244
+Alternate ID_4512-JFI-0245
+Alternate ID_4512-JFI-0246
+Alternate ID_4512-JFI-0247
+Alternate ID_4512-JFI-0248
+Alternate ID_4512-JFI-0249
+Alternate ID_4512-JFI-0250
+Alternate ID_4512-JFI-0251
+Alternate ID_4512-JFI-0252
+Alternate ID_4512-JFI-0253
+Alternate ID_4512-JFI-0254
+Alternate ID_4512-JFI-0255
+Alternate ID_4512-JFI-0256
+Alternate ID_4512-JFI-0257
+Alternate ID_4512-JFI-0258
+Alternate ID_4512-JFI-0259
+Alternate ID_4512-JFI-0260
+Alternate ID_4512-JFI-0261
+Alternate ID_4512-JFI-0262
+Alternate ID_4512-JFI-0263
+Alternate ID_4512-JFI-0264
+Alternate ID_4512-JFI-0265
+Alternate ID_4512-JFI-0266
+Alternate ID_4512-JFI-0267
+Alternate ID_4512-JFI-0268
+Alternate ID_4512-JFI-0269
+Alternate ID_4512-JFI-0270
+Alternate ID_4512-JFI-0271
+Alternate ID_4512-JFI-0272
+Alternate ID_4512-JFI-0273
+Alternate ID_4512-JFI-0274
+Alternate ID_4512-JFI-0275
+Alternate ID_4512-JFI-0276
+Alternate ID_4512-JFI-0277
+Alternate ID_4512-JFI-0278
+Alternate ID_4512-JFI-0279
+Alternate ID_4512-JFI-0280
+Alternate ID_4512-JFI-0281
+Alternate ID_4512-JFI-0282
+Alternate ID_4512-JFI-0283
+Alternate ID_4512-JFI-0284
+Alternate ID_4512-JFI-0285
+Alternate ID_4512-JFI-0286
+Alternate ID_4512-JFI-0287
+Alternate ID_4512-JFI-0288
+Alternate ID_4512-JFI-0289
+Alternate ID_4512-JFI-0290
+Alternate ID_4512-JFI-0291
+Alternate ID_4512-JFI-0292
+Alternate ID_4512-JFI-0293
+Alternate ID_4512-JFI-0294
+Alternate ID_4512-JFI-0295
+Alternate ID_4512-JFI-0296
+Alternate ID_4512-JFI-0297
+Alternate ID_4512-JFI-0298
+Alternate ID_4512-JFI-0299
+Alternate ID_4512-JFI-0300
+Alternate ID_4512-JFI-0301
+Alternate ID_4512-JFI-0302
+Alternate ID_4512-JFI-0303
+Alternate ID_4512-JFI-0304
+Alternate ID_4512-JFI-0305
+Alternate ID_4512-JFI-0306
+Alternate ID_4512-JFI-0307
+Alternate ID_4512-JFI-0308
+Alternate ID_4512-JFI-0309
+Alternate ID_4512-JFI-0310
+Alternate ID_4512-JFI-0311
+Alternate ID_4512-JFI-0312
+Alternate ID_4512-JFI-0313
+Alternate ID_4512-JFI-0314
+Alternate ID_4512-JFI-0315
+Alternate ID_4512-JFI-0316
+Alternate ID_4512-JFI-0317
+Alternate ID_4512-JFI-0318
+Alternate ID_4512-JFI-0319
+Alternate ID_4512-JFI-0320
+Alternate ID_4512-JFI-0321
+Alternate ID_4512-JFI-0322
+Alternate ID_4512-JFI-0323
+Alternate ID_4512-JFI-0324
+Alternate ID_4512-JFI-0325
+Alternate ID_4512-JFI-0326
+Alternate ID_4512-JFI-0327
+Alternate ID_4512-JFI-0328
+Alternate ID_4512-JFI-0329
+Alternate ID_4512-JFI-0330
+Alternate ID_4512-JFI-0331
+Alternate ID_4512-JFI-0332
+Alternate ID_4512-JFI-0493
+Strain_BXD001
+Strain_BXD002
+Strain_BXD005
+Strain_BXD006
+Strain_BXD008
+Strain_BXD009
+Strain_BXD011
+Strain_BXD012
+Strain_BXD013
+Strain_BXD014
+Strain_BXD015
+Strain_BXD016
+Strain_BXD018
+Strain_BXD019
+Strain_BXD020
+Strain_BXD021
+Strain_BXD022
+Strain_BXD024
+Strain_BXD024_Cep290
+Strain_BXD027
+Strain_BXD028
+Strain_BXD029
+Strain_BXD029_Tlr4
+Strain_BXD031
+Strain_BXD032
+Strain_BXD033
+Strain_BXD034
+Strain_BXD036
+Strain_BXD038
+Strain_BXD039
+Strain_BXD040
+Strain_BXD042
+Strain_BXD043
+Strain_BXD044
+Strain_BXD045
+Strain_BXD048
+Strain_BXD048a
+Strain_BXD049
+Strain_BXD050
+Strain_BXD051
+Strain_BXD053
+Strain_BXD055
+Strain_BXD056
+Strain_BXD060
+Strain_BXD061
+Strain_BXD062
+Strain_BXD063
+Strain_BXD064
+Strain_BXD065
+Strain_BXD065a
+Strain_BXD065b
+Strain_BXD066
+Strain_BXD067
+Strain_BXD068
+Strain_BXD069
+Strain_BXD070
+Strain_BXD071
+Strain_BXD073
+Strain_BXD073a
+Strain_BXD073b
+Strain_BXD074
+Strain_BXD075
+Strain_BXD077
+Strain_BXD078_2
+Strain_BXD079
+Strain_BXD081
+Strain_BXD083
+Strain_BXD084
+Strain_BXD085
+Strain_BXD086
+Strain_BXD087
+Strain_BXD088_2
+Strain_BXD089
+Strain_BXD090
+Strain_BXD091
+Strain_BXD095
+Strain_BXD098
+Strain_BXD099
+Strain_BXD100
+Strain_BXD101
+Strain_BXD102
+Strain_BXD111
+Strain_BXD113
+Strain_BXD114
+Strain_BXD122
+Strain_BXD123
+Strain_BXD124
+Strain_BXD125
+Strain_BXD127
+Strain_BXD128
+Strain_BXD131
+Strain_BXD137
+Strain_BXD141
+Strain_BXD144
+Strain_BXD147
+Strain_BXD148
+Strain_BXD149
+Strain_BXD150
+Strain_BXD151
+Strain_BXD152
+Strain_BXD154
+Strain_BXD155
+Strain_BXD156
+Strain_BXD157
+Strain_BXD160
+Strain_BXD161
+Strain_BXD162
+Strain_BXD168
+Strain_BXD169
+Strain_BXD170
+Strain_BXD171
+Strain_BXD172
+Strain_BXD173
+Strain_BXD174
+Strain_BXD175
+Strain_BXD176
+Strain_BXD177
+Strain_BXD178
+Strain_BXD180
+Strain_BXD181
+Strain_BXD183
+Strain_BXD184
+Strain_BXD186
+Strain_BXD187
+Strain_BXD190
+Strain_BXD191
+Strain_BXD194
+Strain_BXD195
+Strain_BXD196
+Strain_BXD197
+Strain_BXD198
+Strain_BXD199
+Strain_BXD201
+Strain_BXD202
+Strain_BXD204
+Strain_BXD205
+Strain_BXD209
+Strain_BXD210
+Strain_BXD211
+Strain_BXD213
+Strain_BXD214
+Strain_BXD215
+Strain_BXD216
+Strain_BXD217
+Strain_BXD218
+Strain_BXD219
+Strain_BXD221
+Strain_BXD222
+Strain_BXD223
+Strain_BXD224
+Strain_BXD225
+Strain_BXD226
+Strain_BXD227
+Strain_C57BL/6J
+Strain_C57BL/6J 2 lanes
+Strain_DBA/2J
+Strain_DBA/2J 3 lanes
+Generation_JAX_(BXD109F13N1F9 X BXD189-F14)F3
+Generation_JAX_(BXD110-F10N3F9 X BXD206-F13)F3
+Generation_JAX_(BXD188-F16 X BXD140-F8N1toFemB6D2F1F8)F4
+Generation_JAX_(BXD192-F8 X BXD196-F16)F2
+Generation_JAX_(BXD200-F12 X BXD207-F10)F4
+Generation_JAX_(BXD212-F14 X BXD134-F8)F3
+Generation_JAX_(BXD220-F8 X BXD130-F7N2F6)F3
+Generation_JAX_F10
+Generation_JAX_F104+F33
+Generation_JAX_F107+F41
+Generation_JAX_F10N6F9
+Generation_JAX_F10N8F9
+Generation_JAX_F11
+Generation_JAX_F114
+Generation_JAX_F114+F28
+Generation_JAX_F115+F39
+Generation_JAX_F117+F44
+Generation_JAX_F119+F35
+Generation_JAX_F11N3F9
+Generation_JAX_F11N4F7
+Generation_JAX_F123+F35
+Generation_JAX_F125+F38
+Generation_JAX_F128+F36
+Generation_JAX_F128+pF16
+Generation_JAX_F12N2F30+F9
+Generation_JAX_F13
+Generation_JAX_F136+F33
+Generation_JAX_F139+36
+Generation_JAX_F14
+Generation_JAX_F140+F40
+Generation_JAX_F141+F42
+Generation_JAX_F146+F40
+Generation_JAX_F149+F39
+Generation_JAX_F14N3F6
+Generation_JAX_F15
+Generation_JAX_F15N5F21+F2pF4
+Generation_JAX_F16
+Generation_JAX_F16N4F21+F3pF8
+Generation_JAX_F17
+Generation_JAX_F17+F17
+Generation_JAX_F18
+Generation_JAX_F18N2F5
+Generation_JAX_F18N5F20+F6
+Generation_JAX_F19
+Generation_JAX_F20+F16
+Generation_JAX_F20+F18
+Generation_JAX_F20+pF5
+Generation_JAX_F21+F17
+Generation_JAX_F21+F18
+Generation_JAX_F21+F19
+Generation_JAX_F21+F1pF4
+Generation_JAX_F21+F23
+Generation_JAX_F21+F24
+Generation_JAX_F219pF4
+Generation_JAX_F22
+Generation_JAX_F22+F11
+Generation_JAX_F22+F18
+Generation_JAX_F22+F23
+Generation_JAX_F226pF2
+Generation_JAX_F226pF3
+Generation_JAX_F23
+Generation_JAX_F23+pF3
+Generation_JAX_F24
+Generation_JAX_F25
+Generation_JAX_F25+F1pF6
+Generation_JAX_F25+F20
+Generation_JAX_F26
+Generation_JAX_F26+F14
+Generation_JAX_F26+F16
+Generation_JAX_F26+F19
+Generation_JAX_F27
+Generation_JAX_F27+F16
+Generation_JAX_F28
+Generation_JAX_F28+F13
+Generation_JAX_F28+F21
+Generation_JAX_F29+F11
+Generation_JAX_F29+F17
+Generation_JAX_F30
+Generation_JAX_F30+F21
+Generation_JAX_F31+F19
+Generation_JAX_F31+F23
+Generation_JAX_F31+F27
+Generation_JAX_F31+F5pF3
+Generation_JAX_F32
+Generation_JAX_F33+F21
+Generation_JAX_F33+F2pF17
+Generation_JAX_F34
+Generation_JAX_F34+F14
+Generation_JAX_F34+F19
+Generation_JAX_F34+F25
+Generation_JAX_F35+F19
+Generation_JAX_F35+F23
+Generation_JAX_F36+F15
+Generation_JAX_F36+F16
+Generation_JAX_F36p+F37
+Generation_JAX_F37+F33
+Generation_JAX_F38+F17
+Generation_JAX_F38+F23
+Generation_JAX_F38+F31
+Generation_JAX_F38+pF20
+Generation_JAX_F39+20
+Generation_JAX_F39+F15
+Generation_JAX_F39+F39
+Generation_JAX_F43+F42
+Generation_JAX_F44+F14pF22
+Generation_JAX_F44+F35
+Generation_JAX_F44+pF26
+Generation_JAX_F45+F15
+Generation_JAX_F45+F17
+Generation_JAX_F45+F36
+Generation_JAX_F47+F8
+Generation_JAX_F48N5F75+10pF12
+Generation_JAX_F60+pF51
+Generation_JAX_F6N3F12
+Generation_JAX_F6N3F13
+Generation_JAX_F6N6F12
+Generation_JAX_F76+F40
+Generation_JAX_F7N4F13
+Generation_JAX_F96+F34
+Generation_JAX_F99+F27
+Generation_JAX_F9N4F7
+Generation_JAX_F9N7F12
+Parents _1005, 1006 x 1007
+Parents _1012, 1013 x 1014
+Parents _1033, 1034 x 1035
+Parents _1046, 1047 x 1048
+Parents _1049, 1050 x 1051
+Parents _1086, 1087 x 1088
+Parents _1110, 1111 x 1112
+Parents _1110, 1112 x 1113 
+Parents _1130, 1131 x 1132
+Parents _1131, 1132 x 1133
+Parents _1151, 1152 x 1153
+Parents _1269, 1270 x 1271
+Parents _1329 x 1330
+Parents _1344, 1345 x 1346
+Parents _1418, 1419 x 1420
+Parents _158, 159 x 160
+Parents _162, 163 x 164
+Parents _1689, 1690 x 1691
+Parents _170, 171 x 172
+Parents _183, 184 x 185 
+Parents _212, 213 x 214
+Parents _214, 215 x 216
+Parents _229, 230 x 231
+Parents _317, 318 x 319
+Parents _323, 324 x 325 
+Parents _329, 330 x 331
+Parents _351, 352 x 353
+Parents _357, 358 x 359
+Parents _370, 371 x 372
+Parents _374, 375 x 376 
+Parents _377, 378 x 379
+Parents _378, 379 x 380
+Parents _383, 384 x 385
+Parents _385, 386 x 387
+Parents _387, 388 x 389
+Parents _392, 393 x 394
+Parents _395, 396 x 397
+Parents _396, 397 x 398
+Parents _404, 405 x 406
+Parents _407, 408 x 409
+Parents _408, 409 x 410
+Parents _412, 413 x 414
+Parents _415, 416 x 417
+Parents _418, 419 x 420
+Parents _420, 421 x 422
+Parents _431, 432 x 433
+Parents _436, 437 x 438
+Parents _437, 438 x 439
+Parents _439, 440 x 441
+Parents _466, 467 x 468
+Parents _473, 474 x 475 
+Parents _479, 480 x 481
+Parents _481, 482 x 483
+Parents _484, 485 x 486
+Parents _489, 490 x 491 
+Parents _555, 556 x 557
+Parents _842, 843 x 844
+Parents _980, 981 x 982   
+Parents _996, 997 x 998
+Parents _997, 998 x 999
+Parents _CB15J4076
+Parents _CB16D3156
+Parents _CB16G3628
+Parents _CB16G3638
+Parents _CB16H3715
+Parents _CB16H3842
+Parents _CB16I3901
+Parents _CB16I3902
+Parents _CB16I3905
+Parents _CB16I3906
+Parents _CB16I4035
+Parents _CB16J40101
+Parents _CB16J4097
+Parents _CB16J4098
+Parents _CB16J4100
+Parents _CB16J4102
+Parents _CB16J4120
+Parents _CB16J4129
+Parents _CB16J4147
+Parents _CB16J4149
+Parents _CB16J4157
+Parents _CB16J4160
+Parents _CB16J4165
+Parents _CB16J4169
+Parents _CB16J4170
+Parents _CB16J4171
+Parents _CB16K4208
+Parents _CB16K4209
+Parents _CB16K4212
+Parents _CB16K4220
+Parents _CB16K4226
+Parents _CB16K4227
+Parents _CB16K4237
+Parents _CB16K4246
+Parents _CB16K4273
+Parents _CB16K4275
+Parents _CB16K4287
+Parents _CB16K4314
+Parents _CB16K4336
+Parents _CB16K4337
+Parents _CB16L4351
+Parents _CB16L4354
+Parents _CB16L4377
+Parents _CB16L4404
+Parents _CB16L4407
+Parents _CB16L4409
+Parents _CB16L4414
+Parents _CB16L4416
+Parents _CB17A4490
+Parents _CB17A4509
+Parents _CB17A4516
+Parents _CB17A4517
+Parents _Foundation Stock
+Parents _ME15L2172
+Parents _ME15L2513
+Parents _ME16B2816
+Parents _ME16E3253
+Parents _ME16H3857
+Parents _ME16H3866
+Parents _ME16I3909
+Parents _ME16I3968
+Parents _ME16I4024
+Parents _ME16J4173
+Parents _ME16J4175
+Parents _ME16J4188
+Parents _ME16K4228
+Parents _ME16K4339
+Parents _ME16K4340
+Parents _ME16L4357
+Parents _Pool
+Parents _Pool 
+Parents _RB 1007
+Parents _RB 181
+Parents _RB 192 
+Parents _RB 348
+Parents _RB 363
+Parents _RB 369
+Parents _RB 387
+Parents _RB 401 
+Parents _RB 431
+Parents _RB 460
+Parents _RB 468
+Parents _RB 545
+Parents _RB 652
+Type_F2 RI
+Type_F2 RI backcrossed once to female DBA/2J
+Type_F2 RIX RI
+Type_F2-G9 RIX RI
+Type_G10 RI
+Type_G14 RI
+Type_G8 RI
+Type_G9 RI
+Type_Inbred
+Source_JAX
+Source_JAX Foundation Stock
+Source_UTHSC
+Tissue_spleen
+Tissue_tail
+instrument_id_E00224
+instrument_id_E00247
+instrument_id_E00247;E00316
+instrument_id_E00332
+instrument_id_E00364
+instrument_id_E00431
+instrument_id_E00438
+instrument_id_ST-E00272
+instrument_id_ST-E00273
+instrument_id_ST-E00314
+Expanded name_BXD001/TyJ
+Expanded name_BXD002/TyJ
+Expanded name_BXD005/TyJ
+Expanded name_BXD006/TyJ
+Expanded name_BXD008/TyJ
+Expanded name_BXD009/TyJ
+Expanded name_BXD011/TyJ
+Expanded name_BXD012/TyJ
+Expanded name_BXD013/TyJ
+Expanded name_BXD014/TyJ
+Expanded name_BXD015/TyJ
+Expanded name_BXD016/TyJ
+Expanded name_BXD018/TyJ
+Expanded name_BXD019/TyJ
+Expanded name_BXD020/TyJ
+Expanded name_BXD021/TyJ
+Expanded name_BXD022/TyJ
+Expanded name_BXD024/TyJ-Cep290rd16/J
+Expanded name_BXD024/TyRwwJ
+Expanded name_BXD027/TyJ
+Expanded name_BXD028/TyJ
+Expanded name_BXD029-Tlr4lps-2J/J
+Expanded name_BXD029/Ty
+Expanded name_BXD031/TyJ
+Expanded name_BXD032/TyJ
+Expanded name_BXD033/TyJ
+Expanded name_BXD034/TyJ
+Expanded name_BXD036/TyJ
+Expanded name_BXD038/TyJ
+Expanded name_BXD039/TyJ
+Expanded name_BXD040/TyJ
+Expanded name_BXD042/TyJ
+Expanded name_BXD043/RwwJ
+Expanded name_BXD044/RwwJ
+Expanded name_BXD045/RwwJ
+Expanded name_BXD048/RwwJ
+Expanded name_BXD048a/RwwJ
+Expanded name_BXD049/RwwJ
+Expanded name_BXD050/RwwJ
+Expanded name_BXD051/RwwJ
+Expanded name_BXD053/2RwwJ
+Expanded name_BXD055/RwwJ
+Expanded name_BXD056/RwwJ
+Expanded name_BXD060/RwwJ
+Expanded name_BXD061/RwwJ
+Expanded name_BXD062/RwwJ
+Expanded name_BXD063/RwwJ
+Expanded name_BXD064/RwwJ
+Expanded name_BXD065/RwwJ
+Expanded name_BXD065a/RwwJ
+Expanded name_BXD065b/RwwJ
+Expanded name_BXD066/RwwJ
+Expanded name_BXD067/RwwJ
+Expanded name_BXD068/RwwJ
+Expanded name_BXD069/RwwJ
+Expanded name_BXD070/RwwJ
+Expanded name_BXD071/RwwJ
+Expanded name_BXD073/RwwJ
+Expanded name_BXD073a/RwwJ
+Expanded name_BXD073b/RwwJ
+Expanded name_BXD074/RwwJ
+Expanded name_BXD075/RwwJ
+Expanded name_BXD077/RwwJ
+Expanded name_BXD078/2RwwJ
+Expanded name_BXD079/RwwJ
+Expanded name_BXD081/RwwJ
+Expanded name_BXD083/RwwJ
+Expanded name_BXD084/RwwJ
+Expanded name_BXD085/RwwJ
+Expanded name_BXD086/RwwJ
+Expanded name_BXD087/RwwJ
+Expanded name_BXD088/2RwwJ
+Expanded name_BXD089/RwwJ
+Expanded name_BXD090/RwwJ
+Expanded name_BXD091/2RwwJ
+Expanded name_BXD095/RwwJ
+Expanded name_BXD098/RwwJ
+Expanded name_BXD099/RwwJ
+Expanded name_BXD100/RwwJ
+Expanded name_BXD101/RwwJ
+Expanded name_BXD102/RwwJ
+Expanded name_BXD111/RwwJ
+Expanded name_BXD113/RwwJ
+Expanded name_BXD114
+Expanded name_BXD122/RwwJ
+Expanded name_BXD123/RwwJ
+Expanded name_BXD124/RwwJ
+Expanded name_BXD125/RwwJ
+Expanded name_BXD127
+Expanded name_BXD128/RwwJ
+Expanded name_BXD131
+Expanded name_BXD137
+Expanded name_BXD141/RwwJ
+Expanded name_BXD144/RwwJ
+Expanded name_BXD147
+Expanded name_BXD148
+Expanded name_BXD149
+Expanded name_BXD150/RwwJ
+Expanded name_BXD151/RwwJ
+Expanded name_BXD152/RwwJ
+Expanded name_BXD154/RwwJ
+Expanded name_BXD155
+Expanded name_BXD156/RwwJ
+Expanded name_BXD157/RwwJ
+Expanded name_BXD160/RwwJ
+Expanded name_BXD161/RwwJ
+Expanded name_BXD162
+Expanded name_BXD168/RwwJ
+Expanded name_BXD169/RwwJ
+Expanded name_BXD170/RwwJ
+Expanded name_BXD171/RwwJ
+Expanded name_BXD172/RwwJ
+Expanded name_BXD173
+Expanded name_BXD174
+Expanded name_BXD175
+Expanded name_BXD176
+Expanded name_BXD177/RwwJ
+Expanded name_BXD178/RwwJ
+Expanded name_BXD180/RwwJ
+Expanded name_BXD181
+Expanded name_BXD183
+Expanded name_BXD184/RwwJ
+Expanded name_BXD186/RwwJ
+Expanded name_BXD187/RwwJ
+Expanded name_BXD190/RwwJ
+Expanded name_BXD191/RwwJ
+Expanded name_BXD194/RwwJ
+Expanded name_BXD195/RwwJ
+Expanded name_BXD196
+Expanded name_BXD197/RwwJ
+Expanded name_BXD198
+Expanded name_BXD199/RwwJ
+Expanded name_BXD201
+Expanded name_BXD202/RwwJ
+Expanded name_BXD204
+Expanded name_BXD205
+Expanded name_BXD209
+Expanded name_BXD210/RwwJ
+Expanded name_BXD211
+Expanded name_BXD213
+Expanded name_BXD214/RwwJ
+Expanded name_BXD215/RwwJ
+Expanded name_BXD216/RwwJ
+Expanded name_BXD217
+Expanded name_BXD218
+Expanded name_BXD219
+Expanded name_BXD221
+Expanded name_BXD222
+Expanded name_BXD223
+Expanded name_BXD224
+Expanded name_BXD225
+Expanded name_BXD226
+Expanded name_BXD227
+Expanded name_nan
+Official name_BXD1/TyJ
+Official name_BXD100/RwwJ
+Official name_BXD101/RwwJ
+Official name_BXD102/RwwJ
+Official name_BXD11/TyJ
+Official name_BXD111/RwwJ
+Official name_BXD113/RwwJ
+Official name_BXD114
+Official name_BXD12/TyJ
+Official name_BXD122/RwwJ
+Official name_BXD123/RwwJ
+Official name_BXD124/RwwJ
+Official name_BXD125/RwwJ
+Official name_BXD127
+Official name_BXD128/RwwJ
+Official name_BXD13/TyJ
+Official name_BXD131
+Official name_BXD137
+Official name_BXD14/TyJ
+Official name_BXD141/RwwJ
+Official name_BXD144/RwwJ
+Official name_BXD147
+Official name_BXD148
+Official name_BXD149
+Official name_BXD15/TyJ
+Official name_BXD150/RwwJ
+Official name_BXD151/RwwJ
+Official name_BXD152/RwwJ
+Official name_BXD154/RwwJ
+Official name_BXD155
+Official name_BXD156/RwwJ
+Official name_BXD157/RwwJ
+Official name_BXD16/TyJ
+Official name_BXD160/RwwJ
+Official name_BXD161/RwwJ
+Official name_BXD162
+Official name_BXD168/RwwJ
+Official name_BXD169/RwwJ
+Official name_BXD170/RwwJ
+Official name_BXD171/RwwJ
+Official name_BXD172/RwwJ
+Official name_BXD173
+Official name_BXD174
+Official name_BXD175
+Official name_BXD176
+Official name_BXD177/RwwJ
+Official name_BXD178/RwwJ
+Official name_BXD18/TyJ
+Official name_BXD180/RwwJ
+Official name_BXD181
+Official name_BXD183
+Official name_BXD184/RwwJ
+Official name_BXD186/RwwJ
+Official name_BXD187/RwwJ
+Official name_BXD19/TyJ
+Official name_BXD190/RwwJ
+Official name_BXD191/RwwJ
+Official name_BXD194/RwwJ
+Official name_BXD195/RwwJ
+Official name_BXD196
+Official name_BXD197/RwwJ
+Official name_BXD198
+Official name_BXD199/RwwJ
+Official name_BXD2/TyJ
+Official name_BXD20/TyJ
+Official name_BXD201
+Official name_BXD202/RwwJ
+Official name_BXD204
+Official name_BXD205
+Official name_BXD209
+Official name_BXD21/TyJ
+Official name_BXD210/RwwJ
+Official name_BXD211
+Official name_BXD213
+Official name_BXD214/RwwJ
+Official name_BXD215/RwwJ
+Official name_BXD216/RwwJ
+Official name_BXD217
+Official name_BXD218
+Official name_BXD219
+Official name_BXD22/TyJ
+Official name_BXD221
+Official name_BXD222
+Official name_BXD223
+Official name_BXD224
+Official name_BXD225
+Official name_BXD226
+Official name_BXD227
+Official name_BXD24/TyJ
+Official name_BXD24/TyJ-Cep290rd16/J
+Official name_BXD27/TyJ
+Official name_BXD28/TyJ
+Official name_BXD29-Tlr4lps-2J/J
+Official name_BXD29/Ty
+Official name_BXD31/TyJ
+Official name_BXD32/TyJ
+Official name_BXD33/TyJ
+Official name_BXD34/TyJ
+Official name_BXD36/TyJ
+Official name_BXD38/TyJ
+Official name_BXD39/TyJ
+Official name_BXD40/TyJ
+Official name_BXD42/TyJ
+Official name_BXD43/RwwJ
+Official name_BXD44/RwwJ
+Official name_BXD45/RwwJ
+Official name_BXD48/RwwJ
+Official name_BXD48a/RwwJ
+Official name_BXD49/RwwJ
+Official name_BXD5/TyJ
+Official name_BXD50/RwwJ
+Official name_BXD51/RwwJ
+Official name_BXD53/2RwwJ
+Official name_BXD55/RwwJ
+Official name_BXD56/RwwJ
+Official name_BXD6/TyJ
+Official name_BXD60/RwwJ
+Official name_BXD61/RwwJ
+Official name_BXD62/RwwJ
+Official name_BXD63/RwwJ
+Official name_BXD64/RwwJ
+Official name_BXD65/RwwJ
+Official name_BXD65a/RwwJ
+Official name_BXD65b/RwwJ
+Official name_BXD66/RwwJ
+Official name_BXD67/RwwJ
+Official name_BXD68/RwwJ
+Official name_BXD69/RwwJ
+Official name_BXD70/RwwJ
+Official name_BXD71/RwwJ
+Official name_BXD73/RwwJ
+Official name_BXD73a/RwwJ
+Official name_BXD73b/RwwJ
+Official name_BXD74/RwwJ
+Official name_BXD75/RwwJ
+Official name_BXD77/RwwJ
+Official name_BXD78/2RwwJ
+Official name_BXD79/RwwJ
+Official name_BXD8/TyJ
+Official name_BXD81/RwwJ
+Official name_BXD83/RwwJ
+Official name_BXD84/RwwJ
+Official name_BXD85/RwwJ
+Official name_BXD86/RwwJ
+Official name_BXD87/RwwJ
+Official name_BXD88/2RwwJ
+Official name_BXD89/RwwJ
+Official name_BXD9/TyJ
+Official name_BXD90/RwwJ
+Official name_BXD91/2RwwJ
+Official name_BXD95/RwwJ
+Official name_BXD98/RwwJ
+Official name_BXD99/RwwJ
+Official name_nan
+GeneNetwork name_BXD1
+GeneNetwork name_BXD100
+GeneNetwork name_BXD101
+GeneNetwork name_BXD102
+GeneNetwork name_BXD11
+GeneNetwork name_BXD111
+GeneNetwork name_BXD113
+GeneNetwork name_BXD114
+GeneNetwork name_BXD12
+GeneNetwork name_BXD122
+GeneNetwork name_BXD123
+GeneNetwork name_BXD124
+GeneNetwork name_BXD125
+GeneNetwork name_BXD127
+GeneNetwork name_BXD128
+GeneNetwork name_BXD13
+GeneNetwork name_BXD131
+GeneNetwork name_BXD137
+GeneNetwork name_BXD14
+GeneNetwork name_BXD141
+GeneNetwork name_BXD144
+GeneNetwork name_BXD147
+GeneNetwork name_BXD148
+GeneNetwork name_BXD149
+GeneNetwork name_BXD15
+GeneNetwork name_BXD150
+GeneNetwork name_BXD151
+GeneNetwork name_BXD152 
+GeneNetwork name_BXD154
+GeneNetwork name_BXD155
+GeneNetwork name_BXD156
+GeneNetwork name_BXD157
+GeneNetwork name_BXD16
+GeneNetwork name_BXD160
+GeneNetwork name_BXD161
+GeneNetwork name_BXD162
+GeneNetwork name_BXD168
+GeneNetwork name_BXD169
+GeneNetwork name_BXD170
+GeneNetwork name_BXD171
+GeneNetwork name_BXD172
+GeneNetwork name_BXD173
+GeneNetwork name_BXD174
+GeneNetwork name_BXD175
+GeneNetwork name_BXD176
+GeneNetwork name_BXD177
+GeneNetwork name_BXD178
+GeneNetwork name_BXD18
+GeneNetwork name_BXD180
+GeneNetwork name_BXD181
+GeneNetwork name_BXD183
+GeneNetwork name_BXD184
+GeneNetwork name_BXD186
+GeneNetwork name_BXD187
+GeneNetwork name_BXD19
+GeneNetwork name_BXD190
+GeneNetwork name_BXD191
+GeneNetwork name_BXD194
+GeneNetwork name_BXD195
+GeneNetwork name_BXD196
+GeneNetwork name_BXD197
+GeneNetwork name_BXD198
+GeneNetwork name_BXD199
+GeneNetwork name_BXD2
+GeneNetwork name_BXD20
+GeneNetwork name_BXD201
+GeneNetwork name_BXD202
+GeneNetwork name_BXD204
+GeneNetwork name_BXD205
+GeneNetwork name_BXD209
+GeneNetwork name_BXD21
+GeneNetwork name_BXD210
+GeneNetwork name_BXD211
+GeneNetwork name_BXD213
+GeneNetwork name_BXD214
+GeneNetwork name_BXD216
+GeneNetwork name_BXD217
+GeneNetwork name_BXD218
+GeneNetwork name_BXD219
+GeneNetwork name_BXD22
+GeneNetwork name_BXD24
+GeneNetwork name_BXD24a
+GeneNetwork name_BXD27
+GeneNetwork name_BXD28
+GeneNetwork name_BXD29
+GeneNetwork name_BXD31
+GeneNetwork name_BXD32
+GeneNetwork name_BXD33
+GeneNetwork name_BXD34
+GeneNetwork name_BXD36
+GeneNetwork name_BXD38
+GeneNetwork name_BXD39
+GeneNetwork name_BXD40
+GeneNetwork name_BXD42
+GeneNetwork name_BXD43
+GeneNetwork name_BXD44
+GeneNetwork name_BXD45
+GeneNetwork name_BXD48
+GeneNetwork name_BXD48a (BXD96)
+GeneNetwork name_BXD49
+GeneNetwork name_BXD5
+GeneNetwork name_BXD50
+GeneNetwork name_BXD51
+GeneNetwork name_BXD53
+GeneNetwork name_BXD55
+GeneNetwork name_BXD56
+GeneNetwork name_BXD6
+GeneNetwork name_BXD60
+GeneNetwork name_BXD61
+GeneNetwork name_BXD62
+GeneNetwork name_BXD63
+GeneNetwork name_BXD64
+GeneNetwork name_BXD65
+GeneNetwork name_BXD65a (BXD97)
+GeneNetwork name_BXD65b (BXD92)
+GeneNetwork name_BXD66
+GeneNetwork name_BXD67
+GeneNetwork name_BXD68
+GeneNetwork name_BXD69
+GeneNetwork name_BXD70
+GeneNetwork name_BXD71
+GeneNetwork name_BXD73
+GeneNetwork name_BXD73a (BXD80)
+GeneNetwork name_BXD73b (BXD103)
+GeneNetwork name_BXD74
+GeneNetwork name_BXD75
+GeneNetwork name_BXD77
+GeneNetwork name_BXD78
+GeneNetwork name_BXD79
+GeneNetwork name_BXD8
+GeneNetwork name_BXD81
+GeneNetwork name_BXD83
+GeneNetwork name_BXD84
+GeneNetwork name_BXD85
+GeneNetwork name_BXD86
+GeneNetwork name_BXD87
+GeneNetwork name_BXD88
+GeneNetwork name_BXD89
+GeneNetwork name_BXD9
+GeneNetwork name_BXD90
+GeneNetwork name_BXD91
+GeneNetwork name_BXD95
+GeneNetwork name_BXD98
+GeneNetwork name_BXD99
+GeneNetwork name_nan
+Year breeding started_1971.0
+Year breeding started_1978.0
+Year breeding started_1995.0
+Year breeding started_1999.0
+Year breeding started_2000.0
+Year breeding started_2009.0
+Year breeding started_2010.0
+Year breeding started_2013.0
+Year breeding started_2016.0
+Year breeding started_nan
+JAX Stock No (RRID)_-
+JAX Stock No (RRID)_000029 | defective lipopolysaccharide response, 2J
+JAX Stock No (RRID)_000031 | rd16
+JAX Stock No (RRID)_10
+JAX Stock No (RRID)_105
+JAX Stock No (RRID)_10981
+JAX Stock No (RRID)_12
+JAX Stock No (RRID)_13
+JAX Stock No (RRID)_15
+JAX Stock No (RRID)_17749
+JAX Stock No (RRID)_17750
+JAX Stock No (RRID)_17751
+JAX Stock No (RRID)_24029
+JAX Stock No (RRID)_24030
+JAX Stock No (RRID)_24031
+JAX Stock No (RRID)_25974
+JAX Stock No (RRID)_25975
+JAX Stock No (RRID)_25976
+JAX Stock No (RRID)_25984
+JAX Stock No (RRID)_25985
+JAX Stock No (RRID)_29865
+JAX Stock No (RRID)_29867
+JAX Stock No (RRID)_29868
+JAX Stock No (RRID)_29869
+JAX Stock No (RRID)_29871
+JAX Stock No (RRID)_29872
+JAX Stock No (RRID)_29873
+JAX Stock No (RRID)_29874
+JAX Stock No (RRID)_29876
+JAX Stock No (RRID)_29878
+JAX Stock No (RRID)_29879
+JAX Stock No (RRID)_29880
+JAX Stock No (RRID)_29881
+JAX Stock No (RRID)_29882
+JAX Stock No (RRID)_29883
+JAX Stock No (RRID)_29884
+JAX Stock No (RRID)_29885
+JAX Stock No (RRID)_30872
+JAX Stock No (RRID)_30873
+JAX Stock No (RRID)_30874
+JAX Stock No (RRID)_30876
+JAX Stock No (RRID)_30877
+JAX Stock No (RRID)_30878
+JAX Stock No (RRID)_30879
+JAX Stock No (RRID)_30880
+JAX Stock No (RRID)_30881
+JAX Stock No (RRID)_30882
+JAX Stock No (RRID)_31974
+JAX Stock No (RRID)_31975
+JAX Stock No (RRID)_31976
+JAX Stock No (RRID)_31977
+JAX Stock No (RRID)_31978
+JAX Stock No (RRID)_3222
+JAX Stock No (RRID)_3223
+JAX Stock No (RRID)_3225
+JAX Stock No (RRID)_3227
+JAX Stock No (RRID)_3228
+JAX Stock No (RRID)_3229
+JAX Stock No (RRID)_3230
+JAX Stock No (RRID)_329
+JAX Stock No (RRID)_330
+JAX Stock No (RRID)_36
+JAX Stock No (RRID)_37
+JAX Stock No (RRID)_40
+JAX Stock No (RRID)_41
+JAX Stock No (RRID)_43
+JAX Stock No (RRID)_45
+JAX Stock No (RRID)_47
+JAX Stock No (RRID)_5243
+JAX Stock No (RRID)_7
+JAX Stock No (RRID)_7093
+JAX Stock No (RRID)_7094
+JAX Stock No (RRID)_7096
+JAX Stock No (RRID)_7097
+JAX Stock No (RRID)_7098
+JAX Stock No (RRID)_7099
+JAX Stock No (RRID)_7100
+JAX Stock No (RRID)_7103
+JAX Stock No (RRID)_7104
+JAX Stock No (RRID)_7105
+JAX Stock No (RRID)_7106
+JAX Stock No (RRID)_7107
+JAX Stock No (RRID)_7108
+JAX Stock No (RRID)_7109
+JAX Stock No (RRID)_7110
+JAX Stock No (RRID)_7111
+JAX Stock No (RRID)_7112
+JAX Stock No (RRID)_7113
+JAX Stock No (RRID)_7114
+JAX Stock No (RRID)_7115
+JAX Stock No (RRID)_7116
+JAX Stock No (RRID)_7117
+JAX Stock No (RRID)_7118
+JAX Stock No (RRID)_7119
+JAX Stock No (RRID)_7121
+JAX Stock No (RRID)_7123
+JAX Stock No (RRID)_7124
+JAX Stock No (RRID)_7125
+JAX Stock No (RRID)_7126
+JAX Stock No (RRID)_7127
+JAX Stock No (RRID)_7128
+JAX Stock No (RRID)_7129
+JAX Stock No (RRID)_7130
+JAX Stock No (RRID)_7133
+JAX Stock No (RRID)_7138
+JAX Stock No (RRID)_7139
+JAX Stock No (RRID)_7140
+JAX Stock No (RRID)_7141
+JAX Stock No (RRID)_7142
+JAX Stock No (RRID)_7143
+JAX Stock No (RRID)_7144
+JAX Stock No (RRID)_7145
+JAX Stock No (RRID)_7146
+JAX Stock No (RRID)_75
+JAX Stock No (RRID)_77
+JAX Stock No (RRID)_78
+JAX Stock No (RRID)_83
+JAX Stock No (RRID)_84
+JAX Stock No (RRID)_95
+JAX Stock No (RRID)_9677
+JAX Stock No (RRID)_nan
+Availability (as of March 2019)_Cryo Recovery
+Availability (as of March 2019)_Extinct
+Availability (as of March 2019)_Pre-order (est. Apr 8, 2019)
+Availability (as of March 2019)_Pre-order (est. Aug 19, 2019)
+Availability (as of March 2019)_Pre-order (est. Dec 17, 2018)
+Availability (as of March 2019)_Pre-order (est. Jul 29, 2019)
+Availability (as of March 2019)_Pre-order (est. Jul 8, 2019)
+Availability (as of March 2019)_Pre-order (est. Jun 17, 2019)
+Availability (as of March 2019)_Pre-order (est. Jun 3, 2019)
+Availability (as of March 2019)_Pre-order (est. Mar 25, 2019)
+Availability (as of March 2019)_Pre-order (est. Sep 2, 2019)
+Availability (as of March 2019)_Pre-order (est. Sep 30, 2019)
+Availability (as of March 2019)_Registering Interest
+Availability (as of March 2019)_Repository Live
+Availability (as of March 2019)_UTHSC
+Availability (as of March 2019)_nan
+Availability (as of October 2019)_Available
+Availability (as of October 2019)_Available for pre-order
+Availability (as of October 2019)_Available for registering interest
+Availability (as of October 2019)_Cryo Recovery
+Availability (as of October 2019)_Extinct
+Availability (as of October 2019)_UTHSC
+Availability (as of October 2019)_nan
+Epoch_1
+Epoch_1,5
+Epoch_2
+Epoch_3
+Epoch_4
+Epoch_5
+Epoch_6
+Epoch_nan
+Method of derivation_Advanced intercross progeny of B6 female to D2 male
+Method of derivation_Advanced intercross progeny of B6 female to D2 male (G8-G9, donated by A. Palmer)
+Method of derivation_B6 female to D2 male F2 intercross
+Method of derivation_B6D2F1 male to a DBA/2J female
+Method of derivation_nan
+Mitocondrial origin (if known)_B6
+Mitocondrial origin (if known)_D2
+Mitocondrial origin (if known)_nan
+October 2018 reported generation at JAX _ F114+31 
+October 2018 reported generation at JAX _ F123+21 
+October 2018 reported generation at JAX _ F125+37 
+October 2018 reported generation at JAX _ F128p+16 
+October 2018 reported generation at JAX _ F136+34 
+October 2018 reported generation at JAX _ F141+44 
+October 2018 reported generation at JAX _ F20p+F9 
+October 2018 reported generation at JAX _ F21+27 
+October 2018 reported generation at JAX _ F22+F8 
+October 2018 reported generation at JAX _ F23+F5 
+October 2018 reported generation at JAX _ F25+F1 
+October 2018 reported generation at JAX _ F26+20 
+October 2018 reported generation at JAX _ F26+F18 
+October 2018 reported generation at JAX _ F28+14 
+October 2018 reported generation at JAX _ F28+26 
+October 2018 reported generation at JAX _ F29+15 
+October 2018 reported generation at JAX _ F30+F21 
+October 2018 reported generation at JAX _ F34+19 
+October 2018 reported generation at JAX _ F34+22 
+October 2018 reported generation at JAX _ F35 
+October 2018 reported generation at JAX _ F36p+37 
+October 2018 reported generation at JAX _ F37+35 
+October 2018 reported generation at JAX _ F38p+21 
+October 2018 reported generation at JAX _ F43+46 
+October 2018 reported generation at JAX _ F44 
+October 2018 reported generation at JAX _ F44+36 
+October 2018 reported generation at JAX _ F44p+27 
+October 2018 reported generation at JAX _ F45+40 
+October 2018 reported generation at JAX _ F48N5F75+10pF5 
+October 2018 reported generation at JAX _ F56 
+October 2018 reported generation at JAX _ F76+41 
+October 2018 reported generation at JAX _ F96+34 
+October 2018 reported generation at JAX _ N1F29+F9 
+October 2018 reported generation at JAX _-
+October 2018 reported generation at JAX _?
+October 2018 reported generation at JAX _F104+35
+October 2018 reported generation at JAX _F107+47 
+October 2018 reported generation at JAX _F115+40
+October 2018 reported generation at JAX _F117+45
+October 2018 reported generation at JAX _F119+38 
+October 2018 reported generation at JAX _F128+37 
+October 2018 reported generation at JAX _F139+39 
+October 2018 reported generation at JAX _F140+41 
+October 2018 reported generation at JAX _F149+40 
+October 2018 reported generation at JAX _F17+19 
+October 2018 reported generation at JAX _F20+22 
+October 2018 reported generation at JAX _F20+F21 
+October 2018 reported generation at JAX _F20+F8 
+October 2018 reported generation at JAX _F20?+F18 
+October 2018 reported generation at JAX _F21+14 
+October 2018 reported generation at JAX _F21+19 
+October 2018 reported generation at JAX _F21+F21
+October 2018 reported generation at JAX _F21+F21 
+October 2018 reported generation at JAX _F21+F8
+October 2018 reported generation at JAX _F22+F1 
+October 2018 reported generation at JAX _F22+F5
+October 2018 reported generation at JAX _F24+F1 
+October 2018 reported generation at JAX _F25+F2 
+October 2018 reported generation at JAX _F25+F22 
+October 2018 reported generation at JAX _F25+F7
+October 2018 reported generation at JAX _F26+24 
+October 2018 reported generation at JAX _F26+F3 
+October 2018 reported generation at JAX _F27+16 
+October 2018 reported generation at JAX _F27+F2 
+October 2018 reported generation at JAX _F31+18 
+October 2018 reported generation at JAX _F31+pF5pF2 
+October 2018 reported generation at JAX _F32+F3 
+October 2018 reported generation at JAX _F33+21 
+October 2018 reported generation at JAX _F36+F18 
+October 2018 reported generation at JAX _F38+21 
+October 2018 reported generation at JAX _F38+32 
+October 2018 reported generation at JAX _F38+F25 
+October 2018 reported generation at JAX _F39+42 
+October 2018 reported generation at JAX _F39+F3p 
+October 2018 reported generation at JAX _F43
+October 2018 reported generation at JAX _F45+14 
+October 2018 reported generation at JAX _F45+15 
+October 2018 reported generation at JAX _F48p+ 
+October 2018 reported generation at JAX _F49 
+October 2018 reported generation at JAX _F59 
+October 2018 reported generation at JAX _F60p+55 
+October 2018 reported generation at JAX _F61 
+October 2018 reported generation at JAX _F99+32 
+October 2018 reported generation at JAX _nan
+March 2019 reported generation at JAX_64p+4 
+March 2019 reported generation at JAX_?+F15 
+March 2019 reported generation at JAX_?+F1 
+March 2019 reported generation at JAX_?+F3 
+March 2019 reported generation at JAX_?+F4 
+March 2019 reported generation at JAX_?+F5 
+March 2019 reported generation at JAX_?+F6 
+March 2019 reported generation at JAX_?+pF5 
+March 2019 reported generation at JAX_F104+38 
+March 2019 reported generation at JAX_F107+49 
+March 2019 reported generation at JAX_F114+35 
+March 2019 reported generation at JAX_F115+42 
+March 2019 reported generation at JAX_F117+49 
+March 2019 reported generation at JAX_F119+40 
+March 2019 reported generation at JAX_F125+42 
+March 2019 reported generation at JAX_F128+41 
+March 2019 reported generation at JAX_F128p+20 
+March 2019 reported generation at JAX_F139+41 
+March 2019 reported generation at JAX_F140+46 
+March 2019 reported generation at JAX_F141+49 
+March 2019 reported generation at JAX_F144p 
+March 2019 reported generation at JAX_F149+43 
+March 2019 reported generation at JAX_F17+22 
+March 2019 reported generation at JAX_F20+23 
+March 2019 reported generation at JAX_F20+F11 
+March 2019 reported generation at JAX_F20+F24 
+March 2019 reported generation at JAX_F20?+F21 
+March 2019 reported generation at JAX_F20p+F10 
+March 2019 reported generation at JAX_F21+21 
+March 2019 reported generation at JAX_F21+23 
+March 2019 reported generation at JAX_F21+31 
+March 2019 reported generation at JAX_F21+F1 
+March 2019 reported generation at JAX_F21+F23 
+March 2019 reported generation at JAX_F21+F2 
+March 2019 reported generation at JAX_F21+F9 
+March 2019 reported generation at JAX_F22+F11 
+March 2019 reported generation at JAX_F22+F15 
+March 2019 reported generation at JAX_F22+F3 
+March 2019 reported generation at JAX_F23+F10 
+March 2019 reported generation at JAX_F23+F2 
+March 2019 reported generation at JAX_F25+F16 
+March 2019 reported generation at JAX_F25+F1 
+March 2019 reported generation at JAX_F25+F24 
+March 2019 reported generation at JAX_F25+F5 
+March 2019 reported generation at JAX_F26+22 
+March 2019 reported generation at JAX_F26+25 
+March 2019 reported generation at JAX_F26+F21 
+March 2019 reported generation at JAX_F26+F4 
+March 2019 reported generation at JAX_F27+21 
+March 2019 reported generation at JAX_F27+F1 
+March 2019 reported generation at JAX_F27+F4 
+March 2019 reported generation at JAX_F27+F5 
+March 2019 reported generation at JAX_F28+17 
+March 2019 reported generation at JAX_F28+28 
+March 2019 reported generation at JAX_F29+16 
+March 2019 reported generation at JAX_F30+F25 
+March 2019 reported generation at JAX_F31+26 
+March 2019 reported generation at JAX_F31+F4 
+March 2019 reported generation at JAX_F31+pF5pF10 
+March 2019 reported generation at JAX_F32+F6 
+March 2019 reported generation at JAX_F33+25 
+March 2019 reported generation at JAX_F34+20 
+March 2019 reported generation at JAX_F35+pF2 
+March 2019 reported generation at JAX_F35 
+March 2019 reported generation at JAX_F36+F20 
+March 2019 reported generation at JAX_F36p+39 
+March 2019 reported generation at JAX_F37+38 
+March 2019 reported generation at JAX_F38+23 
+March 2019 reported generation at JAX_F38+35 
+March 2019 reported generation at JAX_F38+F29 
+March 2019 reported generation at JAX_F38p+24 
+March 2019 reported generation at JAX_F39+45 
+March 2019 reported generation at JAX_F39+F4pF2 
+March 2019 reported generation at JAX_F43+48 
+March 2019 reported generation at JAX_F44+39 
+March 2019 reported generation at JAX_F44p+31 
+March 2019 reported generation at JAX_F45+20 
+March 2019 reported generation at JAX_F45+22 
+March 2019 reported generation at JAX_F45+41 
+March 2019 reported generation at JAX_F48N5F75+10pF6 
+March 2019 reported generation at JAX_F48p+F3 
+March 2019 reported generation at JAX_F51 
+March 2019 reported generation at JAX_F52 
+March 2019 reported generation at JAX_F57 
+March 2019 reported generation at JAX_F58 
+March 2019 reported generation at JAX_F60p+56 
+March 2019 reported generation at JAX_F62 
+March 2019 reported generation at JAX_F63 
+March 2019 reported generation at JAX_F64 
+March 2019 reported generation at JAX_F76+45 
+March 2019 reported generation at JAX_F96+37 
+March 2019 reported generation at JAX_F99+35 
+March 2019 reported generation at JAX_F?+21 
+March 2019 reported generation at JAX_F?+24 
+March 2019 reported generation at JAX_F?+25 
+March 2019 reported generation at JAX_F?+2p+21 
+March 2019 reported generation at JAX_F?+F1 
+March 2019 reported generation at JAX_F?+F4 
+March 2019 reported generation at JAX_F?+F5 
+March 2019 reported generation at JAX_N1F29+F11 
+March 2019 reported generation at JAX_nan
+October 2019 reported generation at JAX_	?+F1
+October 2019 reported generation at JAX_	?+F15
+October 2019 reported generation at JAX_	?+F3
+October 2019 reported generation at JAX_	?+F4
+October 2019 reported generation at JAX_	?+F5
+October 2019 reported generation at JAX_	?+F7
+October 2019 reported generation at JAX_	?+F8
+October 2019 reported generation at JAX_	?+pF1
+October 2019 reported generation at JAX_	?+pF5
+October 2019 reported generation at JAX_	F104+42
+October 2019 reported generation at JAX_	F107+51
+October 2019 reported generation at JAX_	F125+44
+October 2019 reported generation at JAX_	F128p+22
+October 2019 reported generation at JAX_	F140+46
+October 2019 reported generation at JAX_	F141+50
+October 2019 reported generation at JAX_	F20+F27
+October 2019 reported generation at JAX_	F21+F1
+October 2019 reported generation at JAX_	F22+F15
+October 2019 reported generation at JAX_	F23+F10
+October 2019 reported generation at JAX_	F25+F16
+October 2019 reported generation at JAX_	F25+F27
+October 2019 reported generation at JAX_	F26+25
+October 2019 reported generation at JAX_	F26+F23
+October 2019 reported generation at JAX_	F26+F4
+October 2019 reported generation at JAX_	F27+21
+October 2019 reported generation at JAX_	F27+F1
+October 2019 reported generation at JAX_	F27+F4
+October 2019 reported generation at JAX_	F28+17
+October 2019 reported generation at JAX_	F29+16
+October 2019 reported generation at JAX_	F31+26
+October 2019 reported generation at JAX_	F31+pF5pF10
+October 2019 reported generation at JAX_	F32+F6
+October 2019 reported generation at JAX_	F33+25
+October 2019 reported generation at JAX_	F34+20
+October 2019 reported generation at JAX_	F34p+F2
+October 2019 reported generation at JAX_	F35
+October 2019 reported generation at JAX_	F35+pF2
+October 2019 reported generation at JAX_	F36+F22
+October 2019 reported generation at JAX_	F38+37
+October 2019 reported generation at JAX_	F38p+26
+October 2019 reported generation at JAX_	F39+47
+October 2019 reported generation at JAX_	F39+F4pF2
+October 2019 reported generation at JAX_	F45+20
+October 2019 reported generation at JAX_	F45+22
+October 2019 reported generation at JAX_	F45+43
+October 2019 reported generation at JAX_	F48p+F3
+October 2019 reported generation at JAX_	F52
+October 2019 reported generation at JAX_	F53+pF1
+October 2019 reported generation at JAX_	F57
+October 2019 reported generation at JAX_	F58
+October 2019 reported generation at JAX_	F62
+October 2019 reported generation at JAX_	F76+47
+October 2019 reported generation at JAX_	F?+23
+October 2019 reported generation at JAX_	F?+25
+October 2019 reported generation at JAX_	F?+30
+October 2019 reported generation at JAX_	N1F29+F13
+October 2019 reported generation at JAX_-
+October 2019 reported generation at JAX_164p+7
+October 2019 reported generation at JAX_?+F3
+October 2019 reported generation at JAX_?+F5
+October 2019 reported generation at JAX_?+F6
+October 2019 reported generation at JAX_?+F7
+October 2019 reported generation at JAX_?+F8
+October 2019 reported generation at JAX_?+pF3
+October 2019 reported generation at JAX_F115+44
+October 2019 reported generation at JAX_F117+52
+October 2019 reported generation at JAX_F119+43
+October 2019 reported generation at JAX_F121+F1
+October 2019 reported generation at JAX_F128+44
+October 2019 reported generation at JAX_F144p+F2
+October 2019 reported generation at JAX_F149+45
+October 2019 reported generation at JAX_F17+22
+October 2019 reported generation at JAX_F20+23
+October 2019 reported generation at JAX_F20+F11
+October 2019 reported generation at JAX_F20?+F23
+October 2019 reported generation at JAX_F20p+F13
+October 2019 reported generation at JAX_F21+23
+October 2019 reported generation at JAX_F21+25
+October 2019 reported generation at JAX_F21+33
+October 2019 reported generation at JAX_F21+F2
+October 2019 reported generation at JAX_F21+F25
+October 2019 reported generation at JAX_F21+F9
+October 2019 reported generation at JAX_F22+F11
+October 2019 reported generation at JAX_F22+F3
+October 2019 reported generation at JAX_F23+F2
+October 2019 reported generation at JAX_F25+F8
+October 2019 reported generation at JAX_F26+22
+October 2019 reported generation at JAX_F27+F5
+October 2019 reported generation at JAX_F28+28
+October 2019 reported generation at JAX_F30+F28
+October 2019 reported generation at JAX_F31+F4
+October 2019 reported generation at JAX_F36p+42
+October 2019 reported generation at JAX_F37+40
+October 2019 reported generation at JAX_F38+23
+October 2019 reported generation at JAX_F38+F31
+October 2019 reported generation at JAX_F43+50
+October 2019 reported generation at JAX_F44+40
+October 2019 reported generation at JAX_F44p+32
+October 2019 reported generation at JAX_F51
+October 2019 reported generation at JAX_F60p+58
+October 2019 reported generation at JAX_F63
+October 2019 reported generation at JAX_F64
+October 2019 reported generation at JAX_F96+38
+October 2019 reported generation at JAX_F99+37
+October 2019 reported generation at JAX_F?+2p+23
+October 2019 reported generation at JAX_F?+F4
+October 2019 reported generation at JAX_F?+F5
+October 2019 reported generation at JAX_nan
+Febuary 2019 generation at UTHSC _10
+Febuary 2019 generation at UTHSC _11
+Febuary 2019 generation at UTHSC _12
+Febuary 2019 generation at UTHSC _120
+Febuary 2019 generation at UTHSC _123
+Febuary 2019 generation at UTHSC _13
+Febuary 2019 generation at UTHSC _133
+Febuary 2019 generation at UTHSC _14
+Febuary 2019 generation at UTHSC _148
+Febuary 2019 generation at UTHSC _150
+Febuary 2019 generation at UTHSC _156
+Febuary 2019 generation at UTHSC _157
+Febuary 2019 generation at UTHSC _158
+Febuary 2019 generation at UTHSC _16
+Febuary 2019 generation at UTHSC _162
+Febuary 2019 generation at UTHSC _166
+Febuary 2019 generation at UTHSC _17
+Febuary 2019 generation at UTHSC _18
+Febuary 2019 generation at UTHSC _182
+Febuary 2019 generation at UTHSC _19
+Febuary 2019 generation at UTHSC _190
+Febuary 2019 generation at UTHSC _20
+Febuary 2019 generation at UTHSC _21
+Febuary 2019 generation at UTHSC _22
+Febuary 2019 generation at UTHSC _23
+Febuary 2019 generation at UTHSC _24
+Febuary 2019 generation at UTHSC _25
+Febuary 2019 generation at UTHSC _26
+Febuary 2019 generation at UTHSC _28
+Febuary 2019 generation at UTHSC _29
+Febuary 2019 generation at UTHSC _30
+Febuary 2019 generation at UTHSC _31
+Febuary 2019 generation at UTHSC _32
+Febuary 2019 generation at UTHSC _34
+Febuary 2019 generation at UTHSC _35
+Febuary 2019 generation at UTHSC _36
+Febuary 2019 generation at UTHSC _37
+Febuary 2019 generation at UTHSC _38
+Febuary 2019 generation at UTHSC _39
+Febuary 2019 generation at UTHSC _40
+Febuary 2019 generation at UTHSC _41
+Febuary 2019 generation at UTHSC _44
+Febuary 2019 generation at UTHSC _45
+Febuary 2019 generation at UTHSC _46
+Febuary 2019 generation at UTHSC _48
+Febuary 2019 generation at UTHSC _49
+Febuary 2019 generation at UTHSC _50
+Febuary 2019 generation at UTHSC _51
+Febuary 2019 generation at UTHSC _52
+Febuary 2019 generation at UTHSC _54
+Febuary 2019 generation at UTHSC _55
+Febuary 2019 generation at UTHSC _58
+Febuary 2019 generation at UTHSC _60
+Febuary 2019 generation at UTHSC _63
+Febuary 2019 generation at UTHSC _64
+Febuary 2019 generation at UTHSC _66
+Febuary 2019 generation at UTHSC _67
+Febuary 2019 generation at UTHSC _68
+Febuary 2019 generation at UTHSC _69
+Febuary 2019 generation at UTHSC _70
+Febuary 2019 generation at UTHSC _71
+Febuary 2019 generation at UTHSC _74
+Febuary 2019 generation at UTHSC _86
+Febuary 2019 generation at UTHSC _N3F8
+Febuary 2019 generation at UTHSC _nan
+October 2019 generation at UTHSC_10
+October 2019 generation at UTHSC_11
+October 2019 generation at UTHSC_12
+October 2019 generation at UTHSC_124
+October 2019 generation at UTHSC_13
+October 2019 generation at UTHSC_134
+October 2019 generation at UTHSC_148
+October 2019 generation at UTHSC_149
+October 2019 generation at UTHSC_15
+October 2019 generation at UTHSC_157
+October 2019 generation at UTHSC_159
+October 2019 generation at UTHSC_16
+October 2019 generation at UTHSC_162
+October 2019 generation at UTHSC_167
+October 2019 generation at UTHSC_17
+October 2019 generation at UTHSC_18
+October 2019 generation at UTHSC_184
+October 2019 generation at UTHSC_19
+October 2019 generation at UTHSC_191
+October 2019 generation at UTHSC_20
+October 2019 generation at UTHSC_21
+October 2019 generation at UTHSC_22
+October 2019 generation at UTHSC_23
+October 2019 generation at UTHSC_24
+October 2019 generation at UTHSC_26
+October 2019 generation at UTHSC_27
+October 2019 generation at UTHSC_28
+October 2019 generation at UTHSC_29
+October 2019 generation at UTHSC_30
+October 2019 generation at UTHSC_31
+October 2019 generation at UTHSC_32
+October 2019 generation at UTHSC_33
+October 2019 generation at UTHSC_36
+October 2019 generation at UTHSC_37
+October 2019 generation at UTHSC_38
+October 2019 generation at UTHSC_39
+October 2019 generation at UTHSC_40
+October 2019 generation at UTHSC_41
+October 2019 generation at UTHSC_42
+October 2019 generation at UTHSC_44
+October 2019 generation at UTHSC_45
+October 2019 generation at UTHSC_46
+October 2019 generation at UTHSC_48
+October 2019 generation at UTHSC_49
+October 2019 generation at UTHSC_50
+October 2019 generation at UTHSC_51
+October 2019 generation at UTHSC_52
+October 2019 generation at UTHSC_53
+October 2019 generation at UTHSC_54
+October 2019 generation at UTHSC_56
+October 2019 generation at UTHSC_58
+October 2019 generation at UTHSC_59
+October 2019 generation at UTHSC_60
+October 2019 generation at UTHSC_63
+October 2019 generation at UTHSC_65
+October 2019 generation at UTHSC_66
+October 2019 generation at UTHSC_67
+October 2019 generation at UTHSC_68
+October 2019 generation at UTHSC_69
+October 2019 generation at UTHSC_71
+October 2019 generation at UTHSC_73
+October 2019 generation at UTHSC_74
+October 2019 generation at UTHSC_76
+October 2019 generation at UTHSC_77
+October 2019 generation at UTHSC_88
+October 2019 generation at UTHSC_89
+October 2019 generation at UTHSC_F48p+F3
+October 2019 generation at UTHSC_N3F9
+October 2019 generation at UTHSC_nan
+Genotyped on Illumina 13377 SNP array_Y
+Genotyped on Illumina 13377 SNP array_nan
+Genotyped on Affymetrix MouseDiversityArray600K_N
+Genotyped on Affymetrix MouseDiversityArray600K_Y
+Genotyped on Affymetrix MouseDiversityArray600K_nan
+Generation at Affymetrix MouseDiversityArray600K_F117?
+Generation at Affymetrix MouseDiversityArray600K_F124
+Generation at Affymetrix MouseDiversityArray600K_F130
+Generation at Affymetrix MouseDiversityArray600K_F151
+Generation at Affymetrix MouseDiversityArray600K_F159
+Generation at Affymetrix MouseDiversityArray600K_F44p+9
+Generation at Affymetrix MouseDiversityArray600K_F52
+Generation at Affymetrix MouseDiversityArray600K_F53
+Generation at Affymetrix MouseDiversityArray600K_F60
+Generation at Affymetrix MouseDiversityArray600K_F62
+Generation at Affymetrix MouseDiversityArray600K_F84p+4(cryo)+?
+Generation at Affymetrix MouseDiversityArray600K_F94
+Generation at Affymetrix MouseDiversityArray600K_nan
+Generation at MUGA array genotyping_F10
+Generation at MUGA array genotyping_F11
+Generation at MUGA array genotyping_F117
+Generation at MUGA array genotyping_F123
+Generation at MUGA array genotyping_F12N1F29
+Generation at MUGA array genotyping_F132
+Generation at MUGA array genotyping_F139
+Generation at MUGA array genotyping_F14
+Generation at MUGA array genotyping_F144
+Generation at MUGA array genotyping_F163
+Generation at MUGA array genotyping_F179
+Generation at MUGA array genotyping_F18N6F12
+Generation at MUGA array genotyping_F21
+Generation at MUGA array genotyping_F22
+Generation at MUGA array genotyping_F24
+Generation at MUGA array genotyping_F26
+Generation at MUGA array genotyping_F27
+Generation at MUGA array genotyping_F28
+Generation at MUGA array genotyping_F29
+Generation at MUGA array genotyping_F31
+Generation at MUGA array genotyping_F32
+Generation at MUGA array genotyping_F33
+Generation at MUGA array genotyping_F34
+Generation at MUGA array genotyping_F35
+Generation at MUGA array genotyping_F36
+Generation at MUGA array genotyping_F37
+Generation at MUGA array genotyping_F38
+Generation at MUGA array genotyping_F39
+Generation at MUGA array genotyping_F40
+Generation at MUGA array genotyping_F41
+Generation at MUGA array genotyping_F42
+Generation at MUGA array genotyping_F43
+Generation at MUGA array genotyping_F44
+Generation at MUGA array genotyping_F46
+Generation at MUGA array genotyping_F49
+Generation at MUGA array genotyping_F51
+Generation at MUGA array genotyping_F59
+Generation at MUGA array genotyping_F6
+Generation at MUGA array genotyping_F65
+Generation at MUGA array genotyping_F66
+Generation at MUGA array genotyping_F69
+Generation at MUGA array genotyping_F7
+Generation at MUGA array genotyping_F8
+Generation at MUGA array genotyping_F9
+Generation at MUGA array genotyping_F90
+Generation at MUGA array genotyping_F93
+Generation at MUGA array genotyping_nan
+Generation at MegaMUGA array genotyping_F11
+Generation at MegaMUGA array genotyping_F15
+Generation at MegaMUGA array genotyping_F16
+Generation at MegaMUGA array genotyping_F18
+Generation at MegaMUGA array genotyping_F19
+Generation at MegaMUGA array genotyping_F20
+Generation at MegaMUGA array genotyping_F23
+Generation at MegaMUGA array genotyping_F55
+Generation at MegaMUGA array genotyping_nan
+Generation at GigaMUGA array genotyping_F10
+Generation at GigaMUGA array genotyping_F10N6F4
+Generation at GigaMUGA array genotyping_F10N8F4
+Generation at GigaMUGA array genotyping_F11
+Generation at GigaMUGA array genotyping_F11N3F5
+Generation at GigaMUGA array genotyping_F11N4F7
+Generation at GigaMUGA array genotyping_F12
+Generation at GigaMUGA array genotyping_F13
+Generation at GigaMUGA array genotyping_F14N2F2
+Generation at GigaMUGA array genotyping_F159
+Generation at GigaMUGA array genotyping_F18
+Generation at GigaMUGA array genotyping_F19
+Generation at GigaMUGA array genotyping_F20
+Generation at GigaMUGA array genotyping_F21
+Generation at GigaMUGA array genotyping_F22
+Generation at GigaMUGA array genotyping_F23
+Generation at GigaMUGA array genotyping_F24
+Generation at GigaMUGA array genotyping_F25
+Generation at GigaMUGA array genotyping_F26
+Generation at GigaMUGA array genotyping_F26?
+Generation at GigaMUGA array genotyping_F27
+Generation at GigaMUGA array genotyping_F30
+Generation at GigaMUGA array genotyping_F34
+Generation at GigaMUGA array genotyping_F35
+Generation at GigaMUGA array genotyping_F35?
+Generation at GigaMUGA array genotyping_F36
+Generation at GigaMUGA array genotyping_F36?
+Generation at GigaMUGA array genotyping_F39
+Generation at GigaMUGA array genotyping_F41
+Generation at GigaMUGA array genotyping_F42
+Generation at GigaMUGA array genotyping_F46
+Generation at GigaMUGA array genotyping_F47
+Generation at GigaMUGA array genotyping_F48
+Generation at GigaMUGA array genotyping_F49
+Generation at GigaMUGA array genotyping_F53
+Generation at GigaMUGA array genotyping_F55
+Generation at GigaMUGA array genotyping_F60
+Generation at GigaMUGA array genotyping_F61
+Generation at GigaMUGA array genotyping_F6N3F9
+Generation at GigaMUGA array genotyping_F6N6F7
+Generation at GigaMUGA array genotyping_F7
+Generation at GigaMUGA array genotyping_F7N4F8
+Generation at GigaMUGA array genotyping_F8
+Generation at GigaMUGA array genotyping_F9
+Generation at GigaMUGA array genotyping_F9N4F3
+Generation at GigaMUGA array genotyping_nan
+Generation went extinct (if known)_nan
+Backcross and RIX-derived breeding notes_(BXD109F13N1F9 X BXD189-F14)
+Backcross and RIX-derived breeding notes_(BXD110N3-F9 X BXD206-F13)
+Backcross and RIX-derived breeding notes_(BXD188-F16 X BXD140-F8N1(to female B6D2F1)F8
+Backcross and RIX-derived breeding notes_(BXD192-F8 X BXD196-F16)
+Backcross and RIX-derived breeding notes_(BXD200-F12 X BXD207-F10)
+Backcross and RIX-derived breeding notes_(BXD212-F14 X BXD134-F8)
+Backcross and RIX-derived breeding notes_(BXD220-F8 X BXD130-F7N2F6)
+Backcross and RIX-derived breeding notes_Backcrossed
+Backcross and RIX-derived breeding notes_Backcrossed at about F23 to C57BL/6J female, then 3 backcrosses to F23 male, followed by inbreeding again
+Backcross and RIX-derived breeding notes_Crossed to female C57BL/6J at F10 in August 2016, then back to BXD201 male for N generations 
+Backcross and RIX-derived breeding notes_Lost at UTHSC in 2016 due to malocclusion
+Backcross and RIX-derived breeding notes_Terminate by crossing to BXD209 to generate RIX BXD228 (Jan 2017 attempt)
+Backcross and RIX-derived breeding notes_Used to make RIX with BXD175a to make BXD228 in Jan 2017
+Backcross and RIX-derived breeding notes_Used to make RIX with BXD192 to make BXD227
+Backcross and RIX-derived breeding notes_nan
+Any genotypes available_Y
+Any genotypes available_nan
